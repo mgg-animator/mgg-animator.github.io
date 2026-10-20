@@ -125,6 +125,9 @@ function setupPlaybackControls() {
 
 function setPlayerButtonEnabled(btn, enabled) {
   if (!btn) return;
+  const isEnabled = !btn.disabled && !btn.classList.contains("btnPlayerOff");
+  const isDisabled = btn.disabled && btn.classList.contains("btnPlayerOff");
+  if (enabled ? isEnabled : isDisabled) return;
   if (enabled) {
     btn.classList.remove("btnPlayerOff");
     btn.classList.add("btn", "btnPlayer");
@@ -134,6 +137,16 @@ function setPlayerButtonEnabled(btn, enabled) {
     btn.classList.add("btnPlayerOff");
     btn.disabled = true;
   }
+}
+
+function updateStepButtonStates(info = window.animationEngine.getInfo()) {
+  const playerReady = btnPlay && !btnPlay.disabled;
+  const duration = Number(info.tickDuration);
+  const position = Number(info.tickPosition) || 0;
+  const lastTick = Math.max(0, duration - 1);
+  const hasDuration = Number.isFinite(duration) && duration > 0;
+  setPlayerButtonEnabled(btnBack, playerReady && hasDuration && position > 0.0001);
+  setPlayerButtonEnabled(btnForward, playerReady && hasDuration && position < lastTick - 0.0001);
 }
 
 function updateSoundButtonState() {

@@ -19,7 +19,8 @@ function updateTimelineBar() {
   }
   const dur = info.tickDuration || 1;
   const pos = info.tickPosition || 0;
-  const ratio = Math.max(0, Math.min(1, pos / dur));
+  const lastTick = Math.max(1, dur - 1);
+  const ratio = Math.max(0, Math.min(1, pos / lastTick));
   if (Math.abs(ratio - timelineLastFrame) < 0.0001) return;
   timelineLastFrame = ratio;
   playerBar.style.left = `${lineStart + ratio * range}px`;
@@ -97,10 +98,11 @@ function setupTimeline() {
     const info = window.animationEngine.getInfo();
     const tick = info.tickPosition || 0;
     const dur = info.tickDuration || 1;
+    updateStepButtonStates(info);
     if (info.paused) {
+      updatePlayButtonIcon();
       if (wasPaused !== true || tick !== lastPausedTick) {
         updateTimelineBar();
-        updatePlayButtonIcon();
         updateTransport();
         updateRivalHitProgress();
       }

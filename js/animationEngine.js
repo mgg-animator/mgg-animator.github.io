@@ -1,5 +1,6 @@
 const UNIVERSAL_FPS = 30;
-const FRAME_TIME_MS = 1000 / UNIVERSAL_FPS;
+const SIMULATION_FPS = 60;
+const FRAME_TIME_MS = 1000 / SIMULATION_FPS;
 
 let loadedImage = null;
 let rivalImage = null;
@@ -86,7 +87,7 @@ function startBackupLoop() {
       accumulatorMs += deltaMs;
       while (accumulatorMs >= FRAME_TIME_MS) {
         accumulatorMs -= FRAME_TIME_MS;
-        updateTick(1 / UNIVERSAL_FPS);
+        updateTick(1 / SIMULATION_FPS);
       }
     } else {
       accumulatorMs = 0;
@@ -540,7 +541,7 @@ function mainLoop(now) {
     accumulatorMs += deltaMs;
     while (accumulatorMs >= FRAME_TIME_MS) {
       accumulatorMs -= FRAME_TIME_MS;
-      updateTick(1 / UNIVERSAL_FPS);
+      updateTick(1 / SIMULATION_FPS);
     }
   } else accumulatorMs = 0;
   triggerRender();

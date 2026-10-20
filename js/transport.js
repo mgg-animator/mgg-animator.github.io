@@ -331,13 +331,15 @@ function stepTimeline(direction) {
   if (dur <= 0) return;
   const stepTicks = Math.max(1, Math.round(dur / 100));
   const current = info.tickPosition || 0;
-  let target = current + direction * stepTicks;
-  if (target < 0) target += dur;
-  if (target >= dur) target -= dur;
-  target = Math.max(0, Math.min(dur - 1, target));
+  const lastTick = Math.max(0, dur - 1);
+  if ((direction < 0 && current <= 0) || (direction > 0 && current >= lastTick)) return;
+  const clampedCurrent = Math.max(0, Math.min(lastTick, current));
+  const target = Math.max(0, Math.min(lastTick, clampedCurrent + direction * stepTicks));
+  if (target === clampedCurrent) return;
   applyTickToAll(target);
   timelineLastFrame = -1;
   updateTimelineBar();
+  updateStepButtonStates();
 }
 
 function updateRivalHitProgress() {

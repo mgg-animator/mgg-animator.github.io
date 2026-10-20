@@ -1,3 +1,4 @@
 User-agent: Googlebot-Image
 Disallow: /images/
 Allow: /images/ui/animator.png
+Sitemap: https://mgg-animator.github.io/sitemap.xml

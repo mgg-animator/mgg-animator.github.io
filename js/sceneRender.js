@@ -534,8 +534,8 @@ function renderAll() {
   ctx.restore();
   if (frameCounterEnabled) {
     const info = engine.getInfo();
-    const total = Math.max(1, Math.floor(info.tickDuration));
-    const current = Math.min(total, Math.max(0, Math.floor(info.tickPosition)));
+    const total = Math.max(1, Math.ceil(info.tickDuration));
+    const current = Math.min(total, Math.max(1, Math.floor(info.tickPosition) + 1));
     const text = `${current}/${total}`;
     const fontPx = Math.max(10, canvas.width * 0.024);
     const padding = Math.max(4, fontPx * 0.35);

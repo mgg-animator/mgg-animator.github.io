@@ -331,7 +331,7 @@ function stepTimeline(direction) {
   const dur = info.tickDuration || 1;
   if (dur <= 0) return;
   const current = info.tickPosition || 0;
-  const lastTick = Math.max(0, dur - 1);
+  const lastTick = Math.max(0, Math.ceil(dur) - 1);
   const currentFrame = Math.floor(Math.max(0, Math.min(lastTick, current)));
   if ((direction < 0 && currentFrame <= 0) || (direction > 0 && currentFrame >= lastTick)) return;
   const target = Math.max(0, Math.min(lastTick, currentFrame + Math.sign(direction)));

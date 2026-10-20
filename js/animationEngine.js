@@ -120,7 +120,7 @@ function isAtEnd() {
   if (deathState.active) return deathState.progress >= 1;
   if (!animationTree) return false;
   const limit = tailEndTick > 0 ? tailEndTick : (precomputedSnapshots ? precomputedTotalTicks : animationTree.totalFrames);
-  return animationTime >= limit - 1;
+  return animationTime >= limit;
 }
 
 function play() { paused = false; lastTimeMs = performance.now(); accumulatorMs = 0; }
@@ -154,7 +154,10 @@ function updateAttackTailAssets(tree, image) {
 }
 
 function setAttackTail(endTick, tree, img, startTick) {
-  tailEndTick = endTick > 0 ? endTick : -1;
+  const normalizedEndTick = Number(endTick);
+  tailEndTick = Number.isFinite(normalizedEndTick) && normalizedEndTick > 0
+    ? Math.ceil(normalizedEndTick)
+    : -1;
   postTree = tree || null;
   postImage = img || null;
   postStartTick = startTick >= 0 ? startTick : -1;

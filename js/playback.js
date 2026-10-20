@@ -143,7 +143,7 @@ function updateStepButtonStates(info = window.animationEngine.getInfo()) {
   const playerReady = btnPlay && !btnPlay.disabled;
   const duration = Number(info.tickDuration);
   const position = Number(info.tickPosition) || 0;
-  const lastTick = Math.max(0, duration - 1);
+  const lastTick = Math.max(0, Math.ceil(duration) - 1);
   const hasDuration = Number.isFinite(duration) && duration > 0;
   const currentFrame = Math.floor(Math.max(0, Math.min(lastTick, position)));
   setPlayerButtonEnabled(btnBack, playerReady && hasDuration && currentFrame > 0);

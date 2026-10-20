@@ -19,7 +19,7 @@ function updateTimelineBar() {
   }
   const dur = info.tickDuration || 1;
   const pos = info.tickPosition || 0;
-  const lastTick = Math.max(1, dur - 1);
+  const lastTick = Math.max(1, Math.ceil(dur) - 1);
   const ratio = Math.max(0, Math.min(1, pos / lastTick));
   if (Math.abs(ratio - timelineLastFrame) < 0.0001) return;
   timelineLastFrame = ratio;
@@ -30,11 +30,12 @@ function seekTimeline(clientX) {
   const info = window.animationEngine.getInfo();
   const dur = info.tickDuration || 1;
   if (info.totalFrames <= 0 || dur <= 0) return;
+  const lastTick = Math.max(0, Math.ceil(dur) - 1);
   const { rect, scale, lineStart, barWidth, range } = getTimelineGeometry();
   const localX = (clientX - rect.left) / scale;
   const relative = localX - lineStart - barWidth / 2;
   const ratio = Math.max(0, Math.min(1, relative / range));
-  const target = Math.round(ratio * (dur - 1));
+  const target = Math.round(ratio * lastTick);
   applyTickToAll(target, { silent: true });
   timelineLastFrame = ratio;
   playerBar.style.left = `${lineStart + ratio * range}px`;

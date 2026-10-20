@@ -120,7 +120,7 @@ function isAtEnd() {
   if (deathState.active) return deathState.progress >= 1;
   if (!animationTree) return false;
   const limit = tailEndTick > 0 ? tailEndTick : (precomputedSnapshots ? precomputedTotalTicks : animationTree.totalFrames);
-  return animationTime >= limit;
+  return animationTime >= Math.max(0, limit - 1);
 }
 
 function play() { paused = false; lastTimeMs = performance.now(); accumulatorMs = 0; }

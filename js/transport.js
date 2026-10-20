@@ -326,16 +326,16 @@ function applyTickToAll(targetTick, opts = {}) {
 }
 
 function stepTimeline(direction) {
+  if (!Number.isFinite(direction) || direction === 0) return;
   const info = window.animationEngine.getInfo();
   const dur = info.tickDuration || 1;
   if (dur <= 0) return;
-  const stepTicks = Math.max(1, Math.round(dur / 100));
   const current = info.tickPosition || 0;
   const lastTick = Math.max(0, dur - 1);
-  if ((direction < 0 && current <= 0) || (direction > 0 && current >= lastTick)) return;
-  const clampedCurrent = Math.max(0, Math.min(lastTick, current));
-  const target = Math.max(0, Math.min(lastTick, clampedCurrent + direction * stepTicks));
-  if (target === clampedCurrent) return;
+  const currentFrame = Math.floor(Math.max(0, Math.min(lastTick, current)));
+  if ((direction < 0 && currentFrame <= 0) || (direction > 0 && currentFrame >= lastTick)) return;
+  const target = Math.max(0, Math.min(lastTick, currentFrame + Math.sign(direction)));
+  if (target === current) return;
   applyTickToAll(target);
   timelineLastFrame = -1;
   updateTimelineBar();

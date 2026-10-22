@@ -186,7 +186,8 @@ function canViewBackground(bgValue) {
 
 function reRenderOpenLists() {
   if (listControllers.mutant && !listControllers.mutant.layer.classList.contains("hidden")) {
-    renderCharacterList(mutantListLayerContext(), listControllers.mutant.search?.value || "");
+    const context = mutantListLayerContext();
+    renderCharacterList(context, getCharacterSearch(context));
   }
   if (listControllers.bg && !listControllers.bg.layer.classList.contains("hidden")) {
     renderBgList(listControllers.bg.search?.value || "");

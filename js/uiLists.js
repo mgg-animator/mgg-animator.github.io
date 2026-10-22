@@ -40,6 +40,7 @@ function createListController(name) {
   container.parentElement.appendChild(thumb);
   const state = {
     name, container, bg, layer, search, up, down, line, thumb,
+    characterSearch: {},
     dragging: false, startY: 0, startScroll: 0,
     itemDragging: false, itemPointerId: null, itemStartY: 0, itemStartScroll: 0,
     itemDragTarget: null, suppressClickTarget: null, suppressClickTimeout: null
@@ -168,6 +169,20 @@ function mutantListLayerContext() {
   return listControllers.mutant?.layer.getAttribute("data-context") || "mutant";
 }
 
+function getCharacterSearch(context) {
+  const state = listControllers.mutant;
+  return state?.characterSearch[context] || "";
+}
+
+function updateCharacterSearchIcon(state) {
+  const btnDeleteImg = btnDelete ? btnDelete.querySelector("img") : null;
+  if (!btnDeleteImg || !state.search) return;
+  const desired = state.search.value.length > 0
+    ? "/images/ui/icons/icon_delete.png"
+    : "/images/ui/icons/icon_search.png";
+  if (btnDeleteImg.src.indexOf(desired) === -1) btnDeleteImg.src = desired;
+}
+
 function renderCharacterList(context = "mutant", searchQuery = "") {
   const state = listControllers.mutant;
   if (!state) return;
@@ -210,29 +225,26 @@ function renderCharacterList(context = "mutant", searchQuery = "") {
 function setupMutantSearch() {
   const state = listControllers.mutant;
   if (!state || !state.search) return;
-  const btnDeleteImg = btnDelete ? btnDelete.querySelector("img") : null;
-  const updateSearchIcon = () => {
-    if (!btnDeleteImg) return;
-    const hasText = state.search.value.length > 0;
-    const desired = hasText ? "/images/ui/icons/icon_delete.png" : "/images/ui/icons/icon_search.png";
-    if (btnDeleteImg.src.indexOf(desired) === -1) btnDeleteImg.src = desired;
-  };
   state.search.addEventListener("input", () => {
-    renderCharacterList(mutantListLayerContext(), state.search.value);
+    const context = mutantListLayerContext();
+    state.characterSearch[context] = state.search.value;
+    renderCharacterList(context, state.search.value);
     state.updateScrollUI();
-    updateSearchIcon();
+    updateCharacterSearchIcon(state);
   });
   if (btnDelete) {
     btnDelete.addEventListener("click", () => {
       if (state.search.value.length === 0) return;
       state.search.value = "";
-      renderCharacterList(mutantListLayerContext(), "");
+      const context = mutantListLayerContext();
+      state.characterSearch[context] = "";
+      renderCharacterList(context, "");
       state.updateScrollUI();
-      updateSearchIcon();
+      updateCharacterSearchIcon(state);
       state.search.focus();
     });
   }
-  updateSearchIcon();
+  updateCharacterSearchIcon(state);
 }
 
 function openCharacterList(context) {
@@ -241,8 +253,13 @@ function openCharacterList(context) {
   preloadThumbnails();
   state.bg.classList.remove("hidden"); state.layer.classList.remove("hidden");
   clickToClose.classList.remove("hidden"); scaleContainerLayer.classList.remove("hidden");
-  state.layer.setAttribute("data-context", context); showStatic();
-  renderCharacterList(context, state.search ? state.search.value : "");
+  state.layer.setAttribute("data-context", context);
+  if (state.search) {
+    state.search.value = getCharacterSearch(context);
+    updateCharacterSearchIcon(state);
+  }
+  showStatic();
+  renderCharacterList(context, getCharacterSearch(context));
 }
 
 function closeCharacterList() {

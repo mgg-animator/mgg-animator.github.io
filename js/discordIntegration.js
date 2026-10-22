@@ -2,7 +2,6 @@ const SUPABASE_URL = 'https://lgdhantafmbmzwfgfzdi.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxnZGhhbnRhZm1ibXp3ZmdmemRpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwOTg4NjUsImV4cCI6MjEwNjY3NDg2NX0.B0YgR9SLNSdk7bECi28XyDK-9KzdzGTdAGkoHcUwkS8';
 const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const DISCORD_INVITE_URL = 'https://discord.gg/manuelleweyt-691138101367668736';
-const DISCORD_GUILD_ID = '691138101367668736';
 const GUILD_CACHE_KEY = 'discordGuildVerified';
 const GUILD_CACHE_TTL_MS = 15 * 60 * 1000;
 
@@ -71,54 +70,6 @@ async function getSession() {
   return session && session.user ? session : null;
 }
 
-async function fetchDiscordGuilds(accessToken) {
-  if (!accessToken) return null;
-  let res;
-  try {
-    res = await fetch('https://discord.com/api/users/@me/guilds', {
-      headers: { Authorization: `Bearer ${accessToken}` }
-    });
-  } catch (error) {
-    console.warn('Discord guild check could not reach Discord.', error);
-    return null;
-  }
-
-  if (res.status === 401) {
-    console.warn('Discord access token expired or was revoked; signing out.');
-    const { error } = await supabaseClient.auth.signOut();
-    if (error) {
-      console.error('Could not sign out after Discord rejected the access token.', error);
-    }
-    return null;
-  }
-  if (res.status === 429) {
-    console.warn('Discord guild check was rate-limited.');
-    return null;
-  }
-  if (!res.ok) {
-    console.warn(`Discord guild check failed: HTTP ${res.status}.`);
-    return null;
-  }
-
-  try {
-    const guilds = await res.json();
-    if (!Array.isArray(guilds)) {
-      console.warn('Discord guild check returned an unexpected response.');
-      return null;
-    }
-    return guilds;
-  } catch (error) {
-    console.warn('Discord guild check returned invalid JSON.', error);
-    return null;
-  }
-}
-
-function isInGuild(guilds) {
-  if (!guilds || !DISCORD_GUILD_ID) return false;
-  const target = String(DISCORD_GUILD_ID).trim();
-  return guilds.some(g => String(g.id).trim() === target);
-}
-
 function openExclusiveLayer() {
   const scaleContainerLayer = document.getElementById("scale-container-layer");
   const exclusiveLayer = document.getElementById("exclusiveLayer");
@@ -169,7 +120,6 @@ async function requireGuildMembership() {
   const inGuild = await checkGuildMembership();
   if (inGuild === true) return true;
   if (inGuild === false) openJoinLayer();
-  else openExclusiveLayer();
   return false;
 }
 
@@ -206,11 +156,26 @@ async function checkGuildMembership(force = false) {
   if (!force) {
     if (cached && Date.now() - cached.at <= GUILD_CACHE_TTL_MS) return cached.ok;
   }
-  const guilds = await fetchDiscordGuilds(session.provider_token);
-  if (!guilds) return null;
-  const inGuild = isInGuild(guilds);
-  writeGuildCache(inGuild, userId);
-  return inGuild;
+  const verifiedFallback = cached?.ok === true ? true : null;
+  try {
+    const { data, error } = await supabaseClient.functions.invoke("verify-discord-membership", {
+      body: {}
+    });
+    if (error) {
+      console.error("Could not verify Discord server membership.", error);
+      return verifiedFallback;
+    }
+    if (typeof data?.inGuild !== "boolean") {
+      console.error("Discord membership function returned an invalid response.");
+      return verifiedFallback;
+    }
+    const inGuild = data.inGuild;
+    writeGuildCache(inGuild, userId);
+    return inGuild;
+  } catch (error) {
+    console.error("Could not verify Discord server membership.", error);
+    return verifiedFallback;
+  }
 }
 
 async function handleDebugClick() {
@@ -236,7 +201,7 @@ function signInWithDiscord() {
   return supabaseClient.auth.signInWithOAuth({
     provider: 'discord',
     options: {
-      scopes: 'identify guilds',
+      scopes: 'identify',
       redirectTo: window.location.origin + window.location.pathname
     }
   });
@@ -266,8 +231,11 @@ function setupUserDropdown() {
       bgLogout.classList.remove('active');
       localStorage.removeItem(GUILD_CACHE_KEY);
       try {
-        await supabaseClient.auth.signOut();
-      } catch (_) {}
+        const { error: signOutError } = await supabaseClient.auth.signOut();
+        if (signOutError) console.error("Could not sign out from Discord.", signOutError);
+      } catch (error) {
+        console.error("Could not sign out from Discord.", error);
+      }
       window.location.reload();
     });
   }

@@ -21359,3 +21359,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;Ce pack contient : - 500 Or - Jet
 bundle_orbs_experimental_smasher_11;Pack Orbes Destruction
 Specimen_CA_05_Bronze_sc;Challengeer Bronze
 Specimen_BB_09_Bronze;Frankenhuahua Bronze
+DialogPVE_Event_halloween26_1_1;Vous avez vu ? Apparemment, il va y avoir un truc incroyable ! 
+DialogPVE_Event_halloween26_1_2;Tu peux être plus précis ?
+DialogPVE_Event_halloween26_1_3;Parce qu'on les connaît, tes trucs "incroyables". 
+DialogPVE_Event_halloween26_1_4;Non, non, je parle du truc avec la lune, là ! 
+DialogPVE_Event_halloween26_1_5;Missy en a parlé dans son émission l'autre jour. 
+DialogPVE_Event_halloween26_1_6;Ah, tu parles de la conjonction ?
+DialogPVE_Event_halloween26_1_7;Oui, mais ça devrait être visible dès ce soir d'après les calculs de l'observatoire. 
+DialogPVE_Event_halloween26_1_8;Il y aurait même un groupe de personnes qui va faire des rituels lunaires. 
+DialogPVE_Event_halloween26_1_9;Missy a déjà été envoyée sur place pour un reportage exclusif ! 
+DialogPVE_Event_halloween26_1_10;Un rituel lunaire ? Avec une conjonction pareille ? 
+DialogPVE_Event_halloween26_1_11;Sans compter le nombre de mutants potentiellement affectés à Genetic City...
+DialogPVE_Event_halloween26_1_12;Merci Reed pour l'info, mais là il faut qu'on y aille d'urgence ! 
+DialogPVE_Event_halloween26_1_13;Pas de souci, je viens avec vous ! 
+DialogPVE_Event_halloween26_2_1;C'était quoi ce flash et ces couleurs ? 
+DialogPVE_Event_halloween26_2_2;On aurait dit que ce mutant avait exactement les mêmes teintes que la lune !
+DialogPVE_Event_halloween26_2_3;Je ne sais pas trop, mais en tout cas ça a l'air lié à ce rituel. 
+DialogPVE_Event_halloween26_2_4;Et à priori, ce qui a été enclenché par les premiers mutants n'est pas fini. 
+DialogPVE_Event_halloween26_2_5;Tu dis ça à cause des lueurs résiduelles dans les glyphes lunaires ? 
+DialogPVE_Event_halloween26_2_6;Tout juste. Il faut au moins rester pour surveiller ce qui se passe. 
+DialogPVE_Event_halloween26_2_7;Et se tenir prêts à ce qu'il y en ait d'autres. 
+DialogPVE_Event_halloween26_2_8;D'autres mutants lunaires, ou d'autres mutants qui viennent ici ? 
+DialogPVE_Event_halloween26_2_9;Probablement les deux, Reed. 
+DialogPVE_Event_halloween26_2_10;J'avais vu juste, les lueurs reprennent de plus belle. 
+DialogPVE_Event_halloween26_2_11;D'ailleurs, où est Missy ? Elle devrait être dans le coin !
+DialogPVE_Event_halloween26_2_12;On la cherchera après, Reed ! 
+DialogPVE_Event_halloween26_3_1;Et un autre mutant du même genre... 
+DialogPVE_Event_halloween26_3_2;Sauf que celui-ci était plus... violent. 
+DialogPVE_Event_halloween26_3_3;Oui, il va falloir se méfier. 
+DialogPVE_Event_halloween26_3_4;Au-delà de se méfier, il va surtout falloir comprendre ces glyphes. 
+DialogPVE_Event_halloween26_3_5;Je m'en étais pas rendu compte de suite, mais il se passe bien quelque chose. 
+DialogPVE_Event_halloween26_3_6;Tu peux préciser ? 
+DialogPVE_Event_halloween26_3_7;Après avoir vaincu le premier mutant lunaire, l'intensité des lueurs a baissé. 
+DialogPVE_Event_halloween26_3_8;C'est une bonne chose, non ? 
+DialogPVE_Event_halloween26_3_9;Sauf qu'elle est remontée progressivement à un niveau moyen plus élevé qu'avant. 
+DialogPVE_Event_halloween26_3_10;Et là, le phénomène s'est produit à nouveau. 
+DialogPVE_Event_halloween26_3_11;Or je n'ai aucune info sur cette forme d'énergie dans mes bases de données. 
+DialogPVE_Event_halloween26_3_12;Missyy ! Missyyyyy ! 
+DialogPVE_Event_halloween26_3_13;Reed ! Arrête de hurler ! Tu vas juste attirer plus de mutants ! 
+DialogPVE_Event_halloween26_4_1;Troisième mutant, troisième chute et remontée d'énergie...
+DialogPVE_Event_halloween26_4_2;Mais du coup, c'est dangereux ou pas, Darwin ? 
+DialogPVE_Event_halloween26_4_3;Possiblement, si on continue sur un emballement exponentiel...
+DialogPVE_Event_halloween26_4_4;On va mourir, c'est ça ? 
+DialogPVE_Event_halloween26_4_5;Calme-toi, Reed, t'as l'air ridicule comme ça. 
+DialogPVE_Event_halloween26_4_6;Avec les niveaux d'énergie atteints, on peut s'attendre à un mutant puissant. 
+DialogPVE_Event_halloween26_4_7;Puissant comment ? On est capables de l'affronter ou pas?  
+DialogPVE_Event_halloween26_4_8;En théorie... oui. 
+DialogPVE_Event_halloween26_4_9;Mais comme je ne connais pas toutes ses capacités, je ne peux rien garantir. 
+DialogPVE_Event_halloween26_4_10;Psy-Captain, je te fais confiance pour ce mutant. 
+DialogPVE_Event_halloween26_4_11;Ce qui m'inquiète le plus, c'est toute cette énergie qui baigne la zone. 
+DialogPVE_Event_halloween26_5_1;Missy ? Je croyais que tu avais fini par ne pas venir ! 
+DialogPVE_Event_halloween26_5_2;J'étais là depuis le début, je préparais simplement mon reportage...
+DialogPVE_Event_halloween26_5_3;Quand vous avez débarqué et commencé à affronter tous les mutants sur place ! 
+DialogPVE_Event_halloween26_5_4;Ce qui m'a permis d'avoir une super vidéo reportage. 
+DialogPVE_Event_halloween26_5_5;Et en plus, vous étiez bien plus naturels que quand vous vous savez filmés.
+DialogPVE_Event_halloween26_5_6;Missy ! Donne-nous cette vidéo ! 
+DialogPVE_Event_halloween26_5_7;Pas question ! C'est mon reportage, et vous le verrez à la TV. 
+DialogPVE_Event_halloween26_5_8;Ne vous inquiétez pas, je censurerai les emportements d'Urban !
+DialogPVE_Event_halloween26_5_9;Darwin, tu as l'air un peu soucieux, quelque chose ne va pas ? 
+DialogPVE_Event_halloween26_5_10;Je me demande juste pourquoi toute cette énergie lunaire s'est déployée ici. 
+DialogPVE_Event_halloween26_5_11;Est-ce qu'on a juste un phénomène lunaire, ou est-ce qu'il y a autre chose ?
+DialogPVE_Event_halloween26_5_12;Après tout, on sait que ce Numismate se balade librement. 
+DialogPVE_Event_halloween26_5_13;Je vois ce que tu veux dire. On a intérêt à rester attentifs au prochains signes...
+title_mission_halloween26_C1;L'autel du clair de lune
+title_mission_halloween26_C2;Les mystères des glyphes
+title_mission_halloween26_C3;Une énergie inquiétante
+title_mission_halloween26_C4;Surcharge de clair de lune
+title_mission_halloween26_1;Proximité lointaine
+title_mission_halloween26_2;Lames en croissant
+title_mission_halloween26_3;Sabbat lunaire
+title_mission_halloween26_4;Nouvelle lune
+title_mission_halloween26_5;Éclipse de nouvelle lune
+title_mission_halloween26_6;Pluie d'étoiles
+title_mission_halloween26_7;Étoiles brillantes
+title_mission_halloween26_8;Œufs lunaires
+title_mission_halloween26_9;Bain de lune
+title_mission_halloween26_10;Lune éclatante
+title_mission_halloween26_11;Combats de pleine lune
+title_mission_halloween26_12;Phases lunaires
+title_mission_halloween26_13;Équilibre de la demi-lune
+title_mission_halloween26_14;Lune de sang
+title_mission_halloween26_15;Retour de la lune bleue
+caption_mission_halloween26_C1;Ce site antique a une ambiance étrange…
+caption_mission_halloween26_C2;Il faudrait comprendre ce que signifient tous ces glyphes lunaires…
+caption_mission_halloween26_C3;L’énergie qui se dégage des glyphes ne fait qu’augmenter ! 
+caption_mission_halloween26_C4;L’énergie lunaire a atteint son paroxysme !
+caption_mission_halloween26_1;Les créatures lunaires se rassemblent en masse.
+caption_mission_halloween26_2;Leurs armes sont liées à la lune ! 
+caption_mission_halloween26_3;Qui dit rituel lunaire, dit sorcières ! 
+caption_mission_halloween26_4;Une nouvelle lune pour une nouvelle vie.
+caption_mission_halloween26_5;Quand les forces entrent en résonance, leur puissance s’intensifie ! 
+caption_mission_halloween26_6;La lumière des étoiles renforce les mutants.
+caption_mission_halloween26_7;Si elles brillent tant, capturons un peu de cette lumière. 
+caption_mission_halloween26_8;L’énergie lunaire peut influencer l’incubation des mutants. 
+caption_mission_halloween26_9;La lumière lunaire est encore plus efficace que la lumière stellaire.
+caption_mission_halloween26_10;La lune est ronde, comme les orbes pour renforcer les mutants ! 
+caption_mission_halloween26_11;Sous la pleine lune, les tensions montent…
+caption_mission_halloween26_12;Le cycle des conflits se répète comme les phases de la lune.
+caption_mission_halloween26_13;A la demi-lune, l’équilibre entre lumière et ténèbres est parfait. 
+caption_mission_halloween26_14;Sous la lune de sang, les instincts les plus violents s’éveillent. 
+caption_mission_halloween26_15;Sous la lune bleue, il est temps de prouver qui est le plus puissant ! 
+Specimen_EC_14;Séléné
+caption_specimen_ec_14;Une divinité lunaire combattante, toujours entourée de sa garde rapprochée. D’anciens mythes évoquent la possibilité qu’elle vive sur la lune et puisse être invoquée lors de conjonctions lunaires majeures multiples, en des lieux spécialement préparés à cette occasion. Elle est toujours précédée de ses trois gardes du corps, représentant chacun une phase de la lune différente. 
+Specimen_EC_14_attack_1;Tranchant Lunaire
+Specimen_EC_14_attack_1p;Tranchant Lunaire
+Specimen_EC_14_attack_2;Flèche Lunaire
+Specimen_EC_14_attack_2p;Pluie Lunaire

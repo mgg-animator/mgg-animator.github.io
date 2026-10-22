@@ -984,24 +984,24 @@
           <Filter>Building_Jackpot_2026_09</Filter>
         </InteractiveAction>
         <InteractiveAction x="1829" y="313" target="WORKING_10" id="CONTRACT_10">
-          <Cost amount="130" type="entity" id="Material_Hexcity_Token" />
-          <Filter>Building_Jackpot_Anniversary26</Filter>
+          <Cost amount="100" type="entity" id="Material_Halloween26_Token" />
+          <Filter>Building_Jackpot_Halloween26</Filter>
         </InteractiveAction>
         <InteractiveAction x="2218" y="308" target="WORKING_11" id="CONTRACT_11">
-          <Cost amount="1000" type="entity" id="Material_Hexcity_Token" />
-          <Filter>Building_Jackpot_Anniversary26</Filter>
+          <Cost amount="1000" type="entity" id="Material_Halloween26_Token" />
+          <Filter>Building_Jackpot_Halloween26</Filter>
         </InteractiveAction>
         <InteractiveAction x="2553" y="299" target="WORKING_12" id="CONTRACT_12">
-          <Cost amount="1300" type="entity" id="Material_Hexcity_Token" />
-          <Filter>Building_Jackpot_Anniversary26</Filter>
+          <Cost amount="2200" type="entity" id="Material_Halloween26_Token" />
+          <Filter>Building_Jackpot_Halloween26</Filter>
         </InteractiveAction>
         <InteractiveAction x="2904" y="323" target="WORKING_13" id="CONTRACT_13">
-          <Cost amount="3000" type="entity" id="Material_Hexcity_Token" />
-          <Filter>Building_Jackpot_Anniversary26</Filter>
+          <Cost amount="900" type="entity" id="Material_Halloween26_Token" />
+          <Filter>Building_Jackpot_Halloween26</Filter>
         </InteractiveAction>
         <InteractiveAction x="-405" y="1296" target="WORKING_14" id="CONTRACT_14">
-          <Cost amount="1000" type="entity" id="Material_Hexcity_Token" />
-          <Filter>Building_Jackpot_Anniversary26_2</Filter>
+          <Cost amount="1900" type="entity" id="Material_Halloween26_Token" />
+          <Filter>Building_Jackpot_Halloween26</Filter>
         </InteractiveAction>
         <InteractiveAction x="-430" y="1545" target="WORKING_15" id="CONTRACT_15">
           <Cost amount="1000" type="entity" id="Material_Hexcity_Token" />
@@ -1133,9 +1133,9 @@
       </State>
       <State x="2377" y="290" id="READY_11" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="2224" y="378" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_DA_11" >
+          <Reward id="Specimen_CE_09" >
             <Tag key="stars" value="3" />
-            <Tag key="skin" value="anniversary" />
+            <Tag key="skin" value="halloween" />
           </Reward>
         </InteractiveAction>
       </State>
@@ -1144,10 +1144,7 @@
       </State>
       <State x="2717" y="287" id="READY_12" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="2556" y="357" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_AA_04" >
-            <Tag key="stars" value="3" />
-            <Tag key="skin" value="hexcity" />
-          </Reward>
+          <Reward id="Specimen_EC_14" />
         </InteractiveAction>
       </State>
       <State x="2960" y="214" id="WORKING_13" spriteId="building_jackpot_sink_running">
@@ -1155,7 +1152,10 @@
       </State>
       <State x="3083" y="220" id="READY_13" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="2899" y="379" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_FF_99"/>
+          <Reward id="Specimen_BA_04" >
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="halloween" />
+          </Reward>
         </InteractiveAction>
       </State>
       <State x="-598" y="1301" id="WORKING_14" spriteId="building_jackpot_sink_running">
@@ -1163,10 +1163,7 @@
       </State>
       <State x="-724" y="1471" id="READY_14" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="-563" y="1480" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_CD_09">
-            <Tag key="stars" value="3" />
-            <Tag key="skin" value="anniversary" />
-          </Reward>
+          <Reward id="Specimen_AB_14" />
         </InteractiveAction>
       </State>
       <State x="-602" y="1623" id="WORKING_15" spriteId="building_jackpot_sink_running">
@@ -23020,7 +23017,7 @@
       <Tag key="atk2" value="1818" />
       <Tag key="atk2p" value="1818:AOE" />
       <Tag key="bank" value="42" />
-      <Tag key="unlockAttack" value="1:1:e;2:5:c;2p:15:c;1p:10:e" />
+      <Tag key="unlockAttack" value="1:1:c;2:5:e;2p:15:e;1p:10:c" />
       <Tag key="changePrice00" value="99999999" />
       <Tag key="changePrice01" value="99999999" />
       <Tag key="changePrice02" value="99999999" />
@@ -23669,16 +23666,16 @@
     </EntityDescriptor>
     <EntityDescriptor id="Specimen_BA_15" movable="true" storable="true" category="specimen" sizeX="0.01" sizeY="0.01">
       <State id="default" spriteId="specimen_BA_15_stand" sellPrice="20000" />
-      <Tag key="spX100" value="200" />
+      <Tag key="spX100" value="85" />
       <Tag key="odds" value="20" />
       <Tag key="dna" value="BA" />
-      <Tag key="lifePoint" value="1130" />
+      <Tag key="lifePoint" value="854" />
       <Tag key="incubMin" value="60" />
       <Tag key="specimen" value="true" />
-      <Tag key="atk1" value="312:AOE" />
-      <Tag key="atk1p" value="468:AOE" />
-      <Tag key="atk2" value="312:AOE" />
-      <Tag key="atk2p" value="468:AOE" />
+      <Tag key="atk1" value="436:AOE" />
+      <Tag key="atk1p" value="686:AOE" />
+      <Tag key="atk2" value="436:AOE" />
+      <Tag key="atk2p" value="686:AOE" />
       <Tag key="bank" value="42" />
       <Tag key="unlockAttack" value="1:1:b;2:5:a;2p:15:a;1p:10:b" />
       <Tag key="changePrice00" value="540" />
@@ -23688,10 +23685,9 @@
       <Tag key="type" value="LEGEND" />
       <Tag key="recipes" value="BA_15x[A-F][A-F]_*+BA_15x[A-F]_*" />
       <Tag key="abilities" value="1:ability_regen;2:ability_regen_plus" />
-      <Tag key="abilityPct1" value="25" />
-      <Tag key="abilityPct2" value="35" />
+      <Tag key="abilityPct1" value="15" />
+      <Tag key="abilityPct2" value="25" />
       <Tag key="orbSlots" value="n;n;s" />
-      <Tag key="PNJ" value="true" />
       <CustomScript name="onPlaceOver">
         <Script cmd="PlaceSpecimen">
           <Param>Specimen_B_A</Param>

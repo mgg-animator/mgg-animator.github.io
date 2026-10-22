@@ -21355,3 +21355,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;Dit pack bevat:  - 500 Goudstukke
 bundle_orbs_experimental_smasher_11;Bundel strooibollen
 Specimen_CA_05_Bronze_sc;Bronzen Challengeer
 Specimen_BB_09_Bronze;Bronzen Frankenhuahua
+DialogPVE_Event_halloween26_1_1;Heb je dat gezien? Blijkbaar staat er iets ongelooflijks te gebeuren!
+DialogPVE_Event_halloween26_1_2;Kun je wat specifieker zijn?
+DialogPVE_Event_halloween26_1_3;Want we weten alles van jouw ‘ongelooflijke’ dingen.
+DialogPVE_Event_halloween26_1_4;Nee, nee, ik heb het over dat gedoe met de maan!
+DialogPVE_Event_halloween26_1_5;Missy had het er laatst in haar show over.
+DialogPVE_Event_halloween26_1_6;O, bedoel je de conjunctie?
+DialogPVE_Event_halloween26_1_7;Ja, maar volgens de berekeningen van de sterrenwacht zou het al vanavond zichtbaar moeten zijn.
+DialogPVE_Event_halloween26_1_8;Er is zelfs een groep mensen die maanrituelen gaat uitvoeren.
+DialogPVE_Event_halloween26_1_9;Missy is er al naartoe gestuurd voor een exclusief verslag!
+DialogPVE_Event_halloween26_1_10;Een maanritueel? Met zo’n conjunctie?
+DialogPVE_Event_halloween26_1_11;Om nog maar te zwijgen van het aantal mutanten dat hierdoor mogelijk wordt beïnvloed in Genetic City...
+DialogPVE_Event_halloween26_1_12;Bedankt, Reed, voor de info, maar we moeten er meteen heen!
+DialogPVE_Event_halloween26_1_13;Geen probleem! Ik ga met jullie mee!
+DialogPVE_Event_halloween26_2_1;Wat was dat flitsende licht en die kleuren?
+DialogPVE_Event_halloween26_2_2;Het leek alsof die mutant precies dezelfde tinten had als de maan!
+DialogPVE_Event_halloween26_2_3;Ik weet het niet zeker, maar het lijkt in ieder geval verband te houden met dat ritueel.
+DialogPVE_Event_halloween26_2_4;En zo te zien is wat de eerste mutanten in gang hebben gezet nog niet voorbij.
+DialogPVE_Event_halloween26_2_5;Bedoel je dat vanwege de nagloeiende lichtvlekken in de maansymbolen?
+DialogPVE_Event_halloween26_2_6;Precies. We moeten in ieder geval blijven en in de gaten houden wat er gebeurt.
+DialogPVE_Event_halloween26_2_7;En ons voorbereiden op wat er nog komen gaat.
+DialogPVE_Event_halloween26_2_8;Meer maanmutanten, of meer mutanten die hierheen komen?
+DialogPVE_Event_halloween26_2_9;Waarschijnlijk allebei, Reed.
+DialogPVE_Event_halloween26_2_10;Ik had gelijk. De gloed wordt weer sterker.
+DialogPVE_Event_halloween26_2_11;Trouwens, waar is Missy? Ze zou hier ergens in de buurt moeten zijn!
+DialogPVE_Event_halloween26_2_12;We gaan haar later zoeken, Reed!
+DialogPVE_Event_halloween26_3_1;En nog zo’n mutant van hetzelfde soort...
+DialogPVE_Event_halloween26_3_2;Alleen was deze wat... gewelddadiger.
+DialogPVE_Event_halloween26_3_3;Ja, we zullen voorzichtig moeten zijn.
+DialogPVE_Event_halloween26_3_4;Maar we moeten niet alleen voorzichtig zijn, we moeten ook uitzoeken wat deze symbolen betekenen.
+DialogPVE_Event_halloween26_3_5;Ik had het niet meteen door, maar er is duidelijk iets aan de hand.
+DialogPVE_Event_halloween26_3_6;Kun je het uitleggen?
+DialogPVE_Event_halloween26_3_7;Nadat we de eerste maanmutant hadden verslagen, nam de intensiteit van de gloed af.
+DialogPVE_Event_halloween26_3_8;Dat is toch goed nieuws, toch?
+DialogPVE_Event_halloween26_3_9;Behalve dat die geleidelijk weer steeg tot een hoger gemiddeld niveau dan voorheen.
+DialogPVE_Event_halloween26_3_10;En toen deed het fenomeen zich opnieuw voor.
+DialogPVE_Event_halloween26_3_11;Maar ik heb geen informatie over deze vorm van energie in mijn databases.
+DialogPVE_Event_halloween26_3_12;Missyy! Missyyyyy!
+DialogPVE_Event_halloween26_3_13;Reed! Hou op met schreeuwen! Je trekt alleen maar meer mutanten aan!
+DialogPVE_Event_halloween26_4_1;Derde mutant, derde daling en piek in energie...
+DialogPVE_Event_halloween26_4_2;Maar wacht eens even, is dit gevaarlijk of niet, Darwin?
+DialogPVE_Event_halloween26_4_3;Mogelijk, als we in dit exponentiële tempo doorgaan...
+DialogPVE_Event_halloween26_4_4;We gaan dood, toch?
+DialogPVE_Event_halloween26_4_5;Rustig aan, Reed. Je ziet er belachelijk uit zo.
+DialogPVE_Event_halloween26_4_6;Met de energieniveaus die we hebben bereikt, kunnen we een krachtige mutant verwachten.
+DialogPVE_Event_halloween26_4_7;Hoe krachtig? Kunnen we hem aan of niet?
+DialogPVE_Event_halloween26_4_8;In theorie… ja.
+DialogPVE_Event_halloween26_4_9;Maar aangezien ik niet al zijn vaardigheden ken, kan ik niets garanderen.
+DialogPVE_Event_halloween26_4_10;Psy-Captain, ik reken op jou voor deze mutant.
+DialogPVE_Event_halloween26_4_11;Wat me het meest zorgen baart, is al die energie die het gebied overspoelt.
+DialogPVE_Event_halloween26_5_1;Missy? Ik dacht dat je toch had besloten niet te komen!
+DialogPVE_Event_halloween26_5_2;Ik ben hier al vanaf het begin. Ik was net mijn verslag aan het afronden.
+DialogPVE_Event_halloween26_5_3;Toen jullie opdoken en alle mutanten daar te lijf gingen!
+DialogPVE_Event_halloween26_5_4;Dat leverde me een geweldige videoreportage op.
+DialogPVE_Event_halloween26_5_5;Bovendien gedroegen jullie je veel natuurlijker dan wanneer jullie weten dat jullie worden gefilmd.
+DialogPVE_Event_halloween26_5_6;Missy! Geef ons die video!
+DialogPVE_Event_halloween26_5_7;Geen sprake van! Het is mijn reportage, en jullie zullen hem op tv zien.
+DialogPVE_Event_halloween26_5_8;Maak je geen zorgen, ik knip de uitbarstingen van Urban eruit!
+DialogPVE_Event_halloween26_5_9;Darwin, je ziet er een beetje bezorgd uit. Is er iets aan de hand?
+DialogPVE_Event_halloween26_5_10;Ik vraag me alleen af waarom al die maanenergie zich hier heeft verzameld.
+DialogPVE_Event_halloween26_5_11;Is dit gewoon een maanverschijnsel, of is er iets anders aan de hand?
+DialogPVE_Event_halloween26_5_12;We weten tenslotte dat Numismatist daar ergens op vrije voeten is.
+DialogPVE_Event_halloween26_5_13;Ik snap wat je bedoelt. We kunnen maar beter uitkijken naar de volgende tekenen...
+title_mission_halloween26_C1;Het maanlichtaltaar
+title_mission_halloween26_C2;Symbolische mysteries
+title_mission_halloween26_C3;Een verontrustende energie
+title_mission_halloween26_C4;Overdaad aan maanlicht
+title_mission_halloween26_1;Verre nabijheid
+title_mission_halloween26_2;Halvemaanmessen
+title_mission_halloween26_3;Maankring
+title_mission_halloween26_4;Nieuwe maan
+title_mission_halloween26_5;Nieuwe maan-eclips
+title_mission_halloween26_6;Sterrenregen
+title_mission_halloween26_7;Stralende sterren
+title_mission_halloween26_8;Maan-eieren
+title_mission_halloween26_9;Maanbad
+title_mission_halloween26_10;Heldere maan
+title_mission_halloween26_11;Vollemaanslagen
+title_mission_halloween26_12;Maanfasen
+title_mission_halloween26_13;Halvemaan-evenwicht
+title_mission_halloween26_14;Bloedmaan
+title_mission_halloween26_15;De terugkeer van de blauwe maan
+caption_mission_halloween26_C1;Deze oude plek heeft een griezelige sfeer…
+caption_mission_halloween26_C2;We moeten uitzoeken wat al deze maansymbolen betekenen…
+caption_mission_halloween26_C3;De energie die uit de symbolen straalt, wordt steeds sterker!
+caption_mission_halloween26_C4;De maanenergie heeft haar hoogtepunt bereikt!
+caption_mission_halloween26_1;Maanwezens komen massaal bijeen.
+caption_mission_halloween26_2;Hun wapens zijn verbonden met de maan!
+caption_mission_halloween26_3;Een maanritueel betekent heksen!
+caption_mission_halloween26_4;Een nieuwe maan voor een nieuw leven.
+caption_mission_halloween26_5;Wanneer krachten resoneren, wordt hun kracht sterker!
+caption_mission_halloween26_6;Sterrenlicht versterkt mutanten.
+caption_mission_halloween26_7;Als ze zo fel schijnen, laten we dan wat van dat licht vangen.
+caption_mission_halloween26_8;Maanenergie kan de ontwikkeling van mutanten beïnvloeden.
+caption_mission_halloween26_9;Maanlicht is zelfs nog effectiever dan sterrenlicht.
+caption_mission_halloween26_10;De maan is rond, net als de bollen die mutanten versterken!
+caption_mission_halloween26_11;Onder de volle maan lopen de spanningen op…
+caption_mission_halloween26_12;De cyclus van conflicten herhaalt zich net als de fasen van de maan.
+caption_mission_halloween26_13;Bij de halve maan is het evenwicht tussen licht en duisternis perfect.
+caption_mission_halloween26_14;Onder de bloedmaan ontwaken de meest gewelddadige instincten.
+caption_mission_halloween26_15;Onder de blauwe maan is het tijd om te bewijzen wie de machtigste is!
+Specimen_EC_14;Selené
+caption_specimen_ec_14;Een krijger-maangodin, altijd omringd door haar persoonlijke lijfwacht. Oude mythen suggereren dat ze mogelijk op de maan woont en kan worden opgeroepen tijdens verschillende belangrijke maanconjuncties, op plaatsen die speciaal voor deze gelegenheid zijn voorbereid. Ze wordt altijd voorafgegaan door haar drie lijfwachten, die elk een andere maanfase vertegenwoordigen.
+Specimen_EC_14_attack_1;Maanlicht-houw
+Specimen_EC_14_attack_1p;Maanlicht-houw
+Specimen_EC_14_attack_2;Maanlicht-pijl
+Specimen_EC_14_attack_2p;Maanlicht-regen

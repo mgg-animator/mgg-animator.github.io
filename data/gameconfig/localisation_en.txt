@@ -21346,3 +21346,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;This pack contains: - 500 Gold - 
 bundle_orbs_experimental_smasher_11;Smasher Orb Bundle
 Specimen_CA_05_Bronze_sc;Bronze Challengeer
 Specimen_BB_09_Bronze;Bronze Frankenhuahua
+DialogPVE_Event_halloween26_1_1;Did you see that? Apparently, something incredible is going to happen!
+DialogPVE_Event_halloween26_1_2;Can you be more specific?
+DialogPVE_Event_halloween26_1_3;Because we know all about your “incredible” things.
+DialogPVE_Event_halloween26_1_4;No, no, I’m talking about that thing with the moon!
+DialogPVE_Event_halloween26_1_5;Missy mentioned it on her show the other day.
+DialogPVE_Event_halloween26_1_6;Oh, you mean the conjunction?
+DialogPVE_Event_halloween26_1_7;Yeah, but according to the observatory’s calculations, it should be visible as early as tonight.
+DialogPVE_Event_halloween26_1_8;There’s even a group of people who are going to perform lunar rituals.
+DialogPVE_Event_halloween26_1_9;Missy’s already been sent there for an exclusive report!
+DialogPVE_Event_halloween26_1_10;A lunar ritual? With a conjunction like that?
+DialogPVE_Event_halloween26_1_11;Not to mention the number of mutants potentially affected in Genetic City...
+DialogPVE_Event_halloween26_1_12;Thanks, Reed, for the info, but we have to get there right away!
+DialogPVE_Event_halloween26_1_13;No problem! I’m coming with you!
+DialogPVE_Event_halloween26_2_1;What was that flash and those colors?
+DialogPVE_Event_halloween26_2_2;It looked like that mutant had exactly the same hues as the moon!
+DialogPVE_Event_halloween26_2_3;I’m not sure, but in any case, it seems related to that ritual.
+DialogPVE_Event_halloween26_2_4;And from the looks of it, whatever the first mutants set in motion isn’t over yet.
+DialogPVE_Event_halloween26_2_5;Are you saying that because of the residual glows in the lunar glyphs?
+DialogPVE_Event_halloween26_2_6;Exactly. We should at least stay and keep an eye on what’s happening.
+DialogPVE_Event_halloween26_2_7;And be ready for more to come.
+DialogPVE_Event_halloween26_2_8;More lunar mutants, or more mutants coming here?
+DialogPVE_Event_halloween26_2_9;Probably both, Reed.
+DialogPVE_Event_halloween26_2_10;I was right. The glows are getting stronger again.
+DialogPVE_Event_halloween26_2_11;By the way, where’s Missy? She should be around here somewhere!
+DialogPVE_Event_halloween26_2_12;We’ll look for her later, Reed!
+DialogPVE_Event_halloween26_3_1;And another mutant of the same kind...
+DialogPVE_Event_halloween26_3_2;Except this one was more... violent.
+DialogPVE_Event_halloween26_3_3;Yeah, we’re going to have to be careful.
+DialogPVE_Event_halloween26_3_4;More than just being careful, we’re going to have to figure out what these glyphs mean.
+DialogPVE_Event_halloween26_3_5;I didn’t realize it right away, but something is definitely going on.
+DialogPVE_Event_halloween26_3_6;Can you explain?
+DialogPVE_Event_halloween26_3_7;After defeating the first lunar mutant, the intensity of the glows decreased.
+DialogPVE_Event_halloween26_3_8;That’s a good thing, right?
+DialogPVE_Event_halloween26_3_9;Except that it gradually rose back to a higher average level than before.
+DialogPVE_Event_halloween26_3_10;And then, the phenomenon happened again.
+DialogPVE_Event_halloween26_3_11;But I don’t have any information on this form of energy in my databases.
+DialogPVE_Event_halloween26_3_12;Missyy! Missyyyyy!
+DialogPVE_Event_halloween26_3_13;Reed! Stop screaming! You’re just going to attract more mutants!
+DialogPVE_Event_halloween26_4_1;Third mutant, third drop and surge in energy...
+DialogPVE_Event_halloween26_4_2;But wait, is this dangerous or not, Darwin?
+DialogPVE_Event_halloween26_4_3;Possibly, if we keep going at this exponential rate...
+DialogPVE_Event_halloween26_4_4;We're going to die, right?
+DialogPVE_Event_halloween26_4_5;Calm down, Reed. You look ridiculous like that.
+DialogPVE_Event_halloween26_4_6;With the energy levels we’ve reached, we can expect a powerful mutant.
+DialogPVE_Event_halloween26_4_7;How powerful? Can we take him on or not?
+DialogPVE_Event_halloween26_4_8;In theory… yes.
+DialogPVE_Event_halloween26_4_9;But since I don’t know all his abilities, I can’t guarantee anything.
+DialogPVE_Event_halloween26_4_10;Psy-Captain, I’m counting on you for this mutant.
+DialogPVE_Event_halloween26_4_11;What worries me most is all this energy flooding the area.
+DialogPVE_Event_halloween26_5_1;Missy? I thought you’d decided not to come after all!
+DialogPVE_Event_halloween26_5_2;I’ve been here from the start. I was just getting my report ready.
+DialogPVE_Event_halloween26_5_3;When you guys showed up and started taking on all the mutants there!
+DialogPVE_Event_halloween26_5_4;Which gave me a great video report.
+DialogPVE_Event_halloween26_5_5;Plus, you guys were way more natural than when you know you’re being filmed.
+DialogPVE_Event_halloween26_5_6;Missy! Give us that video!
+DialogPVE_Event_halloween26_5_7;No way! It’s my report, and you’ll see it on TV.
+DialogPVE_Event_halloween26_5_8;Don’t worry, I’ll edit out Urban’s outbursts!
+DialogPVE_Event_halloween26_5_9;Darwin, you look a little worried. Is something wrong?
+DialogPVE_Event_halloween26_5_10;I’m just wondering why all this lunar energy has gathered here.
+DialogPVE_Event_halloween26_5_11;Is this just a lunar phenomenon, or is there something else going on?
+DialogPVE_Event_halloween26_5_12;After all, we know that Numismatist is out there on the loose.
+DialogPVE_Event_halloween26_5_13;I see what you mean. We’d better keep an eye out for the next signs...
+title_mission_halloween26_C1;The Moonlight Altar
+title_mission_halloween26_C2;Glyphic Mysteries
+title_mission_halloween26_C3;A Worrying Energy
+title_mission_halloween26_C4;Moonlight Overload
+title_mission_halloween26_1;Distant Closeness
+title_mission_halloween26_2;Crescent Blades
+title_mission_halloween26_3;Lunar Coven
+title_mission_halloween26_4;New Moon
+title_mission_halloween26_5;New Moon Eclipse
+title_mission_halloween26_6;Starlight Shower
+title_mission_halloween26_7;Shining Stars
+title_mission_halloween26_8;Lunar Eggs
+title_mission_halloween26_9;Moonbath
+title_mission_halloween26_10;Bright Moon
+title_mission_halloween26_11;Full Moon Battles
+title_mission_halloween26_12;Lunar Phases
+title_mission_halloween26_13;Half-Moon Equilibrium
+title_mission_halloween26_14;Blood Moon
+title_mission_halloween26_15;Blue Moon Return
+caption_mission_halloween26_C1;This ancient site has an eerie atmosphere…
+caption_mission_halloween26_C2;We need to figure out what all these lunar glyphs mean…
+caption_mission_halloween26_C3;The energy emanating from the glyphs just keeps growing!
+caption_mission_halloween26_C4;The lunar energy has reached its peak!
+caption_mission_halloween26_1;Lunar creatures are gathering in droves.
+caption_mission_halloween26_2;Their weapons are linked to the moon!
+caption_mission_halloween26_3;A lunar ritual means witches!
+caption_mission_halloween26_4;A new moon for a new life.
+caption_mission_halloween26_5;When forces resonate, their power intensifies!
+caption_mission_halloween26_6;Starlight strengthens mutants.
+caption_mission_halloween26_7;If they shine so brightly, let’s capture some of that light.
+caption_mission_halloween26_8;Lunar energy can influence the incubation of mutants.
+caption_mission_halloween26_9;Moonlight is even more effective than starlight.
+caption_mission_halloween26_10;The moon is round, just like the orbs that strengthen mutants!
+caption_mission_halloween26_11;Under the full moon, tensions rise…
+caption_mission_halloween26_12;The cycle of conflict repeats itself like the phases of the moon.
+caption_mission_halloween26_13;At the half-moon, the balance between light and darkness is perfect.
+caption_mission_halloween26_14;Under the blood moon, the most violent instincts awaken.
+caption_mission_halloween26_15;Under the blue moon, it’s time to prove who is the most powerful!
+Specimen_EC_14;Selene
+caption_specimen_ec_14;A warrior moon deity, always surrounded by her personal guard. Ancient myths suggest that she may live on the moon and can be summoned during multiple major lunar conjunctions, in places specially prepared for this occasion. She is always preceded by her three bodyguards, each representing a different phase of the moon. 
+Specimen_EC_14_attack_1;Moonlight Slash
+Specimen_EC_14_attack_1p;Moonlight Slash
+Specimen_EC_14_attack_2;Moonlight Arrow
+Specimen_EC_14_attack_2p;Moonlight Rain

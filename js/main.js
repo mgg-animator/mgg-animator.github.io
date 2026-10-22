@@ -65,6 +65,8 @@ function getDiscordUserId(session) {
   return meta.provider_id || meta.sub || session.user.id || null;
 }
 
+let accessUserId = null;
+
 function normalizeAccessKey(s) {
   return String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
@@ -104,19 +106,29 @@ async function loadAccessRules() {
 }
 
 async function refreshAccessState(force = false) {
-  currentUserExempt = false;
-  currentUserInGuild = false;
   const session = await window.discordIntegration.getSession();
-  if (!session) return;
+  if (!session) {
+    accessUserId = null;
+    currentUserExempt = false;
+    currentUserInGuild = false;
+    return;
+  }
   const userId = getDiscordUserId(session);
+  if (String(userId) !== String(accessUserId)) {
+    accessUserId = userId;
+    currentUserExempt = false;
+    currentUserInGuild = false;
+  }
+  currentUserExempt = false;
   if (userId && accessRules.exemptUserIds.has(String(userId))) {
     currentUserExempt = true;
     currentUserInGuild = true;
     return;
   }
-  currentUserInGuild = force
+  const membership = force
     ? await window.discordIntegration.checkGuildMembershipForced()
     : await window.discordIntegration.checkGuildMembership();
+  if (membership !== null) currentUserInGuild = membership;
 }
 
 function canViewMutant(mutantValue) {
@@ -384,6 +396,9 @@ function initEventListeners() {
   document.addEventListener("visibilitychange", () => {
     if (!document.hidden) revalidateAccess();
   });
+  window.setInterval(() => {
+    if (!document.hidden) revalidateAccess();
+  }, 15 * 60 * 1000);
 }
 
 function showStatic() { coverContainer.classList.remove("hidden"); clickBlocker.classList.remove("hidden"); }

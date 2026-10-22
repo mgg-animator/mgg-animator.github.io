@@ -21325,3 +21325,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;Bu paket şunları içerir: - 500
 bundle_orbs_experimental_smasher_11;Yıkım Küresi Paketi
 Specimen_CA_05_Bronze_sc;Bronz Meydan okuyucu
 Specimen_BB_09_Bronze;Bronz Frankenhuahua
+DialogPVE_Event_halloween26_1_1;Bunu gördün mü? Anlaşılan inanılmaz bir şey olacak!
+DialogPVE_Event_halloween26_1_2;Biraz daha açık konuşabilir misin?
+DialogPVE_Event_halloween26_1_3;Çünkü senin “inanılmaz” olaylarını çok iyi biliyoruz.
+DialogPVE_Event_halloween26_1_4;Hayır, hayır, ayla ilgili o olaydan bahsediyorum!
+DialogPVE_Event_halloween26_1_5;Missy geçen gün programında bundan bahsetmişti.
+DialogPVE_Event_halloween26_1_6;Ah, kavuşumdan mı bahsediyorsun?
+DialogPVE_Event_halloween26_1_7;Evet, ama gözlemevinin hesaplamalarına göre, bu gece erken saatlerde bile görülebilir olmalı.
+DialogPVE_Event_halloween26_1_8;Hatta ay ritüelleri gerçekleştirecek bir grup bile var.
+DialogPVE_Event_halloween26_1_9;Missy, özel bir haber yapmak için çoktan oraya gönderildi bile!
+DialogPVE_Event_halloween26_1_10;Ay ritüeli mi? Böyle bir kavuşum varken mi?
+DialogPVE_Event_halloween26_1_11;Genetik Şehir’de potansiyel olarak etkilenecek mutantların sayısından bahsetmiyorum bile...
+DialogPVE_Event_halloween26_1_12;Bilgi için teşekkürler, Reed, ama hemen oraya gitmeliyiz!
+DialogPVE_Event_halloween26_1_13;Sorun değil! Ben de sizinle geliyorum!
+DialogPVE_Event_halloween26_2_1;O parıltı ve renkler neydi öyle?
+DialogPVE_Event_halloween26_2_2;Görünüşe göre o mutantın renkleri ayınkilerle tıpatıp aynıydı!
+DialogPVE_Event_halloween26_2_3;Emin değilim, ama her halükarda o ritüelle bir ilgisi var gibi görünüyor.
+DialogPVE_Event_halloween26_2_4;Ve görünüşe bakılırsa, ilk mutantların başlattığı şey her neyse, henüz bitmemiş.
+DialogPVE_Event_halloween26_2_5;Bunu, ay sembollerindeki kalıntı parıltılar yüzünden mi söylüyorsun?
+DialogPVE_Event_halloween26_2_6;Aynen öyle. En azından burada kalıp neler olup bittiğine göz kulak olmalıyız.
+DialogPVE_Event_halloween26_2_7;Ve daha fazlasına hazırlıklı olmalıyız.
+DialogPVE_Event_halloween26_2_8;Daha fazla ay mutantı mı, yoksa buraya gelecek daha fazla mutant mı?
+DialogPVE_Event_halloween26_2_9;Muhtemelen ikisi de, Reed.
+DialogPVE_Event_halloween26_2_10;Haklıydım. Işıklar yine güçleniyor.
+DialogPVE_Event_halloween26_2_11;Bu arada, Missy nerede? Buralarda bir yerde olmalı!
+DialogPVE_Event_halloween26_2_12;Onu sonra ararız, Reed!
+DialogPVE_Event_halloween26_3_1;Ve aynı türden bir başka mutant daha...
+DialogPVE_Event_halloween26_3_2;Ama bu seferki daha... şiddetliydi.
+DialogPVE_Event_halloween26_3_3;Evet, dikkatli olmamız gerekecek.
+DialogPVE_Event_halloween26_3_4;Sadece dikkatli olmaktan öte, bu sembollerin ne anlama geldiğini de çözmemiz gerekecek.
+DialogPVE_Event_halloween26_3_5;Hemen fark etmedim, ama kesinlikle bir şeyler dönüyor.
+DialogPVE_Event_halloween26_3_6;Açıklayabilir misin?
+DialogPVE_Event_halloween26_3_7;İlk ay mutantını yendikten sonra, parıltıların yoğunluğu azaldı.
+DialogPVE_Event_halloween26_3_8;Bu iyi bir şey, değil mi?
+DialogPVE_Event_halloween26_3_9;Ama sonra, parıltıların yoğunluğu yavaş yavaş eskisinden daha yüksek bir ortalama seviyeye çıktı.
+DialogPVE_Event_halloween26_3_10;Ve sonra, bu fenomen tekrar meydana geldi.
+DialogPVE_Event_halloween26_3_11;Ama veritabanlarımda bu enerji türüyle ilgili hiçbir bilgi yok.
+DialogPVE_Event_halloween26_3_12;Missyy! Missyyyyy!
+DialogPVE_Event_halloween26_3_13;Reed! Çığlık atmayı kes! Sadece daha fazla mutantı çekeceksin!
+DialogPVE_Event_halloween26_4_1;Üçüncü mutant, üçüncü enerji düşüşü ve dalgalanması...
+DialogPVE_Event_halloween26_4_2;Ama dur bakalım, bu tehlikeli mi değil mi, Darwin?
+DialogPVE_Event_halloween26_4_3;Muhtemelen, bu katlanarak artan hızla devam edersek...
+DialogPVE_Event_halloween26_4_4;Öleceğiz, değil mi?
+DialogPVE_Event_halloween26_4_5;Sakin ol, Reed. Böyleyken çok komik görünüyorsun.
+DialogPVE_Event_halloween26_4_6;Ulaştığımız enerji seviyelerine bakılırsa, çok güçlü bir mutantla karşılaşabiliriz.
+DialogPVE_Event_halloween26_4_7;Ne kadar güçlü? Onunla başa çıkabilir miyiz, çıkamaz mıyız?
+DialogPVE_Event_halloween26_4_8;Teorik olarak… evet.
+DialogPVE_Event_halloween26_4_9;Ama tüm yeteneklerini bilmediğim için hiçbir şey garanti edemem.
+DialogPVE_Event_halloween26_4_10;Psy-Kaptan, bu mutant konusunda sana güveniyorum.
+DialogPVE_Event_halloween26_4_11;Beni en çok endişelendiren şey, bölgeyi kaplayan tüm bu enerji.
+DialogPVE_Event_halloween26_5_1;Missy? Sonunda gelmemeye karar verdiğini sanmıştım!
+DialogPVE_Event_halloween26_5_2;En başından beri buradaydım. Raporumun hazırlıklarını yapıyordum.
+DialogPVE_Event_halloween26_5_3;Sizler ortaya çıkıp oradaki tüm mutantlarla savaşmaya başladığınızda!
+DialogPVE_Event_halloween26_5_4;Bu da bana harika bir video haberi sağladı.
+DialogPVE_Event_halloween26_5_5;Ayrıca, çekildiğinizi bildiğiniz zamankinden çok daha doğal davrandınız.
+DialogPVE_Event_halloween26_5_6;Missy! O videoyu bize ver!
+DialogPVE_Event_halloween26_5_7;Olmaz! O benim haberim ve televizyonda göreceksiniz.
+DialogPVE_Event_halloween26_5_8;Merak etme, Urban’ın öfke patlamalarını kurgudan çıkaracağım!
+DialogPVE_Event_halloween26_5_9;Darwin, biraz endişeli görünüyorsun. Bir sorun mu var?
+DialogPVE_Event_halloween26_5_10;Sadece tüm bu ay enerjisinin neden burada toplandığını merak ediyorum.
+DialogPVE_Event_halloween26_5_11;Bu sadece bir ay fenomeni mi, yoksa başka bir şey mi dönüyor?
+DialogPVE_Event_halloween26_5_12;Ne de olsa, Numismatist’in dışarıda serbestçe dolaştığını biliyoruz.
+DialogPVE_Event_halloween26_5_13;Ne demek istediğini anlıyorum. Bir sonraki işaretlere dikkat etsek iyi olur...
+title_mission_halloween26_C1;Ay Işığı Sunak
+title_mission_halloween26_C2;Sembolik Gizemler
+title_mission_halloween26_C3;Endişe Verici Bir Enerji
+title_mission_halloween26_C4;Ay Işığı Aşırı Yüklemesi
+title_mission_halloween26_1;Uzak Yakınlık
+title_mission_halloween26_2;Hilal Bıçakları
+title_mission_halloween26_3;Ay Cadılar Meclisi
+title_mission_halloween26_4;Yeni Ay
+title_mission_halloween26_5;Yeni Ay Tutulması
+title_mission_halloween26_6;Yıldız Işığı Yağmuru
+title_mission_halloween26_7;Parlayan Yıldızlar
+title_mission_halloween26_8;Ay Yumurtaları
+title_mission_halloween26_9;Ay Banyosu
+title_mission_halloween26_10;Parlak Ay
+title_mission_halloween26_11;Dolunay Savaşları
+title_mission_halloween26_12;Ay Evreleri
+title_mission_halloween26_13;Yarım Ay Dengesi
+title_mission_halloween26_14;Kanlı Ay
+title_mission_halloween26_15;Mavi Ay’ın Dönüşü
+caption_mission_halloween26_C1;Bu antik alanın tüyler ürpertici bir havası var…
+caption_mission_halloween26_C2;Tüm bu ay sembollerinin ne anlama geldiğini çözmemiz gerekiyor…
+caption_mission_halloween26_C3;Sembollerden yayılan enerji giderek artıyor!
+caption_mission_halloween26_C4;Ay enerjisi zirveye ulaştı!
+caption_mission_halloween26_1;Ay yaratıkları sürü halinde toplanıyor.
+caption_mission_halloween26_2;Silahları ayla bağlantılı!
+caption_mission_halloween26_3;Ay ritüeli demek, cadılar demektir!
+caption_mission_halloween26_4;Yeni bir hayat için yeni ay.
+caption_mission_halloween26_5;Güçler rezonansa girdiğinde, etkileri daha da artar!
+caption_mission_halloween26_6;Yıldız ışığı mutantları güçlendirir.
+caption_mission_halloween26_7;Madem bu kadar parlak ışık yayıyorlar, o ışıktan biraz yakalayalım.
+caption_mission_halloween26_8;Ay enerjisi, mutantların gelişimini etkileyebilir.
+caption_mission_halloween26_9;Ay ışığı, yıldız ışığından bile daha etkilidir.
+caption_mission_halloween26_10;Ay yuvarlaktır, tıpkı mutantları güçlendiren küreler gibi!
+caption_mission_halloween26_11;Dolunay altında gerilim artar…
+caption_mission_halloween26_12;Çatışma döngüsü, ayın evreleri gibi kendini tekrar eder.
+caption_mission_halloween26_13;Yarım ayda, ışık ve karanlık arasındaki denge mükemmeldir.
+caption_mission_halloween26_14;Kanlı ay altında, en şiddetli içgüdüler uyanır.
+caption_mission_halloween26_15;Mavi ay altında, kimin en güçlü olduğunu kanıtlamanın zamanı gelir!
+Specimen_EC_14;Selene
+caption_specimen_ec_14;Her zaman kişisel muhafızlarıyla çevrili bir savaşçı ay tanrıçası. Eski mitlere göre, ayda yaşadığı ve bu amaçla özel olarak hazırlanmış yerlerde, çeşitli önemli ay kavuşumları sırasında çağrılabileceği öne sürülmektedir. Önünde her zaman, ayın farklı evrelerini temsil eden üç muhafızı bulunur.
+Specimen_EC_14_attack_1;Ay Işığı Kesici
+Specimen_EC_14_attack_1p;Ay Işığı Kesici
+Specimen_EC_14_attack_2;Ay Işığı Oku
+Specimen_EC_14_attack_2p;Ay Işığı Yağmuru

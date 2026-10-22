@@ -4,9 +4,8 @@ const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_
 const DISCORD_INVITE_URL = 'https://discord.gg/manuelleweyt-691138101367668736';
 const DISCORD_GUILD_ID = '691138101367668736';
 const GUILD_CACHE_KEY = 'discordGuildVerified';
-const GUILD_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const GUILD_CACHE_TTL_MS = 15 * 60 * 1000;
 
-let discordGuildsCache = null;
 let checkSessionRunning = false;
 
 const AVATAR_TINT_COLORS = [
@@ -73,20 +72,44 @@ async function getSession() {
 }
 
 async function fetchDiscordGuilds(accessToken) {
-  if (!accessToken) return [];
+  if (!accessToken) return null;
+  let res;
   try {
-    const res = await fetch('https://discord.com/api/users/@me/guilds', {
+    res = await fetch('https://discord.com/api/users/@me/guilds', {
       headers: { Authorization: `Bearer ${accessToken}` }
     });
-    if (res.status === 429) {
-      const retry = parseFloat(res.headers.get('Retry-After') || '5');
-      await new Promise(r => setTimeout(r, retry * 1000));
-      return [];
+  } catch (error) {
+    console.warn('Discord guild check could not reach Discord.', error);
+    return null;
+  }
+
+  if (res.status === 401) {
+    console.warn('Discord access token expired or was revoked; signing out.');
+    const { error } = await supabaseClient.auth.signOut();
+    if (error) {
+      console.error('Could not sign out after Discord rejected the access token.', error);
     }
-    if (!res.ok) return [];
-    return await res.json();
-  } catch (_) {
-    return [];
+    return null;
+  }
+  if (res.status === 429) {
+    console.warn('Discord guild check was rate-limited.');
+    return null;
+  }
+  if (!res.ok) {
+    console.warn(`Discord guild check failed: HTTP ${res.status}.`);
+    return null;
+  }
+
+  try {
+    const guilds = await res.json();
+    if (!Array.isArray(guilds)) {
+      console.warn('Discord guild check returned an unexpected response.');
+      return null;
+    }
+    return guilds;
+  } catch (error) {
+    console.warn('Discord guild check returned invalid JSON.', error);
+    return null;
   }
 }
 
@@ -143,33 +166,33 @@ async function requireGuildMembership() {
     openExclusiveLayer();
     return false;
   }
-  const cached = readGuildCache();
-  if (cached === true) return true;
-  if (session.provider_token) {
-    discordGuildsCache = await fetchDiscordGuilds(session.provider_token);
-    const inGuild = isInGuild(discordGuildsCache);
-    writeGuildCache(inGuild);
-    if (inGuild) return true;
-  }
-  openJoinLayer();
+  const inGuild = await checkGuildMembership();
+  if (inGuild === true) return true;
+  if (inGuild === false) openJoinLayer();
+  else openExclusiveLayer();
   return false;
 }
 
-function writeGuildCache(ok) {
+function getDiscordUserId(session) {
+  const meta = session.user.user_metadata || {};
+  return String(meta.provider_id || meta.sub || session.user.id || '');
+}
+
+function writeGuildCache(ok, userId) {
   try {
-    localStorage.setItem(GUILD_CACHE_KEY, JSON.stringify({ ok: !!ok, at: Date.now() }));
+    localStorage.setItem(GUILD_CACHE_KEY, JSON.stringify({ ok: !!ok, at: Date.now(), userId }));
   } catch (_) {}
 }
 
-function readGuildCache() {
+function readGuildCache(userId) {
   try {
     const raw = localStorage.getItem(GUILD_CACHE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed.ok !== "boolean") return null;
     if (typeof parsed.at !== "number") return null;
-    if (Date.now() - parsed.at > GUILD_CACHE_TTL_MS) return null;
-    return parsed.ok;
+    if (parsed.userId !== userId) return null;
+    return { ok: parsed.ok, at: parsed.at };
   } catch (_) {
     return null;
   }
@@ -178,18 +201,16 @@ function readGuildCache() {
 async function checkGuildMembership(force = false) {
   const session = await getSession();
   if (!session) return false;
+  const userId = getDiscordUserId(session);
+  const cached = readGuildCache(userId);
   if (!force) {
-    const cached = readGuildCache();
-    if (cached === true) return true;
-    if (cached === false) return false;
+    if (cached && Date.now() - cached.at <= GUILD_CACHE_TTL_MS) return cached.ok;
   }
-  if (session.provider_token) {
-    const guilds = await fetchDiscordGuilds(session.provider_token);
-    const inGuild = isInGuild(guilds);
-    writeGuildCache(inGuild);
-    return inGuild;
-  }
-  return false;
+  const guilds = await fetchDiscordGuilds(session.provider_token);
+  if (!guilds) return null;
+  const inGuild = isInGuild(guilds);
+  writeGuildCache(inGuild, userId);
+  return inGuild;
 }
 
 async function handleDebugClick() {
@@ -283,14 +304,9 @@ async function checkDiscordSession() {
           meta.name ||
           '';
       }
-      if (!discordGuildsCache && session.provider_token) {
-        discordGuildsCache = await fetchDiscordGuilds(session.provider_token);
-        writeGuildCache(isInGuild(discordGuildsCache));
-      }
     } else {
       loginWrap.classList.remove('hidden');
       userWrap.classList.add('hidden');
-      discordGuildsCache = null;
       const btnMenu = document.getElementById('btnMenu');
       if (btnMenu) btnMenu.classList.remove('showDebug');
       localStorage.removeItem(GUILD_CACHE_KEY);

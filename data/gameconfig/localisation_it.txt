@@ -21341,3 +21341,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;Questo pacchetto contiene: - 500 
 bundle_orbs_experimental_smasher_11;Pacchetto sfere della distruzione
 Specimen_CA_05_Bronze_sc;Challengeer Bronzo
 Specimen_BB_09_Bronze;Frankenhuahua Bronzo
+DialogPVE_Event_halloween26_1_1;L’hai visto? A quanto pare sta per succedere qualcosa di incredibile!
+DialogPVE_Event_halloween26_1_2;Puoi essere più preciso?
+DialogPVE_Event_halloween26_1_3;Perché sappiamo bene come vanno le tue “cose incredibili”.
+DialogPVE_Event_halloween26_1_4;No, no, sto parlando di quella cosa con la luna!
+DialogPVE_Event_halloween26_1_5;Missy ne ha parlato nel suo programma l’altro giorno.
+DialogPVE_Event_halloween26_1_6;Oh, intendi la congiunzione?
+DialogPVE_Event_halloween26_1_7;Sì, ma secondo i calcoli dell’osservatorio, dovrebbe essere visibile già stasera.
+DialogPVE_Event_halloween26_1_8;C’è persino un gruppo di persone che intende celebrare dei rituali lunari.
+DialogPVE_Event_halloween26_1_9;Missy è già stata mandata lì per un servizio esclusivo!
+DialogPVE_Event_halloween26_1_10;Un rituale lunare? Con una congiunzione del genere?
+DialogPVE_Event_halloween26_1_11;Per non parlare del numero di mutanti potenzialmente coinvolti a Genetic City...
+DialogPVE_Event_halloween26_1_12;Grazie, Reed, per l’informazione, ma dobbiamo andarci subito!
+DialogPVE_Event_halloween26_1_13;Nessun problema! Vengo con voi!
+DialogPVE_Event_halloween26_2_1;Cos’erano quel bagliore e quei colori?
+DialogPVE_Event_halloween26_2_2;Sembrava che quel mutante avesse esattamente le stesse tonalità della luna!
+DialogPVE_Event_halloween26_2_3;Non ne sono sicuro, ma in ogni caso sembra collegato a quel rituale.
+DialogPVE_Event_halloween26_2_4;E a quanto pare, qualunque cosa abbiano messo in moto i primi mutanti non è ancora finita.
+DialogPVE_Event_halloween26_2_5;Lo dici per via dei bagliori residui nei glifi lunari?
+DialogPVE_Event_halloween26_2_6;Esatto. Dovremmo almeno restare qui e tenere d’occhio ciò che sta accadendo.
+DialogPVE_Event_halloween26_2_7;E prepararci a ciò che verrà.
+DialogPVE_Event_halloween26_2_8;Altri mutanti lunari, o altri mutanti in arrivo qui?
+DialogPVE_Event_halloween26_2_9;Probabilmente entrambe le cose, Reed.
+DialogPVE_Event_halloween26_2_10;Avevo ragione. I bagliori stanno diventando di nuovo più intensi.
+DialogPVE_Event_halloween26_2_11;A proposito, dov’è Missy? Dovrebbe essere da queste parti!
+DialogPVE_Event_halloween26_2_12;La cercheremo più tardi, Reed!
+DialogPVE_Event_halloween26_3_1;E un altro mutante dello stesso tipo...
+DialogPVE_Event_halloween26_3_2;Solo che questo era più... violento.
+DialogPVE_Event_halloween26_3_3;Sì, dovremo stare attenti.
+DialogPVE_Event_halloween26_3_4;Più che stare semplicemente attenti, dovremo capire cosa significano questi glifi.
+DialogPVE_Event_halloween26_3_5;Non me ne sono reso conto subito, ma sta sicuramente succedendo qualcosa.
+DialogPVE_Event_halloween26_3_6;Puoi spiegarmi meglio?
+DialogPVE_Event_halloween26_3_7;Dopo aver sconfitto il primo mutante lunare, l’intensità dei bagliori è diminuita.
+DialogPVE_Event_halloween26_3_8;È una cosa positiva, no?
+DialogPVE_Event_halloween26_3_9;Solo che poi è risalita gradualmente fino a raggiungere un livello medio più alto di prima.
+DialogPVE_Event_halloween26_3_10;E poi, il fenomeno si è ripetuto.
+DialogPVE_Event_halloween26_3_11;Ma nei miei database non ho alcuna informazione su questa forma di energia.
+DialogPVE_Event_halloween26_3_12;Missyy! Missyyyyy!
+DialogPVE_Event_halloween26_3_13;Reed! Smettila di urlare! Attirerai solo altri mutanti!
+DialogPVE_Event_halloween26_4_1;Terzo mutante, terzo calo e picco di energia...
+DialogPVE_Event_halloween26_4_2;Ma aspetta, è pericoloso o no, Darwin?
+DialogPVE_Event_halloween26_4_3;Forse, se continuiamo a questo ritmo esponenziale...
+DialogPVE_Event_halloween26_4_4;Moriremo, vero?
+DialogPVE_Event_halloween26_4_5;Calmati, Reed. Sei ridicolo così.
+DialogPVE_Event_halloween26_4_6;Con i livelli di energia che abbiamo raggiunto, possiamo aspettarci un mutante potente.
+DialogPVE_Event_halloween26_4_7;Quanto potente? Riusciremo ad affrontarlo o no?
+DialogPVE_Event_halloween26_4_8;In teoria… sì.
+DialogPVE_Event_halloween26_4_9;Ma dato che non conosco tutte le sue abilità, non posso garantire nulla.
+DialogPVE_Event_halloween26_4_10;Capitano Psy, conto su di te per questo mutante.
+DialogPVE_Event_halloween26_4_11;Ciò che mi preoccupa di più è tutta questa energia che inonda la zona.
+DialogPVE_Event_halloween26_5_1;Missy? Pensavo che alla fine avessi deciso di non venire!
+DialogPVE_Event_halloween26_5_2;Sono qui fin dall’inizio. Stavo proprio preparando il mio servizio.
+DialogPVE_Event_halloween26_5_3;Quando siete arrivati voi e avete iniziato a darvi da fare con tutti quei mutanti!
+DialogPVE_Event_halloween26_5_4;Il che mi ha permesso di realizzare un ottimo servizio video.
+DialogPVE_Event_halloween26_5_5;Inoltre, eravate molto più spontanei rispetto a quando sapete di essere ripresi.
+DialogPVE_Event_halloween26_5_6;Missy! Dacci quel video!
+DialogPVE_Event_halloween26_5_7;Neanche per sogno! È il mio servizio, e lo vedrete in TV.
+DialogPVE_Event_halloween26_5_8;Non preoccuparti, taglierò via gli sfoghi di Urban!
+DialogPVE_Event_halloween26_5_9;Darwin, sembri un po’ preoccupato. C’è qualcosa che non va?
+DialogPVE_Event_halloween26_5_10;Mi sto solo chiedendo perché tutta questa energia lunare si sia concentrata qui.
+DialogPVE_Event_halloween26_5_11;È solo un fenomeno lunare, o c’è qualcos’altro sotto?
+DialogPVE_Event_halloween26_5_12;Dopotutto, sappiamo che Numismatist è là fuori a piede libero.
+DialogPVE_Event_halloween26_5_13;Capisco cosa intendi. Faremo meglio a tenere gli occhi aperti per i prossimi segnali...
+title_mission_halloween26_C1;L'altare al chiaro di luna
+title_mission_halloween26_C2;Misteri glifici
+title_mission_halloween26_C3;Un'energia inquietante
+title_mission_halloween26_C4;Sovraccarico di luce lunare
+title_mission_halloween26_1;Vicinanza lontana
+title_mission_halloween26_2;Lame a mezzaluna
+title_mission_halloween26_3;Congrega lunare
+title_mission_halloween26_4;Luna nuova
+title_mission_halloween26_5;Eclissi di luna nuova
+title_mission_halloween26_6;Pioggia di stelle
+title_mission_halloween26_7;Stelle splendenti
+title_mission_halloween26_8;Uova lunari
+title_mission_halloween26_9;Bagno di luna
+title_mission_halloween26_10;Luna luminosa
+title_mission_halloween26_11;Battaglie di luna piena
+title_mission_halloween26_12;Fasi lunari
+title_mission_halloween26_13;Equilibrio della mezza luna
+title_mission_halloween26_14;Luna rossa
+title_mission_halloween26_15;Il ritorno della luna blu
+caption_mission_halloween26_C1;Questo antico sito emana un’atmosfera inquietante…
+caption_mission_halloween26_C2;Dobbiamo capire cosa significano tutti questi glifi lunari…
+caption_mission_halloween26_C3;L’energia che emana dai glifi continua ad aumentare!
+caption_mission_halloween26_C4;L’energia lunare ha raggiunto il suo apice!
+caption_mission_halloween26_1;Le creature lunari si stanno radunando in massa.
+caption_mission_halloween26_2;Le loro armi sono legate alla luna!
+caption_mission_halloween26_3;Un rituale lunare significa streghe!
+caption_mission_halloween26_4;Una luna nuova per una nuova vita.
+caption_mission_halloween26_5;Quando le forze entrano in risonanza, il loro potere si intensifica!
+caption_mission_halloween26_6;La luce delle stelle rafforza i mutanti.
+caption_mission_halloween26_7;Se brillano così intensamente, catturiamo un po’ di quella luce.
+caption_mission_halloween26_8;L’energia lunare può influenzare l’incubazione dei mutanti.
+caption_mission_halloween26_9;La luce della luna è ancora più efficace di quella delle stelle.
+caption_mission_halloween26_10;La luna è rotonda, proprio come le sfere che rafforzano i mutanti!
+caption_mission_halloween26_11;Sotto la luna piena, la tensione sale…
+caption_mission_halloween26_12;Il ciclo del conflitto si ripete come le fasi lunari.
+caption_mission_halloween26_13;Alla mezza luna, l’equilibrio tra luce e oscurità è perfetto.
+caption_mission_halloween26_14;Sotto la luna rossa, si risvegliano gli istinti più violenti.
+caption_mission_halloween26_15;Sotto la luna blu, è il momento di dimostrare chi è il più potente!
+Specimen_EC_14;Selene
+caption_specimen_ec_14;Una divinità lunare guerriera, sempre circondata dalla sua guardia del corpo. Gli antichi miti suggeriscono che possa vivere sulla Luna e che possa essere evocata durante diverse congiunzioni lunari importanti, in luoghi appositamente preparati per l’occasione. È sempre preceduta dalle sue tre guardie del corpo, ciascuna delle quali rappresenta una diversa fase lunare.
+Specimen_EC_14_attack_1;Fendente al chiaro di luna
+Specimen_EC_14_attack_1p;Fendente al chiaro di luna
+Specimen_EC_14_attack_2;Freccia al chiaro di luna
+Specimen_EC_14_attack_2p;Pioggia al chiaro di luna

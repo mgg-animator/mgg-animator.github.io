@@ -21308,3 +21308,109 @@ bundle_bank_halloween26_tokens_t5_payment_text;Этот пакет содерж�
 bundle_orbs_experimental_smasher_11;Пакет сфер разрушения
 Specimen_CA_05_Bronze_sc;Бронзовый Челленджер
 Specimen_BB_09_Bronze;Бронзовый Франкенхуахуа
+DialogPVE_Event_halloween26_1_1;Ты это видела? Похоже, скоро произойдёт что-то невероятное!
+DialogPVE_Event_halloween26_1_2;Можешь пояснить поподробнее?
+DialogPVE_Event_halloween26_1_3;Ведь мы уже знаем всё о твоих «невероятных» событиях.
+DialogPVE_Event_halloween26_1_4;Нет, нет, я говорю о том, что связано с Луной!
+DialogPVE_Event_halloween26_1_5;Мисси упомянула об этом на днях в своей передаче.
+DialogPVE_Event_halloween26_1_6;А, ты имеешь в виду соединение?
+DialogPVE_Event_halloween26_1_7;Да, но, судя по расчётам обсерватории, его должно быть видно уже сегодня вечером.
+DialogPVE_Event_halloween26_1_8;Есть даже группа людей, которые собираются провести лунные ритуалы.
+DialogPVE_Event_halloween26_1_9;Мисси уже отправили туда для эксклюзивного репортажа!
+DialogPVE_Event_halloween26_1_10;Лунный ритуал? При таком соединении?
+DialogPVE_Event_halloween26_1_11;Не говоря уже о количестве мутантов, на которых это может повлиять в Генетическом Городе...
+DialogPVE_Event_halloween26_1_12;Спасибо, Рид, за информацию, но нам нужно немедленно туда отправляться!
+DialogPVE_Event_halloween26_1_13;Без проблем! Я иду с вами!
+DialogPVE_Event_halloween26_2_1;Что это была за вспышка и какие цвета?
+DialogPVE_Event_halloween26_2_2;Похоже, у того мутанта были точно такие же оттенки, как у Луны!
+DialogPVE_Event_halloween26_2_3;Не уверен, но, в любом случае, это, похоже, связано с тем ритуалом.
+DialogPVE_Event_halloween26_2_4;И, судя по всему, то, что запустили первые мутанты, ещё не закончилось.
+DialogPVE_Event_halloween26_2_5;Ты так думаешь из-за остаточного свечения в лунных глифах?
+DialogPVE_Event_halloween26_2_6;Именно. Нам стоит хотя бы остаться и понаблюдать за тем, что происходит.
+DialogPVE_Event_halloween26_2_7;И быть готовыми к тому, что будет дальше.
+DialogPVE_Event_halloween26_2_8;Ещё больше лунных мутантов или ещё больше мутантов, которые прибудут сюда?
+DialogPVE_Event_halloween26_2_9;Наверное, и то, и другое, Рид.
+DialogPVE_Event_halloween26_2_10;Я был прав. Свечение снова становится сильнее.
+DialogPVE_Event_halloween26_2_11;Кстати, а где Мисси? Она должна быть где-то здесь!
+DialogPVE_Event_halloween26_2_12;Поищем её позже, Рид!
+DialogPVE_Event_halloween26_3_1;И ещё один мутант того же вида...
+DialogPVE_Event_halloween26_3_2;Только этот оказался более... агрессивным.
+DialogPVE_Event_halloween26_3_3;Да, нам придётся быть осторожными.
+DialogPVE_Event_halloween26_3_4;Но не просто быть осторожными — нам нужно выяснить, что означают эти символы.
+DialogPVE_Event_halloween26_3_5;Я не сразу это понял, но что-то определённо происходит.
+DialogPVE_Event_halloween26_3_6;Можешь объяснить?
+DialogPVE_Event_halloween26_3_7;После того как мы победили первого лунного мутанта, интенсивность свечения уменьшилась.
+DialogPVE_Event_halloween26_3_8;Это же хорошо, да?
+DialogPVE_Event_halloween26_3_9;Только вот она постепенно снова выросла до уровня, превышающего прежний средний показатель.
+DialogPVE_Event_halloween26_3_10;А потом это явление повторилось.
+DialogPVE_Event_halloween26_3_11;Но в моих базах данных нет никакой информации об этой форме энергии.
+DialogPVE_Event_halloween26_3_12;Мисси! Миссиii!
+DialogPVE_Event_halloween26_3_13;Рид! Перестань кричать! Ты только привлечёшь ещё больше мутантов!
+DialogPVE_Event_halloween26_4_1;Третий мутант, третье падение и всплеск энергии...
+DialogPVE_Event_halloween26_4_2;Но постой, это опасно или нет, Дарвин?
+DialogPVE_Event_halloween26_4_3;Возможно, если мы будем продолжать в таком экспоненциальном темпе...
+DialogPVE_Event_halloween26_4_4;Мы умрём, да?
+DialogPVE_Event_halloween26_4_5;Успокойся, Рид. Ты так выглядишь смешно.
+DialogPVE_Event_halloween26_4_6;Учитывая достигнутый уровень энергии, нас ждёт мощный мутант.
+DialogPVE_Event_halloween26_4_7;Насколько мощный? Сможем мы с ним справиться или нет?
+DialogPVE_Event_halloween26_4_8;Теоретически… да.
+DialogPVE_Event_halloween26_4_9;Но поскольку я не знаю всех его способностей, ничего гарантировать не могу.
+DialogPVE_Event_halloween26_4_10;Пси-капитан, я рассчитываю на тебя в борьбе с этим мутантом.
+DialogPVE_Event_halloween26_4_11;Больше всего меня беспокоит весь этот поток энергии, наводняющий окрестности.
+DialogPVE_Event_halloween26_5_1;Мисси? А я-то думал, что ты всё-таки решила не приходить!
+DialogPVE_Event_halloween26_5_2;Я здесь с самого начала. Просто готовила свой репортаж.
+DialogPVE_Event_halloween26_5_3;А тут вы появились и начали сражаться со всеми мутантами!
+DialogPVE_Event_halloween26_5_4;Благодаря чему у меня получился отличный видеорепортаж.
+DialogPVE_Event_halloween26_5_5;К тому же вы вели себя гораздо естественнее, чем когда знаете, что вас снимают.
+DialogPVE_Event_halloween26_5_6;Мисси! Отдай нам это видео!
+DialogPVE_Event_halloween26_5_7;Ни за что! Это мой репортаж, и вы увидите его по телевизору.
+DialogPVE_Event_halloween26_5_8;Не волнуйтесь, я вырежу из него вспышки гнева Урбана!
+DialogPVE_Event_halloween26_5_9;Дарвин, ты выглядишь немного обеспокоенным. Что-то не так?
+DialogPVE_Event_halloween26_5_10;Я просто задаюсь вопросом, почему вся эта лунная энергия собралась здесь.
+DialogPVE_Event_halloween26_5_11;Это просто лунное явление или здесь происходит что-то ещё?
+DialogPVE_Event_halloween26_5_12;В конце концов, мы знаем, что Нумизмат где-то там на свободе.
+DialogPVE_Event_halloween26_5_13;Понимаю, о чём ты. Нам лучше быть начеку и следить за следующими признаками...
+title_mission_halloween26_C1;Алтарь лунного света
+title_mission_halloween26_C2;Таинственные символы
+title_mission_halloween26_C3;Тревожная энергия
+title_mission_halloween26_C4;Перенасыщение лунным светом
+title_mission_halloween26_1;Дальняя близость
+title_mission_halloween26_2;Клинки полумесяца
+title_mission_halloween26_3;Лунный ковен
+title_mission_halloween26_4;Новолуние
+title_mission_halloween26_5;Затмение новолуния
+title_mission_halloween26_6;Звёздный дождь
+title_mission_halloween26_7;Сияющие звёзды
+title_mission_halloween26_8;Лунные яйца
+title_mission_halloween26_9;Лунная купальня
+title_mission_halloween26_10;Яркая Луна
+title_mission_halloween26_11;Сражения при полной Луне
+title_mission_halloween26_12;Фазы Луны
+title_mission_halloween26_13;Равновесие полумесяца
+title_mission_halloween26_14;Кровавая Луна
+title_mission_halloween26_15;Возвращение «голубой Луны»
+caption_mission_halloween26_C1;В этом древнем месте царит зловещая атмосфера…
+caption_mission_halloween26_C2;Нам нужно выяснить, что означают все эти лунные символы…
+caption_mission_halloween26_C3;Энергия, исходящая от символов, становится всё сильнее!
+caption_mission_halloween26_C4;Лунная энергия достигла своего пика!
+caption_mission_halloween26_1;Лунные существа собираются целыми толпами.
+caption_mission_halloween26_2;Их оружие связано с Луной!
+caption_mission_halloween26_3;Лунный ритуал — это значит, что здесь есть ведьмы!
+caption_mission_halloween26_4;Новолуние — начало новой жизни.
+caption_mission_halloween26_5;Когда силы вступают в резонанс, их мощь усиливается!
+caption_mission_halloween26_6;Звёздный свет укрепляет мутантов.
+caption_mission_halloween26_7;Раз они сияют так ярко, давайте захватим часть этого света.
+caption_mission_halloween26_8;Лунная энергия может влиять на инкубацию мутантов.
+caption_mission_halloween26_9;Лунный свет даже эффективнее звездного.
+caption_mission_halloween26_10;Луна круглая, точно так же, как и сферы, укрепляющие мутантов!
+caption_mission_halloween26_11;При полной луне напряжение растёт…
+caption_mission_halloween26_12;Цикл конфликтов повторяется, как фазы Луны.
+caption_mission_halloween26_13;При полумесяце баланс между светом и тьмой идеален.
+caption_mission_halloween26_14;При кровавой луне пробуждаются самые жестокие инстинкты.
+caption_mission_halloween26_15;При голубой луне настало время доказать, кто самый могущественный!
+Specimen_EC_14;Селена
+caption_specimen_ec_14;Богиня-воительница, олицетворяющая Луну, которую всегда окружает личная охрана. Согласно древним мифам, она, возможно, обитает на Луне и может быть призвана во время ряда крупных лунных соединений в местах, специально подготовленных для этого. Ей всегда предшествуют три телохранителя, каждый из которых олицетворяет одну из фаз Луны.
+Specimen_EC_14_attack_1;Лунный удар
+Specimen_EC_14_attack_1p;Лунный удар
+Specimen_EC_14_attack_2;Лунная стрела
+Specimen_EC_14_attack_2p;Лунный дождь

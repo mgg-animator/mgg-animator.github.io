@@ -9,10 +9,6 @@
   ],
 
   "blockedForEveryone": [
-    "Specimen_EC_14",
-    "Specimen_DC_04_halloween",
-    "Specimen_CF_10_halloween",
-    "Specimen_CE_09_halloween",
     "Specimen_BA_15"
   ],
 
@@ -20,11 +16,14 @@
     "Specimen_FE_13_seasons",
     "Specimen_AF_10_purgatory",
     "Specimen_DD_04_winter",
-    "Specimen_ED_15"
+    "Specimen_ED_15",
+    "Specimen_EC_14",
+    "Specimen_DC_04_halloween",
+    "Specimen_CF_10_halloween",
+    "Specimen_CE_09_halloween"
   ],
 
   "blockedBackgroundsForEveryone": [
-    "halloween26"
   ],
 
   "membersOnlyBackgrounds": [
@@ -37,7 +36,8 @@
     "hexcity_2",
     "xmas23_2",
     "xmas24_2",
-    "xmas25_2"
+    "xmas25_2",
+    "halloween26"
   ],
 
   "newMutants": [

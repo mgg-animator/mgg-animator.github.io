@@ -194,7 +194,11 @@ function applyRivalVisibility(animValue) {
 
 async function loadRivalAnimationAssets(mutantValue, animName, skin) {
   const xmlPath = `/data/mutants/${mutantValue}/${animName}.xml?nocache=${Date.now()}`;
-  const txt = await fetch(xmlPath).then(r => r.text());
+  const txt = await retryResource(async signal => {
+    const res = await fetch(xmlPath, { signal });
+    if (!res.ok) throw createHttpError(res, xmlPath);
+    return res.text();
+  }, 10000, xmlPath);
   const xml = new DOMParser().parseFromString(txt, "application/xml");
   const spriteEl = xml.querySelector("Sprite");
   if (!spriteEl) throw new Error();
@@ -202,13 +206,7 @@ async function loadRivalAnimationAssets(mutantValue, animName, skin) {
   const base = bitmap.replace(/\.png$/i, "");
   const skinSuffix = skin ? `_${skin}` : "";
   const url = `/images/sprites/${base}${skinSuffix}.png`;
-  const img = await new Promise((resolve, reject) => {
-    const i = new Image();
-    i.crossOrigin = "anonymous";
-    i.onload = () => resolve(i);
-    i.onerror = () => reject(new Error());
-    i.src = url;
-  });
+  const img = await loadImageWithRetry(url);
   const tree = window.xmlParser.parseSpriteElement(spriteEl, 1);
   return { tree, img };
 }

@@ -24,16 +24,39 @@ function getFromMap(map, key) {
   return undefined;
 }
 
-async function fetchTextFile(url, timeoutMs = 8000) {
-  const controller = new AbortController();
-  const tid = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const res = await fetch(url + (url.indexOf("?") === -1 ? "?nocache=" + Date.now() : ""), { signal: controller.signal });
-    if (!res.ok) throw new Error("No se pudo cargar " + url);
-    return await res.text();
-  } finally {
-    clearTimeout(tid);
+async function retryResource(load, timeoutMs = 10000, label = "recurso") {
+  let warned = false;
+  while (true) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      return await load(controller.signal);
+    } catch (error) {
+      if (error && error.retryable === false) throw error;
+      if (!warned) {
+        console.warn(`No se pudo cargar ${label}; se reintentará.`, error);
+        warned = true;
+      }
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    } finally {
+      clearTimeout(timeout);
+    }
   }
+}
+
+function createHttpError(response, url) {
+  const error = new Error(`HTTP ${response.status}: ${url}`);
+  error.retryable = response.status >= 500 || response.status === 408 || response.status === 429;
+  return error;
+}
+
+async function fetchTextFile(url, timeoutMs = 10000) {
+  const requestUrl = url + (url.indexOf("?") === -1 ? "?nocache=" + Date.now() : "");
+  return retryResource(async signal => {
+    const res = await fetch(requestUrl, { signal });
+    if (!res.ok) throw createHttpError(res, url);
+    return res.text();
+  }, timeoutMs, url);
 }
 
 let langsPromise = null;

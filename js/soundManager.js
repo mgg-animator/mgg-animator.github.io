@@ -46,18 +46,17 @@ async function loadSound(name) {
   const promise = (async () => {
     const ctx = ensureAudioCtx();
     if (!ctx) return null;
-    let timeoutId = null;
     try {
-      const controller = new AbortController();
-      timeoutId = setTimeout(() => controller.abort(), 15000);
-      const res = await fetch(`/sounds/${name}.wav`, { signal: controller.signal });
-      if (!res.ok) return null;
-      const ab = await res.arrayBuffer();
-      return await ctx.decodeAudioData(ab);
-    } catch (_) {
+      return await retryResource(async signal => {
+        const url = `/sounds/${name}.wav`;
+        const res = await fetch(url, { signal });
+        if (!res.ok) throw createHttpError(res, url);
+        const ab = await res.arrayBuffer();
+        return ctx.decodeAudioData(ab);
+      }, 10000, `sonido ${name}`);
+    } catch (error) {
+      console.error(`No se pudo procesar el sonido ${name}.`, error);
       return null;
-    } finally {
-      clearTimeout(timeoutId);
     }
   })();
   soundBufferCache.set(name, promise);

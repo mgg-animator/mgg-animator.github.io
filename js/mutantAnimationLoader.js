@@ -1,5 +1,6 @@
 const backgroundCache = new Map();
 const screenUrlCache = new Map();
+const screenLoadingCache = new Map();
 
 let currentMutantCode = "";
 let currentAnimationName = "stand";
@@ -13,17 +14,30 @@ let stateListeners = [];
 let externalLoadingCount = 0;
 let backgroundLoading = false;
 let currentBackgroundValue = null;
+let backgroundLoadController = null;
 let cachedStandTree = null;
 let cachedStandImage = null;
 let cachedStandKey = null;
 
+function isCampaignBackground(value) {
+  const background = allBackgrounds.find(item => item.value === value);
+  return background?.type === "bg_cmp";
+}
+
 function loadScreenImage(value) {
   if (!value) return Promise.resolve(null);
+  if (isCampaignBackground(value)) return Promise.resolve(null);
   if (screenUrlCache.has(value)) return Promise.resolve(screenUrlCache.get(value));
+  if (screenLoadingCache.has(value)) return screenLoadingCache.get(value);
   const url = `https://s-beta.kobojo.com/mutants/assets/pveeventcontent/screen_${value}.jpg`;
-  return loadImageWithRetry(url, 5000, 3)
-    .then(() => { screenUrlCache.set(value, url); return url; })
-    .catch(() => { screenUrlCache.set(value, null); return null; });
+  const promise = loadImageWithRetry(url, 10000)
+    .then(() => { screenUrlCache.set(value, url); return url; });
+  screenLoadingCache.set(value, promise);
+  promise.then(
+    () => screenLoadingCache.delete(value),
+    () => screenLoadingCache.delete(value)
+  );
+  return promise;
 }
 
 function getScreenUrlFor(value) {
@@ -31,58 +45,115 @@ function getScreenUrlFor(value) {
   return screenUrlCache.get(value) || null;
 }
 
-function loadImageWithRetry(url, timeoutMs = 5000, maxAttempts = 3) {
+function loadImageWithRetry(url, timeoutMs = 10000, maxAttempts = Infinity, signal) {
   return new Promise((resolve, reject) => {
     let attempt = 0;
+    let warned = false;
+    let settled = false;
+    let activeImage = null;
+    let activeTimer = null;
+    let retryTimer = null;
+    const cleanup = () => {
+      clearTimeout(activeTimer);
+      clearTimeout(retryTimer);
+      if (signal) signal.removeEventListener("abort", handleAbort);
+    };
+    const fail = error => {
+      if (settled) return;
+      settled = true;
+      cleanup();
+      reject(error);
+    };
+    const handleAbort = () => {
+      if (activeImage) {
+        activeImage.onload = null;
+        activeImage.onerror = null;
+        activeImage.src = "";
+      }
+      fail(new Error(`Image load aborted: ${url}`));
+    };
     const tryLoad = () => {
+      if (signal && signal.aborted) {
+        handleAbort();
+        return;
+      }
       attempt++;
       const img = new Image();
+      activeImage = img;
       img.crossOrigin = "anonymous";
-      const timer = setTimeout(() => {
+      activeTimer = setTimeout(() => {
         img.onload = null;
         img.onerror = null;
         img.src = "";
-        if (attempt < maxAttempts) tryLoad();
-        else reject(new Error(`timeout after ${maxAttempts} attempts`));
+        retryOrReject(new Error("timeout"));
       }, timeoutMs);
-      img.onload = () => { clearTimeout(timer); resolve(img); };
+      img.onload = () => {
+        if (settled) return;
+        settled = true;
+        cleanup();
+        resolve(img);
+      };
       img.onerror = () => {
-        clearTimeout(timer);
-        if (attempt < maxAttempts) tryLoad();
-        else reject(new Error(`load error after ${maxAttempts} attempts`));
+        clearTimeout(activeTimer);
+        activeTimer = null;
+        retryOrReject(new Error("image load error"));
       };
       img.src = url;
     };
+    const retryOrReject = error => {
+      if (attempt < maxAttempts) {
+        if (!warned) {
+          console.warn(`No se pudo cargar ${url}; se reintentará.`, error);
+          warned = true;
+        }
+        retryTimer = setTimeout(tryLoad, 1000);
+      } else {
+        fail(error);
+      }
+    };
+    if (signal) signal.addEventListener("abort", handleAbort, { once: true });
     tryLoad();
   });
 }
 
+let backgroundRequestId = 0;
 async function setBackgroundByValue(value) {
+  const requestId = ++backgroundRequestId;
+  if (backgroundLoadController) backgroundLoadController.abort();
+  backgroundLoadController = null;
   if (!value) {
     currentBackgroundValue = null;
     window.sceneRenderer.setBackground(null);
     if (typeof window.applyEventBackground === "function") window.applyEventBackground();
+    backgroundLoading = false;
+    notifyStateChange();
     return;
   }
+  const controller = new AbortController();
+  backgroundLoadController = controller;
   backgroundLoading = true;
   notifyStateChange();
   try {
     const canvasPromise = backgroundCache.has(value)
       ? Promise.resolve(backgroundCache.get(value))
-      : loadBackgroundImage(`https://s-beta.kobojo.com/mutants/assets/arenas/${value}.jpg`)
+      : loadBackgroundImage(`https://s-beta.kobojo.com/mutants/assets/arenas/${value}.jpg`, controller.signal)
           .then(img => { backgroundCache.set(value, img); return img; });
-    const screenPromise = loadScreenImage(value);
-    const [img] = await Promise.all([canvasPromise, screenPromise]);
+    if (!isCampaignBackground(value)) loadScreenImage(value);
+    const img = await canvasPromise;
+    if (requestId !== backgroundRequestId) return;
     currentBackgroundValue = value;
     window.sceneRenderer.setBackground(img);
     if (typeof window.applyEventBackground === "function") window.applyEventBackground();
   } catch (e) {
-    currentBackgroundValue = null;
-    window.sceneRenderer.setBackground(null);
-    if (typeof window.applyEventBackground === "function") window.applyEventBackground();
+    if (requestId === backgroundRequestId) {
+      console.error("No se pudo cambiar el fondo; se conserva el fondo actual.", e);
+    }
   } finally {
-    backgroundLoading = false;
-    notifyStateChange();
+    if (requestId === backgroundRequestId) {
+      backgroundLoading = false;
+      backgroundLoadController = null;
+      notifyStateChange();
+    }
   }
 }
 
@@ -98,49 +169,23 @@ function subscribeState(cb) {
   try { cb(mutantLoading || externalLoadingCount > 0, mutantReady); } catch (_) {}
 }
 
-async function fetchText(url, timeoutMs = 15000, label = "texto") {
-  const controller = new AbortController();
+async function fetchText(url, timeoutMs = 10000, label = "texto") {
   const fullUrl = url + (url.indexOf("?") === -1 ? "?nocache=" + Date.now() : "");
-  const tid = setTimeout(() => {
-    controller.abort();
-  }, timeoutMs);
-  try {
-    const res = await fetch(fullUrl, { signal: controller.signal });
+  return retryResource(async signal => {
+    const res = await fetch(fullUrl, { signal });
     if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
+      throw createHttpError(res, url);
     }
-    return await res.text();
-  } catch (e) {
-    throw e;
-  } finally {
-    clearTimeout(tid);
-  }
+    return res.text();
+  }, timeoutMs, label);
 }
 
 function loadSpritesheetImage(bitmap, skin) {
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    const base = bitmap.replace(/\.png$/i, "");
-    const url = skin
-      ? `/images/sprites/${base}_${skin}.png`
-      : `/images/sprites/${base}.png`;
-    const t = setTimeout(() => {
-      img.onload = null;
-      img.onerror = null;
-      img.src = "";
-      reject(new Error("timeout"));
-    }, 15000);
-    img.crossOrigin = "anonymous";
-    img.onload = () => {
-      clearTimeout(t);
-      resolve(img);
-    };
-    img.onerror = () => {
-      clearTimeout(t);
-      reject(new Error("image load error"));
-    };
-    img.src = url;
-  });
+  const base = bitmap.replace(/\.png$/i, "");
+  const url = skin
+    ? `/images/sprites/${base}_${skin}.png`
+    : `/images/sprites/${base}.png`;
+  return loadImageWithRetry(url);
 }
 
 function extractSkins(spriteEl) {
@@ -185,7 +230,7 @@ async function loadMutantImage(mutantValue, animName, skin) {
   beginLoading(`${mutantValue}/${effectiveAnim} skin=${effectiveSkin || "(none)"}`);
   const xmlPath = `/data/mutants/${mutantValue}/${effectiveAnim}.xml`;
   try {
-    const txt = await fetchText(xmlPath, 15000, "mutant XML");
+    const txt = await fetchText(xmlPath, 10000, "mutant XML");
     const xml = new DOMParser().parseFromString(txt, "application/xml");
     const spriteEl = xml.querySelector("Sprite");
     if (!spriteEl) throw new Error("XML sin <Sprite>");
@@ -255,7 +300,7 @@ async function loadStandTreeForMutant(mutantValue, skin) {
   }
   try {
     const xmlPath = `/data/mutants/${mutantValue}/stand.xml`;
-    const txt = await fetchText(xmlPath, 15000, "stand XML");
+    const txt = await fetchText(xmlPath, 10000, "stand XML");
     const xml = new DOMParser().parseFromString(txt, "application/xml");
     const spriteEl = xml.querySelector("Sprite");
     if (!spriteEl) return null;
@@ -274,7 +319,7 @@ async function loadStandTreeForMutant(mutantValue, skin) {
 }
 
 function getCurrentBackground() { return currentBackgroundValue; }
-function loadBackgroundImage(url) { return loadImageWithRetry(url, 5000, 3); }
+function loadBackgroundImage(url, signal) { return loadImageWithRetry(url, 10000, Infinity, signal); }
 function isReady() { return mutantReady; }
 function isLoading() { return mutantLoading || externalLoadingCount > 0; }
 function getAvailableSkins() { return availableSkins.slice(); }
@@ -291,5 +336,6 @@ window.mutantLoader = {
   loadStandTreeForMutant,
   get mutantReady() { return mutantReady; },
   get mutantLoading() { return mutantLoading || externalLoadingCount > 0; },
-  setBackgroundByValue, getCurrentBackground, getScreenUrlFor,
+  setBackgroundByValue, getCurrentBackground, getScreenUrlFor, loadScreenImage,
+  isCampaignBackground,
 };

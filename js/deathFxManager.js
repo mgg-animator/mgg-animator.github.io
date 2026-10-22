@@ -50,21 +50,15 @@ function linkProgram(vs, fs) {
 }
 
 function loadNoiseTexture() {
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    img.crossOrigin = "anonymous";
-    img.onload = () => {
-      const tex = gl.createTexture();
-      gl.bindTexture(gl.TEXTURE_2D, tex);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
-      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT);
-      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.REPEAT);
-      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-      resolve(tex);
-    };
-    img.onerror = () => reject(new Error("Noise image load error"));
-    img.src = "/data/fx/shaders/noise.jpg";
+  return loadImageWithRetry("/data/fx/shaders/noise.jpg").then(img => {
+    const tex = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, tex);
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.REPEAT);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    return tex;
   });
 }
 
@@ -84,8 +78,18 @@ async function init() {
       });
       if (!gl) throw new Error("WebGL no disponible");
       const [vsSrc, fsSrc, noiseTex] = await Promise.all([
-        fetch("/data/fx/shaders/death.vert").then((r) => r.text()),
-        fetch("/data/fx/shaders/death.frag").then((r) => r.text()),
+        retryResource(async signal => {
+          const url = "/data/fx/shaders/death.vert";
+          const res = await fetch(url, { signal });
+          if (!res.ok) throw createHttpError(res, url);
+          return res.text();
+        }, 10000, "shader death.vert"),
+        retryResource(async signal => {
+          const url = "/data/fx/shaders/death.frag";
+          const res = await fetch(url, { signal });
+          if (!res.ok) throw createHttpError(res, url);
+          return res.text();
+        }, 10000, "shader death.frag"),
         loadNoiseTexture(),
       ]);
       const vs = compileShader(gl.VERTEX_SHADER, vsSrc);

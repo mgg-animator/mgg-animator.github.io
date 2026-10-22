@@ -114,12 +114,16 @@ function swapBodyBackground(url) {
   currentBgLayer = nextIdx;
 }
 
-function applyEventBackground() {
+async function applyEventBackground() {
   const bgValue = window.mutantLoader && typeof window.mutantLoader.getCurrentBackground === "function"
     ? window.mutantLoader.getCurrentBackground()
     : null;
   const fallback = 'url("/images/ui/background.png")';
   if (!backgroundFromEventEnabled || !bgValue) {
+    swapBodyBackground(fallback);
+    return;
+  }
+  if (window.mutantLoader.isCampaignBackground(bgValue)) {
     swapBodyBackground(fallback);
     return;
   }
@@ -130,11 +134,13 @@ function applyEventBackground() {
     swapBodyBackground(`url("${cached}")`);
     return;
   }
-  const urlRaw = `https://s-beta.kobojo.com/mutants/assets/pveeventcontent/screen_${bgValue}.jpg`;
-  const testImg = new Image();
-  testImg.onload = () => swapBodyBackground(`url("${urlRaw}")`);
-  testImg.onerror = () => swapBodyBackground(fallback);
-  testImg.src = urlRaw;
+  const screenUrl = await window.mutantLoader.loadScreenImage(bgValue);
+  if (window.mutantLoader.getCurrentBackground() !== bgValue) return;
+  if (!backgroundFromEventEnabled || !screenUrl) {
+    swapBodyBackground(fallback);
+    return;
+  }
+  swapBodyBackground(`url("${screenUrl}")`);
 }
 
 function setupGeneFilters() {

@@ -310,17 +310,15 @@ function parseFxXml(text) {
 async function loadFxForMutant(mutantValue) {
   if (!mutantValue) return null;
   if (fxCache.has(mutantValue)) return fxCache.get(mutantValue);
-  const promise = (async () => {
-    try {
-      const controller = new AbortController();
-      const tid = setTimeout(() => controller.abort(), 15000);
-      const url = `/data/mutants/${mutantValue}/fx.xml?nocache=${Date.now()}`;
-      const res = await fetch(url, { signal: controller.signal });
-      clearTimeout(tid);
-      if (!res.ok) throw new Error();
-      return parseFxXml(await res.text());
-    } catch (_) { return {}; }
-  })();
+  const url = `/data/mutants/${mutantValue}/fx.xml?nocache=${Date.now()}`;
+  const promise = retryResource(async signal => {
+    const res = await fetch(url, { signal });
+    if (!res.ok) throw createHttpError(res, url);
+    return parseFxXml(await res.text());
+  }, 10000, url).catch(error => {
+    console.error(`No se pudo cargar el archivo de efectos ${url}.`, error);
+    return {};
+  });
   fxCache.set(mutantValue, promise);
   const parsed = await promise;
   fxCache.set(mutantValue, parsed);
@@ -378,13 +376,12 @@ async function loadSpriteFxAsset(name, skin) {
   if (fxSpriteCache.has(cacheKey)) return fxSpriteCache.get(cacheKey);
   const promise = (async () => {
     try {
-      const controller = new AbortController();
-      const tid = setTimeout(() => controller.abort(), 15000);
       const xmlUrl = `/data/fx/${name}.xml?nocache=${Date.now()}`;
-      const res = await fetch(xmlUrl, { signal: controller.signal });
-      clearTimeout(tid);
-      if (!res.ok) throw new Error();
-      const txt = await res.text();
+      const txt = await retryResource(async signal => {
+        const res = await fetch(xmlUrl, { signal });
+        if (!res.ok) throw createHttpError(res, xmlUrl);
+        return res.text();
+      }, 10000, xmlUrl);
       const doc = new DOMParser().parseFromString(txt, "application/xml");
       const spriteEl = doc.querySelector("Sprite");
       if (!spriteEl) throw new Error();
@@ -399,32 +396,18 @@ async function loadSpriteFxAsset(name, skin) {
       }
       const useSkin = (normalizedSkin && availableSkins.has(normalizedSkin))
         ? normalizedSkin : "";
-      const tryLoad = (url) => new Promise((resolve, reject) => {
-        const i = new Image();
-        const t = setTimeout(() => {
-          i.onload = null; i.onerror = null; i.src = "";
-          reject(new Error("timeout"));
-        }, 15000);
-        i.crossOrigin = "anonymous";
-        i.onload = () => { clearTimeout(t); resolve(i); };
-        i.onerror = () => { clearTimeout(t); reject(new Error()); };
-        i.src = url;
-      });
       const spriteDir = "/images/sprites/";
-      let img = null;
-      if (useSkin) {
-        try {
-          img = await tryLoad(`${spriteDir}${base}_${useSkin}.png`);
-        } catch (_) {
-          img = await tryLoad(`${spriteDir}${base}.png`);
-        }
-      } else {
-        img = await tryLoad(`${spriteDir}${base}.png`);
-      }
+      const spriteUrl = useSkin
+        ? `${spriteDir}${base}_${useSkin}.png`
+        : `${spriteDir}${base}.png`;
+      const img = await loadImageWithRetry(spriteUrl);
       const tree = window.xmlParser.parseSpriteElement(spriteEl, 1);
       const center = computeSpriteVisualCenter(tree, img);
       return { img, tree, center, availableSkins };
-    } catch (_) { return null; }
+    } catch (error) {
+      console.error(`No se pudo procesar el efecto ${name}.`, error);
+      return null;
+    }
   })();
   fxSpriteCache.set(cacheKey, promise);
   const asset = await promise;

@@ -14,9 +14,12 @@ function parseAttackValue(rawValue) {
 
 async function loadGameDefinitions() {
   try {
-    const res = await fetch(`/data/gameconfig/gamedefinitions.xml?nocache=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const text = await res.text();
+    const url = `/data/gameconfig/gamedefinitions.xml?nocache=${Date.now()}`;
+    const text = await retryResource(async signal => {
+      const res = await fetch(url, { signal });
+      if (!res.ok) throw createHttpError(res, url);
+      return res.text();
+    }, 10000, url);
     const xml = new DOMParser().parseFromString(text, "application/xml");
     if (xml.querySelector("parsererror")) throw new Error("XML inválido");
     const map = {};
@@ -73,9 +76,12 @@ function normalizeAccessKey(s) {
 
 async function loadAccessRules() {
   try {
-    const res = await fetch(`/data/access.json?nocache=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    const url = `/data/access.json?nocache=${Date.now()}`;
+    const data = await retryResource(async signal => {
+      const res = await fetch(url, { signal });
+      if (!res.ok) throw createHttpError(res, url);
+      return res.json();
+    }, 10000, url);
     const normalizeList = (arr) => new Set((arr || []).map(normalizeAccessKey).filter(Boolean));
     accessRules.exemptUserIds = new Set(
       (data.exemptUsers || data.exemptUserIds || [])

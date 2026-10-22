@@ -477,6 +477,18 @@ function renderAll() {
           targetTransform, targShake.x, targShake.y
         );
       }
+      window.fxManager?.render?.(ctx, {
+        self: null,
+        target: {
+          x: rx - 100 * fxScale,
+          y: ry - 300 * fxScale,
+          w: 200 * fxScale,
+          h: 300 * fxScale,
+          scale: rs,
+          flipX: true,
+        },
+        background: bgBounds,
+      });
       if (engine.isDying()) {
         const splatter = engine.getDeathSplatter();
         if (splatter) {
@@ -507,15 +519,8 @@ function renderAll() {
           scale: attackerScale,
           flipX: false,
         },
-        target: {
-          x: rx - 100 * fxScale,
-          y: ry - 300 * fxScale,
-          w: 200 * fxScale,
-          h: 300 * fxScale,
-          scale: rs,
-          flipX: true,
-        },
-        background: bgBounds,
+        target: null,
+        background: null,
       });
       if (engine.getShowBounds && engine.getShowBounds()) {
         const color = engine.getBoundsColor ? engine.getBoundsColor() : "#00ff00";

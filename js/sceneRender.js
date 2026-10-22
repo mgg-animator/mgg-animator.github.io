@@ -388,7 +388,6 @@ function renderAll() {
     const bgBounds = { x: bgX, y: bgY, w: bgW, h: bgH };
     if (rivalCount === 3 && engine.isRivalVisible() && rivalTree) {
       const rivalImg = engine.getRivalImage();
-      const playerZ = computeFightSlotTransform(0, 1, 0).zIndex;
       const rivalTransforms = [];
       for (let i = 0; i < 3; i++) {
         rivalTransforms.push(computeFightSlotTransform(i, 3, 1));
@@ -396,72 +395,68 @@ function renderAll() {
       window.fxManager?.render?.(ctx, {
         self: null, target: null, background: bgBounds,
       });
-      const items = [];
+      const rivalOrder = [];
       for (let i = 0; i < 3; i++) {
-        items.push({ z: rivalTransforms[i].zIndex, kind: "rival", index: i });
+        rivalOrder.push(i);
       }
-      items.push({ z: playerZ, kind: "player" });
-      items.sort((a, b) => a.z - b.z);
-      for (const item of items) {
-        if (item.kind === "rival") {
-          const t = rivalTransforms[item.index];
-          const rx = bgX + t.x * arenaScale;
-          const ry = bgY + t.y * arenaScale;
-          const rScale = t.scale * arenaScale;
-          renderCharacterWithEffects(
-            ctx, rivalTree, rivalImg, rScale,
-            true, rx, ry,
-            targetTransform, targShake.x, targShake.y
+      rivalOrder.sort((a, b) => rivalTransforms[a].zIndex - rivalTransforms[b].zIndex);
+      for (const index of rivalOrder) {
+        const t = rivalTransforms[index];
+        const rx = bgX + t.x * arenaScale;
+        const ry = bgY + t.y * arenaScale;
+        const rScale = t.scale * arenaScale;
+        renderCharacterWithEffects(
+          ctx, rivalTree, rivalImg, rScale,
+          true, rx, ry,
+          targetTransform, targShake.x, targShake.y
+        );
+        window.fxManager?.render?.(ctx, {
+          self: null,
+          target: {
+            x: rx - 100 * fxScale,
+            y: ry - 300 * fxScale,
+            w: 200 * fxScale,
+            h: 300 * fxScale,
+            scale: rScale,
+            flipX: true,
+            targetIndex: index,
+          },
+          background: null,
+        });
+      }
+      if (engine.isDying()) {
+        const splatter = engine.getDeathSplatter();
+        if (splatter) {
+          ctx.save();
+          ctx.translate(selfAnchorX, selfAnchorY);
+          ctx.scale(attackerScale, attackerScale);
+          engine.renderNode(
+            ctx, splatter.tree, true,
+            { r: 1, g: 1, b: 1 }, { r: 0, g: 0, b: 0 },
+            splatter.image
           );
-          window.fxManager?.render?.(ctx, {
-            self: null,
-            target: {
-              x: rx - 100 * fxScale,
-              y: ry - 300 * fxScale,
-              w: 200 * fxScale,
-              h: 300 * fxScale,
-              scale: rScale,
-              flipX: true,
-              targetIndex: item.index,
-            },
-            background: null,
-          });
-        } else {
-          if (engine.isDying()) {
-            const splatter = engine.getDeathSplatter();
-            if (splatter) {
-              ctx.save();
-              ctx.translate(selfAnchorX, selfAnchorY);
-              ctx.scale(attackerScale, attackerScale);
-              engine.renderNode(
-                ctx, splatter.tree, true,
-                { r: 1, g: 1, b: 1 }, { r: 0, g: 0, b: 0 },
-                splatter.image
-              );
-              ctx.restore();
-            }
-          }
-          if (animTree) {
-            renderCharacterWithEffects(
-              ctx, animTree, animImage, attackerScale,
-              false, selfAnchorX, selfAnchorY,
-              selfTransform, selfShake.x, selfShake.y
-            );
-          }
-          window.fxManager?.render?.(ctx, {
-            self: {
-              x: selfAnchorX - 100 * fxScale,
-              y: selfAnchorY - 300 * fxScale,
-              w: 200 * fxScale,
-              h: 300 * fxScale,
-              scale: attackerScale,
-              flipX: false,
-            },
-            target: null,
-            background: null,
-          });
+          ctx.restore();
         }
       }
+      if (animTree) {
+        renderCharacterWithEffects(
+          ctx, animTree, animImage, attackerScale,
+          false, selfAnchorX, selfAnchorY,
+          selfTransform, selfShake.x, selfShake.y
+        );
+      }
+      window.fxManager?.render?.(ctx, {
+        self: {
+          x: selfAnchorX - 100 * fxScale,
+          y: selfAnchorY - 300 * fxScale,
+          w: 200 * fxScale,
+          h: 300 * fxScale,
+          scale: attackerScale,
+          flipX: false,
+        },
+        target: null,
+        background: null,
+      });
       if (engine.getShowBounds && engine.getShowBounds()) {
         const color = engine.getBoundsColor ? engine.getBoundsColor() : "#00ff00";
         drawAnchorMarker(ctx, selfAnchorX, selfAnchorY, color);

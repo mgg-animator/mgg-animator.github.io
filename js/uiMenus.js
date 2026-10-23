@@ -523,8 +523,6 @@ async function renderScreenshotAtScale(scale, includeMidLayer, includeCornerWate
   out.width = canvas.width;
   out.height = canvas.height;
   const octx = out.getContext("2d");
-  octx.fillStyle = "#000";
-  octx.fillRect(0, 0, out.width, out.height);
   if (includeMidLayer) {
     window.sceneRenderer.setIncludeMidLayer(true);
     window.sceneRenderer.renderAll();
@@ -550,6 +548,7 @@ async function renderScreenshotAtScale(scale, includeMidLayer, includeCornerWate
 async function generateScreenshotAssets() {
   const canvas = document.getElementById("mutantCanvas");
   const prevVis = canvas.style.visibility;
+  const transparent = !window.mutantLoader.getCurrentBackground();
   canvas.style.visibility = "hidden";
   try {
     const session = await window.discordIntegration.getSession();
@@ -559,6 +558,7 @@ async function generateScreenshotAssets() {
     const hdNoMark = await renderScreenshotAtScale(SCREENSHOT_HD_SCALE, false, includeCorner);
     const uhdNoMark = await renderScreenshotAtScale(SCREENSHOT_UHD_SCALE, false, includeCorner);
     return {
+      transparent,
       previews: {
         hdWithMark: downscaleCanvasTo(hdMark, SCREENSHOT_PREVIEW_WIDTH),
         hdNoMark: downscaleCanvasTo(hdNoMark, SCREENSHOT_PREVIEW_WIDTH),
@@ -606,11 +606,13 @@ function buildScreenshotBlocks() {
   applyLanguage();
 }
 
-function populateScreenshotPreviews(previews) {
+function populateScreenshotPreviews(previews, transparent) {
   for (const block of screenshotBlocks) {
     const canvas = previews[block.def.preview];
     if (!canvas) { block.img.removeAttribute("src"); continue; }
-    block.img.src = canvas.toDataURL("image/jpeg", 0.7);
+    block.img.src = transparent
+      ? canvas.toDataURL("image/png")
+      : canvas.toDataURL("image/jpeg", 0.7);
   }
 }
 
@@ -627,7 +629,12 @@ function applyScreenshotTier(tier) {
 
 async function downloadScreenshotCanvas(canvas, baseName, suffix, ext) {
   const filename = getVersionedFilename(baseName + suffix, ext);
-  const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/jpeg", SCREENSHOT_JPEG_QUALITY));
+  const mimeType = ext === ".png" ? "image/png" : "image/jpeg";
+  const blob = await new Promise(resolve => canvas.toBlob(
+    resolve,
+    mimeType,
+    mimeType === "image/jpeg" ? SCREENSHOT_JPEG_QUALITY : undefined
+  ));
   if (!blob) return;
   downloadBlob(blob, filename);
 }
@@ -663,7 +670,12 @@ function setupScreenshot() {
         if (!screenshotAssets) return;
         const asset = screenshotAssets.originals[block.def.assetKey];
         if (!asset) return;
-        downloadScreenshotCanvas(asset, screenshotBaseName(), block.def.fileSuffix, ".jpg");
+        downloadScreenshotCanvas(
+          asset,
+          screenshotBaseName(),
+          block.def.fileSuffix,
+          screenshotAssets.transparent ? ".png" : ".jpg"
+        );
       }
     });
   }
@@ -683,7 +695,7 @@ function setupScreenshot() {
       const tier = getScreenshotTier(session, currentUserInGuild);
       applyScreenshotTier(tier);
       screenshotAssets = await generateScreenshotAssets();
-      populateScreenshotPreviews(screenshotAssets.previews);
+      populateScreenshotPreviews(screenshotAssets.previews, screenshotAssets.transparent);
     } catch (e) {
       console.error("screenshot generation failed", e);
     } finally {

@@ -397,10 +397,19 @@ async function loadSpriteFxAsset(name, skin) {
       const useSkin = (normalizedSkin && availableSkins.has(normalizedSkin))
         ? normalizedSkin : "";
       const spriteDir = "/images/sprites/";
-      const spriteUrl = useSkin
-        ? `${spriteDir}${base}_${useSkin}.png`
-        : `${spriteDir}${base}.png`;
-      const img = await loadImageWithRetry(spriteUrl);
+      const baseUrl = `${spriteDir}${base}.png`;
+      let img;
+      if (useSkin) {
+        const skinUrl = `${spriteDir}${base}_${useSkin}.png`;
+        try {
+          img = await loadImageWithRetry(skinUrl, 10000, 3);
+        } catch (error) {
+          console.warn(`No se pudo cargar el efecto ${name} con skin ${useSkin}; se usará la versión básica.`, error);
+          img = await loadImageWithRetry(baseUrl);
+        }
+      } else {
+        img = await loadImageWithRetry(baseUrl);
+      }
       const tree = window.xmlParser.parseSpriteElement(spriteEl, 1);
       const center = computeSpriteVisualCenter(tree, img);
       return { img, tree, center, availableSkins };

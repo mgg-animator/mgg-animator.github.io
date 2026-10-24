@@ -68,10 +68,18 @@
   function getEntryAccess(entry) {
     const key = normalizeAccessKey(entry.value);
     if (entry.type === "mutant") {
-      const restricted = accessRules.membersOnly.has(key);
+      const membersOnly = accessRules.membersOnly.has(key);
+      const blockedForEveryone = accessRules.blockedForEveryone.has(key);
+      const restricted = membersOnly;
+      const needsToggle = currentUserInGuild && !showHiddenMutants &&
+        (membersOnly || (blockedForEveryone && currentUserExempt));
       return {
         restricted,
-        allowed: restricted ? currentUserInGuild : canViewMutant(entry.value),
+        needsToggle,
+        activeMessage: "active_mutants",
+        allowed: needsToggle ? false : restricted
+          ? currentUserInGuild && showHiddenMutants
+          : canViewMutant(entry.value),
       };
     }
     if (entry.type === "skin") {
@@ -79,16 +87,33 @@
         entry.value.toLowerCase().startsWith(`${candidate.value}_`.toLowerCase())
       );
       const skinValue = mutant ? entry.value.slice(mutant.value.length + 1) : "";
-      const restricted = accessRules.membersOnly.has(key) ||
-        (!!mutant && accessRules.membersOnly.has(normalizeAccessKey(mutant.value)));
+      const mutantKey = mutant ? normalizeAccessKey(mutant.value) : "";
+      const membersOnly = accessRules.membersOnly.has(key) ||
+        (!!mutant && accessRules.membersOnly.has(mutantKey));
+      const blockedForEveryone = accessRules.blockedForEveryone.has(key) ||
+        (!!mutant && accessRules.blockedForEveryone.has(mutantKey));
+      const needsToggle = currentUserInGuild && !showHiddenMutants &&
+        (membersOnly || (blockedForEveryone && currentUserExempt));
       return {
-        restricted,
-        allowed: !!mutant && (restricted ? currentUserInGuild : canViewSkin(mutant.value, skinValue)),
+        restricted: membersOnly,
+        needsToggle,
+        activeMessage: "active_mutants",
+        allowed: !!mutant && (needsToggle ? false : membersOnly
+          ? currentUserInGuild && showHiddenMutants
+          : canViewSkin(mutant.value, skinValue)),
       };
     }
+    const membersOnly = accessRules.membersOnlyBackgrounds.has(key);
+    const blockedForEveryone = accessRules.blockedBackgroundsForEveryone.has(key);
+    const needsToggle = currentUserInGuild && !showHiddenBg &&
+      (membersOnly || (blockedForEveryone && currentUserExempt));
     return {
-      restricted: accessRules.membersOnlyBackgrounds.has(key),
-      allowed: canViewBackground(entry.value),
+      restricted: membersOnly,
+      needsToggle,
+      activeMessage: "active_backgrounds",
+      allowed: needsToggle ? false : membersOnly
+        ? currentUserInGuild && showHiddenBg
+        : canViewBackground(entry.value),
     };
   }
 
@@ -108,10 +133,11 @@
   }
 
   function updateEntryAccess(entry) {
-    const { restricted, allowed } = getEntryAccess(entry);
+    const { restricted, needsToggle, activeMessage, allowed } = getEntryAccess(entry);
     const showExclusive = restricted && !currentUserInGuild;
     const showLogin = showExclusive && !accessUserId;
     const showJoin = showExclusive && !!accessUserId;
+    const showActive = needsToggle;
     graph.classList.toggle("btn", allowed);
     graph.setAttribute("aria-label", allowed ? "Open news item" : "");
     if (allowed) {
@@ -122,6 +148,9 @@
       graph.removeAttribute("tabindex");
     }
     exclusiveText.classList.toggle("hidden", !showExclusive);
+    document.querySelectorAll(".textActive").forEach(message => {
+      message.classList.toggle("hidden", !showActive || message.dataset.lang !== activeMessage);
+    });
     loginButton.classList.toggle("hidden", !showLogin);
     joinButton.classList.toggle("hidden", !showJoin);
   }
@@ -169,14 +198,16 @@
         currentImage = image;
         return;
       }
+      const outgoingImage = currentImage;
       image.classList.add("newsSlideIncoming");
       if (direction === "previous") image.classList.add("newsSlideFromLeft");
       graph.appendChild(image);
-      currentImage.classList.add(direction === "next" ? "newsSlideExitLeft" : "newsSlideExitRight");
+      void image.offsetWidth;
+      outgoingImage.classList.add(direction === "next" ? "newsSlideExitLeft" : "newsSlideExitRight");
       requestAnimationFrame(() => image.classList.add("newsSlideActive"));
       image.addEventListener("transitionend", () => {
         if (requestId !== imageRequestId) return;
-        currentImage.remove();
+        outgoingImage.remove();
         image.classList.remove("newsSlideIncoming", "newsSlideActive");
         image.classList.add("newsSlideCurrent");
         currentImage = image;

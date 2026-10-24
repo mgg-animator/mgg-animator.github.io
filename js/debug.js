@@ -145,12 +145,14 @@ async function setupDebugControls() {
     showHiddenMutants = !showHiddenMutants;
     updateToggleIcon(btnHiddenMutants, showHiddenMutants);
     reRenderOpenLists();
+    if (typeof window.updateNewsAccess === "function") window.updateNewsAccess();
     savePersistedDebugState();
   });
   bindGated(btnHiddenBg, () => {
     showHiddenBg = !showHiddenBg;
     updateToggleIcon(btnHiddenBg, showHiddenBg);
     reRenderOpenLists();
+    if (typeof window.updateNewsAccess === "function") window.updateNewsAccess();
     savePersistedDebugState();
   });
   bindGated(btnFrames, () => {
@@ -212,4 +214,5 @@ function refreshDebugControls() {
   if (btnHiddenMutants) updateToggleIcon(btnHiddenMutants, showHiddenMutants);
   if (btnHiddenBg) updateToggleIcon(btnHiddenBg, showHiddenBg);
   if (btnChangeBg) updateToggleIcon(btnChangeBg, backgroundFromEventEnabled);
+  if (typeof window.updateNewsAccess === "function") window.updateNewsAccess();
 }

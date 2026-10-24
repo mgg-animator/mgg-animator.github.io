@@ -1147,7 +1147,7 @@ body {
 .textActive{
   position: absolute;
   top: 675px;
-  width: 400px;
+  width: 300px;
   font-family: 'Bahnschrift', sans-serif;
   font-stretch: semi-condensed;
   font-weight: 700;
@@ -1155,6 +1155,7 @@ body {
   display: inline-block;
   letter-spacing: -0.5px;
   color: #ffff00;
+  text-align: center;
   text-shadow:
     -1px 0 0 #000,
     1px 0px 0 #000,
@@ -1165,7 +1166,6 @@ body {
     1px -1px 0 #000,
     1px  1px 0 #000;
   transform-origin: center;
-  display: inline-block;
 }
 
 /* MENU EXCLUSIVO */

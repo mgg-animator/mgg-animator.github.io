@@ -93,11 +93,17 @@ async function loadAccessRules() {
     accessRules.blockedBackgroundsForEveryone = normalizeList(data.blockedBackgroundsForEveryone);
     accessRules.membersOnlyBackgrounds = normalizeList(data.membersOnlyBackgrounds);
     accessRules.newMutants = normalizeList(data.newMutants);
+    accessRules.newMutantEntries = Array.isArray(data.newMutants)
+      ? data.newMutants.filter(value => typeof value === "string")
+      : [];
     accessRules.newSkins = normalizeList(data.newSkins);
     accessRules.newSkinEntries = Array.isArray(data.newSkins)
       ? data.newSkins.filter(skin => typeof skin === "string")
       : [];
     accessRules.newBackgrounds = normalizeList(data.newBackgrounds);
+    accessRules.newBackgroundEntries = Array.isArray(data.newBackgrounds)
+      ? data.newBackgrounds.filter(value => typeof value === "string")
+      : [];
   } catch (e) {
     accessRules.exemptUserIds = new Set();
     accessRules.blockedForEveryone = new Set();
@@ -105,9 +111,11 @@ async function loadAccessRules() {
     accessRules.blockedBackgroundsForEveryone = new Set();
     accessRules.membersOnlyBackgrounds = new Set();
     accessRules.newMutants = new Set();
+    accessRules.newMutantEntries = [];
     accessRules.newSkins = new Set();
     accessRules.newSkinEntries = [];
     accessRules.newBackgrounds = new Set();
+    accessRules.newBackgroundEntries = [];
   }
 }
 
@@ -364,6 +372,7 @@ function initEventListeners() {
   window.discordIntegration.onAuthChanged(async () => {
     await refreshAccessState();
     reRenderOpenLists();
+    if (typeof window.updateNewsAccess === "function") window.updateNewsAccess();
     if (typeof refreshDebugControls === "function") refreshDebugControls();
   });
   window.addEventListener("hashchange", () => { applyHashMutant(); });
@@ -392,6 +401,7 @@ function initEventListeners() {
       const session = await window.discordIntegration.getSession();
       if (!session) return;
       await refreshAccessState(true);
+      if (typeof window.updateNewsAccess === "function") window.updateNewsAccess();
       reRenderOpenLists();
       if (typeof refreshDebugControls === "function") refreshDebugControls();
       window.sceneRenderer.renderAll();
@@ -453,6 +463,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   } finally {
     cancelBootWatchdog(watchdogId);
     hideLoading();
-    if (bootOk) clearBootAttempts();
+    if (bootOk) {
+      clearBootAttempts();
+      window.initializeNews();
+    }
   }
 });

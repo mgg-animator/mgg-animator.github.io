@@ -73,6 +73,12 @@
       </button>
     </div>
 
+    <div class="btnNews shake">
+      <button class="btn" id="btnNews" data-target="newsLayer">
+        <img class="iconNews" src="/images/ui/btn_news.png">
+      </button>
+    </div>
+
     <div class="btnDiscord">
       <button class="btns" id="btnDiscord" data-target="discordLayer">
         <img class="iconDiscord" src="images/ui/btn_discord_icon.png">
@@ -312,6 +318,24 @@
       <div class="screenshotContainer screenshotRight" id="screenshotRight"></div>
     </div>
 
+    <div class="newsLayer hidden" id="newsLayer">
+      <button class="btn newsClose" id="newsClose">
+        <img src="images/ui/btn_close.png">
+      </button>
+      <img src="images/ui/bg_news.png">
+      <div class="titleNews" data-lang="news"></div>
+      <div id="mutantGraph"></div>
+      <img src="/images/ui/btn_news_arrow.png" class="newsArrowLeft hidden" role="button" tabindex="0" aria-label="Previous news">
+      <img src="/images/ui/btn_news_arrow.png" class="newsArrowRight hidden" role="button" tabindex="0" aria-label="Next news">
+      <div class="textExclusive hidden" data-lang="text_exclusive"></div>
+      <button class="btn hidden" id="btnJoinNews" aria-pressed="true" data-target="">
+        <span class="textBtn" data-lang="join_dc"></span>
+      </button>
+      <button class="btn hidden" id="btnLoginNews" aria-pressed="true" data-target="">
+        <span class="textBtn" data-lang="signin_dc"></span>
+      </button>
+    </div>
+
     <div class="exclusiveLayer hidden" id="exclusiveLayer">
       <button class="btn exclusiveClose" id="exclusiveClose">
         <img src="images/ui/btn_close.png">
@@ -386,6 +410,7 @@
   <script src="js/uiMenus.js?v=Date.now()"></script>
   <script src="js/debug.js?v=Date.now()"></script>
   <script src="js/discordIntegration.js?v=Date.now()"></script>
+  <script src="js/news.js?v=Date.now()"></script>
   <script src="js/rescale.js?v=Date.now()"></script>
   <script src="js/main.js?v=Date.now()"></script>
 

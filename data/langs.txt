@@ -94,6 +94,29 @@ dc_message-tr;Bu ve diğer birçok özel özelliğin kilidini açmak için Disco
 
 
 
+//NOVEDADES
+news-de;Neuigkeiten
+news-en;News
+news-es;Novedades
+news-fr;Nouveautés
+news-it;Novità
+news-nl;Nieuws
+news-pt;Novidades
+news-ru;Новости
+news-tr;Yenilikler
+
+text_exclusive-de;NUR FÜR MITGLIEDER DES SERVERS VERFÜGBAR
+text_exclusive-en;AVAILABLE ONLY TO SERVER MEMBERS
+text_exclusive-es;DISPONIBLE SOLO PARA MIEMBROS DEL SERVIDOR
+text_exclusive-fr;DISPONIBLE UNIQUEMENT POUR LES MEMBRES DU SERVEUR
+text_exclusive-it;DISPONIBILE SOLO PER I MEMBRI DEL SERVER
+text_exclusive-nl;ALLEEN BESCHIKBAAR VOOR SERVERLEDEN
+text_exclusive-pt;DISPONÍVEL APENAS PARA MEMBROS DO SERVIDOR
+text_exclusive-ru;ДОСТУПНО ТОЛЬКО УЧАСТНИКАМ СЕРВЕРА
+text_exclusive-tr;YALNIZCA SUNUCU ÜYELERİNE ÖZEL
+
+
+
 //SCREENSHOT
 download_screenshot-de;Screenshot herunterladen
 download_screenshot-en;Download Screenshot

@@ -12,6 +12,8 @@ function scaleSite() {
   const h = window.innerHeight;
   const scale = getBaseScale();
   currentScale = scale;
+  const newsLayer = document.getElementById("newsLayer");
+  if (newsLayer) newsLayer.style.width = `${w / scale}px`;
   const scaledW = 1920 * scale;
   const scaledH = 1080 * scale;
   const offsetX = (w - scaledW) / 2;
@@ -53,3 +55,6 @@ function applyLayout() {
 }
 
 window.addEventListener("load", applyLayout);
+window.addEventListener("resize", () => {
+  if (!document.fullscreenElement) applyLayout();
+});

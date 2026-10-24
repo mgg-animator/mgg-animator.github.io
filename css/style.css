@@ -1147,13 +1147,14 @@ body {
 .textActive{
   position: absolute;
   top: 675px;
+  width: 500px;
   font-family: 'Bahnschrift', sans-serif;
   font-stretch: semi-condensed;
   font-weight: 700;
   transform: scale(2.2, 3);
   display: inline-block;
   letter-spacing: -0.5px;
-  color: #fff;
+  color: #ffff00;
   text-shadow:
     -1px 0 0 #000,
     1px 0px 0 #000,

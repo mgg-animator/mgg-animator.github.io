@@ -150,7 +150,7 @@ function canViewMutant(mutantValue) {
   const key = normalizeAccessKey(mutantValue);
   const isMembersOnly = accessRules.membersOnly.has(key);
   const isBlockedForEveryone = accessRules.blockedForEveryone.has(key);
-  if (isMembersOnly) return currentUserInGuild || showHiddenMutants;
+  if (isMembersOnly) return currentUserInGuild && showHiddenMutants;
   if (isBlockedForEveryone) return currentUserExempt && showHiddenMutants;
   return true;
 }
@@ -161,7 +161,7 @@ function canViewSkin(mutantValue, skinValue) {
   const composite = normalizeAccessKey(mutantValue + "_" + skinValue);
   const isMembersOnly = accessRules.membersOnly.has(composite);
   const isBlockedForEveryone = accessRules.blockedForEveryone.has(composite);
-  if (isMembersOnly) return currentUserInGuild || showHiddenMutants;
+  if (isMembersOnly) return currentUserInGuild && showHiddenMutants;
   if (isBlockedForEveryone) return currentUserExempt && showHiddenMutants;
   return canViewMutant(mutantValue);
 }
@@ -184,7 +184,7 @@ function canViewBackground(bgValue) {
   const isMembersOnly = accessRules.membersOnlyBackgrounds.has(key);
   const isBlockedForEveryone = accessRules.blockedBackgroundsForEveryone.has(key);
   if (isMembersOnly) {
-    return currentUserInGuild || showHiddenBg;
+    return currentUserInGuild && showHiddenBg;
   }
   if (isBlockedForEveryone) {
     return currentUserExempt && showHiddenBg;

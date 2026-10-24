@@ -115,26 +115,25 @@ text_exclusive-pt;DISPONÍVEL APENAS PARA MEMBROS DO SERVIDOR
 text_exclusive-ru;ДОСТУПНО ТОЛЬКО УЧАСТНИКАМ СЕРВЕРА
 text_exclusive-tr;YALNIZCA SUNUCU ÜYELERİNE ÖZEL
 
-active_mutants-de;AKTIVIERE DIE OPTION „NEUE MUTANTEN“ IM BEREICH „EXTRAS“, UM SIE SEHEN ZU KÖNNEN
-active_mutants-en;ENABLE THE "NEW MUTANTS" OPTION IN THE "EXTRAS" SECTION TO VIEW THEM
-active_mutants-es;ACTIVA LA OPCIÓN DE "MUTANTES NUEVOS" EN LA SECCIÓN DE EXTRAS PARA PODER VERLO
-active_mutants-fr;ACTIVE L’OPTION « NOUVEAUX MUTANTS » DANS LA SECTION « EXTRAS » POUR POUVOIR LES VOIR
-active_mutants-it;ATTIVA L’OPZIONE "NUOVI MUTANTI" NELLA SEZIONE "EXTRA" PER POTERLI VEDERE
-active_mutants-nl;SCHAKEL DE OPTIE 'NIEUWE MUTANTEN' IN DE SECTIE 'EXTRA'S' IN OM ZE TE BEKIJKEN
-active_mutants-pt;ATIVE A OPÇÃO "NOVOS MUTANTES" NA SEÇÃO "EXTRAS" PARA PODER VÊ-LOS
-active_mutants-ru;ВКЛЮЧИТЕ ОПЦИЮ «НОВЫЕ МУТАНТЫ» В РАЗДЕЛЕ «ДОПОЛНИТЕЛЬНО», ЧТОБЫ УВИДЕТЬ ИХ
-active_mutants-tr;GÖREBİLMEK İÇİN "EKSTRALAR" BÖLÜMÜNDEKİ "YENİ MUTANTLAR" SEÇENEĞİNİ ETKİNLEŞTİRİN
+active_mutants-de;AKTIVIERE DIE OPTION „EXKLUSIVE MUTANTEN“ IM BEREICH „EXTRAS“, UM SIE SEHEN ZU KÖNNEN
+active_mutants-en;ENABLE THE "EXCLUSIVE MUTANTS" OPTION IN THE "EXTRAS" SECTION TO VIEW THEM
+active_mutants-es;ACTIVA LA OPCIÓN DE "MUTANTES EXCLUSIVOS" EN LA SECCIÓN DE EXTRAS PARA PODER VERLO
+active_mutants-fr;ACTIVE L’OPTION « MUTANTS EXCLUSIFS » DANS LA SECTION « EXTRAS » POUR POUVOIR LES VOIR
+active_mutants-it;ATTIVA L’OPZIONE "MUTANTI ESCLUSIVI" NELLA SEZIONE "EXTRA" PER POTERLI VEDERE
+active_mutants-nl;SCHAKEL DE OPTIE 'EXCLUSIEVE MUTANTEN' IN DE SECTIE 'EXTRA'S' IN OM ZE TE BEKIJKEN
+active_mutants-pt;ATIVE A OPÇÃO "MUTANTES EXCLUSIVOS" NA SEÇÃO "EXTRAS" PARA PODER VÊ-LOS
+active_mutants-ru;ВКЛЮЧИТЕ ОПЦИЮ «ЭКСКЛЮЗИВНЫЕ МУТАНТЫ» В РАЗДЕЛЕ «ДОПОЛНИТЕЛЬНО», ЧТОБЫ УВИДЕТЬ ИХ
+active_mutants-tr;GÖREBİLMEK İÇİN "EKSKLÜZİF MUTANTLAR" SEÇENEĞİNİ "EKSTRALAR" BÖLÜMÜNDE ETKİNLEŞTİRİN
 
-active_backgrounds-de;AKTIVIERE DIE OPTION „NEUE HINTERGRÜNDE“ IM BEREICH „EXTRAS“, UM SIE SEHEN ZU KÖNNEN
-active_backgrounds-en;ENABLE THE "NEW BACKGROUNDS" OPTION IN THE "EXTRAS" SECTION TO VIEW THEM
-active_backgrounds-es;ACTIVA LA OPCIÓN DE "FONDOS NUEVOS" EN LA SECCIÓN DE EXTRAS PARA PODER VERLO
-active_backgrounds-fr;ACTIVE L’OPTION « NOUVEAUX ARRIÈRE-PLANS » DANS LA SECTION « EXTRAS » POUR POUVOIR LES VOIR
-active_backgrounds-it;ATTIVA L’OPZIONE "NUOVI SFONDI" NELLA SEZIONE "EXTRA" PER POTERLI VEDERE
-active_backgrounds-nl;SCHAKEL DE OPTIE 'NIEUWE ACHTERGRONDEN' IN DE SECTIE 'EXTRA'S' IN OM ZE TE BEKIJKEN
-active_backgrounds-pt;ATIVE A OPÇÃO "NOVOS FUNDOS" NA SEÇÃO "EXTRAS" PARA PODER VÊ-LOS
-active_backgrounds-ru;ВКЛЮЧИТЕ ОПЦИЮ «НОВЫЕ ФОНЫ» В РАЗДЕЛЕ «ДОПОЛНИТЕЛЬНО», ЧТОБЫ УВИДЕТЬ ИХ
-active_backgrounds-tr;GÖREBİLMEK İÇİN "EKSTRALAR" BÖLÜMÜNDEKİ "YENİ ARKA PLANLAR" SEÇENEĞİNİ ETKİNLEŞTİRİN
-
+active_backgrounds-de;AKTIVIERE DIE OPTION „EXKLUSIVE HINTERGRÜNDE“ IM BEREICH „EXTRAS“, UM SIE SEHEN ZU KÖNNEN
+active_backgrounds-en;ENABLE THE "EXCLUSIVE BACKGROUNDS" OPTION IN THE "EXTRAS" SECTION TO VIEW THEM
+active_backgrounds-es;ACTIVA LA OPCIÓN DE "FONDOS EXCLUSIVOS" EN LA SECCIÓN DE EXTRAS PARA PODER VERLO
+active_backgrounds-fr;ACTIVE L’OPTION « ARRIÈRE-PLANS EXCLUSIFS » DANS LA SECTION « EXTRAS » POUR POUVOIR LES VOIR
+active_backgrounds-it;ATTIVA L’OPZIONE "SFONDI ESCLUSIVI" NELLA SEZIONE "EXTRA" PER POTERLI VEDERE
+active_backgrounds-nl;SCHAKEL DE OPTIE 'EXCLUSIEVE ACHTERGRONDEN' IN DE SECTIE 'EXTRA'S' IN OM ZE TE BEKIJKEN
+active_backgrounds-pt;ATIVE A OPÇÃO "FUNDOS EXCLUSIVOS" NA SEÇÃO "EXTRAS" PARA PODER VÊ-LOS
+active_backgrounds-ru;ВКЛЮЧИТЕ ОПЦИЮ «ЭКСКЛЮЗИВНЫЕ ФОНЫ» В РАЗДЕЛЕ «ДОПОЛНИТЕЛЬНО», ЧТОБЫ УВИДЕТЬ ИХ
+active_backgrounds-tr;GÖREBİLMEK İÇİN "ÖZEL ARKA PLANLAR" SEÇENEĞİNİ "EKSTRALAR" BÖLÜMÜNDE ETKİNLEŞTİRİN
 
 
 //SCREENSHOT
@@ -527,25 +526,25 @@ lights-pt;Iluminação
 lights-ru;Освещение
 lights-tr;Aydınlatma
 
-hidden_mt-de;Neue Mutanten
-hidden_mt-en;New Mutants
-hidden_mt-es;Mutantes nuevos
-hidden_mt-fr;Nouveaux mutants
-hidden_mt-it;Nuovi mutanti
-hidden_mt-nl;Nieuwe mutanten
-hidden_mt-pt;Novos mutantes
-hidden_mt-ru;Новые мутанты
-hidden_mt-tr;Yeni Mutantlar
+hidden_mt-de;Exklusive Mutanten
+hidden_mt-en;Exclusive Mutants
+hidden_mt-es;Mutantes exclusivos
+hidden_mt-fr;Mutants exclusifs
+hidden_mt-it;Mutanti esclusivi
+hidden_mt-nl;Exclusieve mutanten
+hidden_mt-pt;Mutantes exclusivos
+hidden_mt-ru;Эксклюзивные мутанты
+hidden_mt-tr;Özel Mutantlar
 
-hidden_bg-de;Neue Hintergründe
-hidden_bg-en;New Backgrounds
-hidden_bg-es;Fondos nuevos
-hidden_bg-fr;Nouveaux arrière-plans
-hidden_bg-it;Nuovi sfondi
-hidden_bg-nl;Nieuwe achtergronden
-hidden_bg-pt;Novos fundos
-hidden_bg-ru;Новые фоны
-hidden_bg-tr;Yeni Arka Planlar
+hidden_bg-de;Exklusive Hintergründe
+hidden_bg-en;Exclusive Backgrounds
+hidden_bg-es;Fondos exclusivos
+hidden_bg-fr;Arrière-plans exclusifs
+hidden_bg-it;Sfondi esclusivi
+hidden_bg-nl;Exclusieve achtergronden
+hidden_bg-pt;Fundos exclusivos
+hidden_bg-ru;Эксклюзивные фоны
+hidden_bg-tr;Özel Arka Planlar
 
 change_bg-de;Dynamischer Hintergrund
 change_bg-en;Dynamic Background

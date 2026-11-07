@@ -82,28 +82,27 @@ async function loadAccessRules() {
       if (!res.ok) throw createHttpError(res, url);
       return res.json();
     }, 10000, url);
-    const normalizeList = (arr) => new Set((arr || []).map(normalizeAccessKey).filter(Boolean));
+    const getAccessIds = (arr) => Array.isArray(arr)
+      ? arr.map(entry => {
+        if (typeof entry === "string") return entry;
+        if (entry && typeof entry === "object" && entry.id != null) return String(entry.id);
+        return "";
+      }).filter(Boolean)
+      : [];
+    const normalizeList = (arr) => new Set(getAccessIds(arr).map(normalizeAccessKey).filter(Boolean));
     accessRules.exemptUserIds = new Set(
-      (data.exemptUsers || data.exemptUserIds || [])
-        .map(u => typeof u === "string" ? u : String(u.id))
-        .filter(Boolean)
+      getAccessIds(data.exemptUsers || data.exemptUserIds)
     );
     accessRules.blockedForEveryone = normalizeList(data.blockedForEveryone);
     accessRules.membersOnly = normalizeList(data.membersOnly);
     accessRules.blockedBackgroundsForEveryone = normalizeList(data.blockedBackgroundsForEveryone);
     accessRules.membersOnlyBackgrounds = normalizeList(data.membersOnlyBackgrounds);
     accessRules.newMutants = normalizeList(data.newMutants);
-    accessRules.newMutantEntries = Array.isArray(data.newMutants)
-      ? data.newMutants.filter(value => typeof value === "string")
-      : [];
+    accessRules.newMutantEntries = getAccessIds(data.newMutants);
     accessRules.newSkins = normalizeList(data.newSkins);
-    accessRules.newSkinEntries = Array.isArray(data.newSkins)
-      ? data.newSkins.filter(skin => typeof skin === "string")
-      : [];
+    accessRules.newSkinEntries = getAccessIds(data.newSkins);
     accessRules.newBackgrounds = normalizeList(data.newBackgrounds);
-    accessRules.newBackgroundEntries = Array.isArray(data.newBackgrounds)
-      ? data.newBackgrounds.filter(value => typeof value === "string")
-      : [];
+    accessRules.newBackgroundEntries = getAccessIds(data.newBackgrounds);
   } catch (e) {
     accessRules.exemptUserIds = new Set();
     accessRules.blockedForEveryone = new Set();

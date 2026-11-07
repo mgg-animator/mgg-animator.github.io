@@ -10,10 +10,11 @@
 
   "blockedForEveryone": [
     { "id": "Specimen_CA_04_science", "name": "projext x27" },
-    { "id": "specimen_ec_02_thanksgiving", "name": "behemoth" }
+    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
   "membersOnly": [
+    { "id": "Specimen_BA_15", "name": "formula muerte" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }
@@ -38,20 +39,15 @@
 
   "newMutants": [
     { "id": "Specimen_BD_15", "name": "Elephant" },
-    { "id": "Specimen_EC_14", "name": "Celene" },
     { "id": "Specimen_BA_15", "name": "formula muerte" }
   ],
 
   "newSkins": [
-    { "id": "specimen_ec_02_thanksgiving", "name": "behemoth" },
-    { "id": "Specimen_CA_04_science", "name": "projext x27" },
-    { "id": "Specimen_DC_04_halloween", "name": "cesanne" },
-    { "id": "Specimen_CF_10_halloween", "name": "arelvam" },
-    { "id": "Specimen_CE_09_halloween", "name": "tsar bomba" }
+    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" },
+    { "id": "Specimen_CA_04_science", "name": "projext x27" }
   ],
   
   "newBackgrounds": [
-    { "id": "boneyard", "name": "boneyard" },
-    { "id": "halloween26", "name": "Halloween 2026" }
+    { "id": "boneyard", "name": "boneyard" }
   ]
 }

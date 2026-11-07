@@ -602,7 +602,7 @@ default_a;[Specimen_AB_15];&&/images/thumbnails/specimen_ab_15.png;specimen_ab_1
 default_b;[Specimen_BA_15];&&/images/thumbnails/specimen_ba_15.png;specimen_ba_15
 //default_b;[Specimen_BB_15];&&/images/thumbnails/specimen_bb_15.png;specimen_bb_15
 //default_b;[Specimen_BC_15];&&/images/thumbnails/specimen_bc_15.png;specimen_bc_15
-//default_b;[Specimen_BD_15];&&/images/thumbnails/specimen_bd_15.png;specimen_bd_15
+default_b;[Specimen_BD_15];&&/images/thumbnails/specimen_bd_15.png;specimen_bd_15
 default_b;[Specimen_BE_15];&&/images/thumbnails/specimen_be_15.png;specimen_be_15
 //default_b;[Specimen_BF_15];&&/images/thumbnails/specimen_bf_15.png;specimen_bf_15
 //default_c;[Specimen_CA_15];&&/images/thumbnails/specimen_ca_15.png;specimen_ca_15

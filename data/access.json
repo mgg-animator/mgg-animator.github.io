@@ -9,46 +9,49 @@
   ],
 
   "blockedForEveryone": [
-    "Specimen_BA_15",
-    "Specimen_CA_04_science"
+    { "id": "Specimen_CA_04_science", "name": "projext x27" },
+    { "id": "specimen_ec_02_thanksgiving", "name": "behemoth" }
   ],
 
   "membersOnly": [
-    "Specimen_FE_13_seasons",
-    "Specimen_AF_10_purgatory",
-    "Specimen_DD_04_winter"
+    { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
+    { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
+    { "id": "Specimen_DD_04_winter", "name": "cernunos" }
   ],
 
   "blockedBackgroundsForEveryone": [
+    { "id": "boneyard", "name": "boneyard" }
   ],
 
   "membersOnlyBackgrounds": [
-    "anniversary_20_2",
-    "laboratory",
-    "10years_2",
-    "10years_3",
-    "anniversary_24_2",
-    "anniversary_25_2",
-    "hexcity_2",
-    "xmas23_2",
-    "xmas24_2",
-    "xmas25_2"
+    { "id": "anniversary_20_2", "name": "Anniversary 20/2" },
+    { "id": "laboratory", "name": "Laboratory" },
+    { "id": "10years_2", "name": "10 Years 2" },
+    { "id": "10years_3", "name": "10 Years 3" },
+    { "id": "anniversary_24_2", "name": "Anniversary 24/2" },
+    { "id": "anniversary_25_2", "name": "Anniversary 25/2" },
+    { "id": "hexcity_2", "name": "Hexcity 2" },
+    { "id": "xmas23_2", "name": "Christmas 2023 2" },
+    { "id": "xmas24_2", "name": "Christmas 2024 2" },
+    { "id": "xmas25_2", "name": "Christmas 2025 2" }
   ],
 
   "newMutants": [
-    "Specimen_EC_14",
-    "Specimen_BA_15"
+    { "id": "Specimen_BD_15", "name": "Elephant" },
+    { "id": "Specimen_EC_14", "name": "Celene" },
+    { "id": "Specimen_BA_15", "name": "formula muerte" }
   ],
 
   "newSkins": [
-    "Specimen_CA_04_science",
-    "Specimen_DC_04_halloween",
-    "Specimen_CF_10_halloween",
-    "Specimen_CE_09_halloween"
-    
+    { "id": "specimen_ec_02_thanksgiving", "name": "behemoth" },
+    { "id": "Specimen_CA_04_science", "name": "projext x27" },
+    { "id": "Specimen_DC_04_halloween", "name": "cesanne" },
+    { "id": "Specimen_CF_10_halloween", "name": "arelvam" },
+    { "id": "Specimen_CE_09_halloween", "name": "tsar bomba" }
   ],
   
   "newBackgrounds": [
-    "halloween26"
+    { "id": "boneyard", "name": "boneyard" },
+    { "id": "halloween26", "name": "Halloween 2026" }
   ]
 }

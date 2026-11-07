@@ -1,0 +1,14 @@
+skin;#basic;&&/images/ui/icons/skins/skin_basic.png;
+
+skin;[bronze];&&/images/ui/icons/skins/skin_bronze.png;bronze
+skin;[silver];&&/images/ui/icons/skins/skin_silver.png;silver
+skin;[gold];&&/images/ui/icons/skins/skin_gold.png;gold
+skin;[platinium];&&/images/ui/icons/skins/skin_platinum.png;platinum
+
+animation;#stand;&&/images/ui/icons/animations/animation_stand.png;stand
+animation;#attack1;&&/images/ui/icons/animations/animation_attack1.png;attack1
+animation;#attack1p;&&/images/ui/icons/animations/animation_attack1p.png;attack1p
+animation;#attack2;&&/images/ui/icons/animations/animation_attack2.png;attack2
+animation;#attack2p;&&/images/ui/icons/animations/animation_attack2p.png;attack2p
+animation;#hit;&&/images/ui/icons/animations/animation_hit.png;hit
+animation;#death;&&/images/ui/icons/animations/animation_death.png;death

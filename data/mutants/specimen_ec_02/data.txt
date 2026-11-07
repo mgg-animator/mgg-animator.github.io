@@ -4,6 +4,8 @@ skin;[silver];&&/images/ui/icons/skins/skin_silver.png;silver
 skin;[gold];&&/images/ui/icons/skins/skin_gold.png;gold
 skin;[platinium];&&/images/ui/icons/skins/skin_platinum.png;platinum
 
+skin;#thanksgiving;&&/images/ui/icons/skins/skin_thanksgiving.png;thanksgiving
+
 animation;#stand;&&/images/ui/icons/animations/animation_stand.png;stand
 animation;#attack1;&&/images/ui/icons/animations/animation_attack1.png;attack1
 animation;#attack1p;&&/images/ui/icons/animations/animation_attack1p.png;attack1p

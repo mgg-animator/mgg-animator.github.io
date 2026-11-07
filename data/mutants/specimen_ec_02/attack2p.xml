@@ -1046,7 +1046,13 @@
     <Frame>
       <Tag key="sound" value="mutant_ec_02_attack3" />
     </Frame>
-    <Frame rep="6" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="blurX" value="20" />
     </Frame>
@@ -1057,14 +1063,55 @@
     <Frame>
       <Tag key="blurX" value="20" />
     </Frame>
-    <Frame rep="9" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="arrived" />
     </Frame>
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="32" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="blurX" value="15" />
     </Frame>
@@ -1075,7 +1122,40 @@
       <Tag key="label" value="impact" />
       <Tag key="blurX" value="15" />
     </Frame>
-    <Frame rep="33" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="blurX" value="20" />
     </Frame>
@@ -1083,15 +1163,32 @@
       <Tag key="label" value="return" />
       <Tag key="blurX" value="20" />
     </Frame>
-    <Frame rep="11" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="back" />
     </Frame>
-    <Frame rep="5" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>thanksgiving</Skin>
     <DataPoint name="DataPoint001" x="368" y="-98" />
   </Sprite>
   

@@ -551,7 +551,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="52" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -582,7 +622,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="55" x="-140" y="-225" angle="10.2240686" scaleX="1.82395518" scaleY="1.7423538" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -613,7 +693,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="54" x="-133" y="-256" angle="10.2240686" scaleX="1.82395518" scaleY="-1.24018693" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -644,7 +764,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="57" x="-178" y="-242" angle="19.5661221" scaleX="1.82395518" scaleY="-1.24018693" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -675,7 +835,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="56" x="-202" y="-163" angle="-18.0714855" scaleX="1.82395518" scaleY="1.70677209" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -918,7 +1118,126 @@
           <Key frame="12" x="65" y="-208" angle="-6.3734436" />
           <Key frame="61" x="72" y="-208" angle="-6.3734436" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="24" y="1" />
       <Key frame="50" y="1" />
@@ -955,7 +1274,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="59" x="-192" y="-187" angle="-10.6990423" scaleX="1.82395518" scaleY="1.81423485" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -986,7 +1345,47 @@
           <Image srcX="224" srcY="221" dstX="553.985657" dstY="126.125854" width="81" height="315" a="0.207046375" b="-0.978331149" c="-0.978331149" d="-0.207046434" />
           <Image srcX="811" srcY="180" dstX="586" dstY="46" width="25" height="99" a="-0.149103582" b="0.988821447" c="-0.9888215" d="-0.149103582" />
         </Frame>
-        <Frame rep="40" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="58" x="-244" y="-241" angle="-0.573112369" scaleX="1.82395518" scaleY="-0.6474084" />
       <Key frame="95" x="-176" y="-225" angle="-2.53070354" scaleX="1.82395518" scaleY="1.7423538" visible="false" />
@@ -1001,7 +1400,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="58" x="765" y="-190" scaleX="2.407669" scaleY="2.407669" />
     </Composite>
@@ -1015,7 +1533,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="59" x="811" y="-314" scaleX="2.407669" scaleY="2.407669" />
     </Composite>
@@ -1029,7 +1666,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="59" x="828" y="-79" scaleX="2.407669" scaleY="2.407669" />
     </Composite>
@@ -1043,7 +1799,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="60" x="901" y="-206" scaleX="2.407669" scaleY="2.407669" />
     </Composite>
@@ -1057,7 +1932,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="62" x="722" y="-123" scaleX="2.407669" scaleY="2.407669" />
     </Composite>
@@ -1071,7 +2065,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="62" x="667" y="-37" scaleX="3.14338446" scaleY="3.14338446" />
     </Composite>
@@ -1085,7 +2198,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="62" x="663" y="-293" scaleX="3.14338446" scaleY="3.14338446" />
     </Composite>
@@ -1099,7 +2331,126 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="65" x="902" y="-132" scaleX="2.610573" scaleY="2.610573" />
     </Composite>
@@ -1113,14 +2464,140 @@
           <Key frame="3" x="-1" y="4.76190472" scaleX="1.18636942" scaleY="1.18636942" rAdd="0.5019608" gAdd="0.5019608" bAdd="1" />
           <Key frame="10" x="-1" y="4.76190472" scaleX="1.366904" scaleY="1.366904" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="119" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="67" x="624" y="-211" scaleX="2.24688268" scaleY="2.24688268" />
     </Composite>
     <Frame>
       <Tag key="sound" value="mutant_ec_02_attack" />
     </Frame>
-    <Frame rep="7" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="start" />
     </Frame>
@@ -1131,14 +2608,52 @@
     <Frame>
       <Tag key="blurX" value="20" />
     </Frame>
-    <Frame rep="5" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="arrived" />
     </Frame>
-    <Frame rep="37" />
-    <Frame>
-      <Tag key="label" value="impact" />
-    </Frame>
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame />
     <Frame>
       <Tag key="label" value="impact" />
@@ -1147,7 +2662,12 @@
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="1" />
+    <Frame />
+    <Frame>
+      <Tag key="label" value="impact" />
+    </Frame>
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
@@ -1155,19 +2675,67 @@
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="34" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="return" />
     </Frame>
-    <Frame rep="10" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="back" />
     </Frame>
-    <Frame rep="3" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>thanksgiving</Skin>
     <DataPoint name="DataPoint001" x="759" y="-162" />
   </Sprite>
   

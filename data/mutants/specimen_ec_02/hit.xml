@@ -174,10 +174,24 @@
       <Key frame="0" x="-1" y="-160" angle="29.3628826" />
       <Key frame="13" x="52" y="-182" />
     </Composite>
-    <Frame rep="13" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>thanksgiving</Skin>
   </Sprite>
   

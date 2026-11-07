@@ -109,6 +109,7 @@ bg_rid;Everlasting Sands;$$hud/dungeons_selection/bg_everlastingsands.png;everla
 bg_rid;Architectural Chaos;$$hud/dungeons_selection/bg_architecture.png;architecture
 bg_rid;Oceanic Vendetta;$$hud/dungeons_selection/bg_mafia.png;mafia
 bg_rid;Abyss;$$hud/dungeons_selection/bg_abyss.png;abyss
+bg_rid;The Elephant Boneyard;$$hud/dungeons_selection/bg_boneyard.png;boneyard
 
   //Valentin
 bg_val;Whirling Passion;$$hud/dungeons_selection/bg_valentines.png;valentines

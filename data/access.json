@@ -9,12 +9,11 @@
   ],
 
   "blockedForEveryone": [
-    { "id": "Specimen_CA_04_science", "name": "projext x27" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
   "membersOnly": [
-    { "id": "Specimen_BA_15", "name": "formula muerte" },
+    { "id": "Specimen_CA_04_science", "name": "projext x27" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }

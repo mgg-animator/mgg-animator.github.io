@@ -9,6 +9,7 @@
   ],
 
   "blockedForEveryone": [
+    { "id": "Specimen_BD_15", "name": "Elefante" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
@@ -24,20 +25,20 @@
   ],
 
   "membersOnlyBackgrounds": [
-    { "id": "anniversary_20_2", "name": "Anniversary 20/2" },
+    { "id": "anniversary_20_2", "name": "Anniversario 20-2" },
     { "id": "laboratory", "name": "Laboratory" },
     { "id": "10years_2", "name": "10 Years 2" },
     { "id": "10years_3", "name": "10 Years 3" },
-    { "id": "anniversary_24_2", "name": "Anniversary 24/2" },
-    { "id": "anniversary_25_2", "name": "Anniversary 25/2" },
+    { "id": "anniversary_24_2", "name": "Anniversario 24-2" },
+    { "id": "anniversary_25_2", "name": "Anniversario 25-2" },
     { "id": "hexcity_2", "name": "Hexcity 2" },
-    { "id": "xmas23_2", "name": "Christmas 2023 2" },
-    { "id": "xmas24_2", "name": "Christmas 2024 2" },
-    { "id": "xmas25_2", "name": "Christmas 2025 2" }
+    { "id": "xmas23_2", "name": "Navidad 2023-2" },
+    { "id": "xmas24_2", "name": "Navidad 2024-2" },
+    { "id": "xmas25_2", "name": "Navidad 2025-2" }
   ],
 
   "newMutants": [
-    { "id": "Specimen_BD_15", "name": "Elephant" },
+    { "id": "Specimen_BD_15", "name": "Elefante" },
     { "id": "Specimen_BA_15", "name": "formula muerte" }
   ],
 

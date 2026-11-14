@@ -1,3 +1,4 @@
+skin;#basic;&&/images/ui/icons/skins/skin_basic.png;
 skin;#western;&&/images/ui/icons/skins/skin_western.png;western
 
 animation;#stand;&&/images/ui/icons/animations/animation_stand.png;stand

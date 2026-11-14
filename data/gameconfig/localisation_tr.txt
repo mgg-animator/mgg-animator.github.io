@@ -21305,8 +21305,8 @@ bank_halloween26_mutants_t4;Cadılar Bayramı Paketi
 bank_halloween26_mutants_t5;Çaylak Cadılar Bayramı Bankası paketi
 bank_halloween26_mutants_t1_payment_text;Bu paket şunları içerir: - 14 000 Altın - Sürünen Çılgınlık
 bank_halloween26_mutants_t2_payment_text;Bu paket şunları içerir: - 6 500 Altın - Balkabağı Trikin
-bank_halloween26_mutants_t3_payment_text;Bu paket şunları içerir: - 3 200 Altın - Ruh Birleşmesi
-bank_halloween26_mutants_t4_payment_text;Bu paket şunları içerir: - 1 150 Altın - Fenerli doktor
+bank_halloween26_mutants_t3_payment_text;Bu paket şunları içerir: - 3 200 Altın - Fenerli doktor
+bank_halloween26_mutants_t4_payment_text;Bu paket şunları içerir: - 1 150 Altın - Acheron
 bank_halloween26_mutants_t5_payment_text;Bu paket şunları içerir: - 500 Altın - Kabak Feneri
 bundle_orbs_slash_5_30;Yara Paketi
 halloween_conversion_pack_2026_t1;Altın Kazan
@@ -21431,3 +21431,50 @@ Specimen_EC_14_attack_1;Ay Işığı Kesici
 Specimen_EC_14_attack_1p;Ay Işığı Kesici
 Specimen_EC_14_attack_2;Ay Işığı Oku
 Specimen_EC_14_attack_2p;Ay Işığı Yağmuru
+Mystery_Science_2026;Bilim Günü Gizem Kutusu
+mystery_science_2026_tooltip;Bu kutu, Bilim Günü'nü kutlamak için rastgele bir mutant içerir. Özel Bilim kostümüyle Project X27'ı kazanma şansı! (2026 kostüm bingo tablosunda yer almaktadır. Diğer tüm sonuçlarda bonus olarak bir Gizem jetonu verilir)
+black_friday_2500_2026;Şükran Günü Altın Teklifi
+black_friday_2500_2026_payment_text;Bu benzersiz fırsat şunu içerir:\n - 2500 Altın
+black_friday_5000_2026;Şükran Günü Altın Teklifi
+black_friday_5000_2026_payment_text;Bu benzersiz fırsat şunu içerir:\n - 5000 Altın
+black_friday_10000_2026;Şükran Günü Altın Teklifi
+black_friday_10000_2026_payment_text;Bu benzersiz fırsat şunu içerir:\n - 10 000 Altın
+Mystery_Thanksgiving_2026;Thanksgiving Gizemli Kutu
+Mystery_Thanksgiving_2026_tooltip;Bu kutu, Cadılar Bayramı'nı kutlamak için rastgele bir mutant içerir. Özel Cadılar Bayramı kostümüyle Behemot'i kazanma şansı! (2025 kostümleri ve etkinlik bingo tablolarına dahil edilmiştir. Diğer tüm sonuçlarda bonus olarak bir Gizem jetonu verilir.)
+Pack_Turquoise;Turkuaz Paketi
+Pack_Turquoise_description;Bu paket şunları içerir: \n - Altın Ammonia Atlantica \n - Altın Thrann \n - Gümüş Tornado Öfkesi
+bank_5m_fb_14_100jp;Zagam, Açgözlülüğün Büyük Kralı Prestij Paketi
+bank_5m_de_14_45jp;Süperkütleli Sonsuzluk Selendis Kıdemli
+bank_5m_dc_14_20jp;Jurasik Dehşet Paketi
+bank_5m_fe_14_10jp;Serafik Çekirdek Paketi
+bank_5m_aa_13_t5;TCB-8566 Trafikroid Paketi
+bank_5m_fb_14_100jp_payment_text;Bu paket şunları içerir: - 14 000 Altın - 100 Jackpot Jetonu - Zagam, Açgözlülüğün Büyük Kralı
+bank_5m_de_14_45jp_payment_text;Bu paket şunları içerir: - 6 500 Altın - 45 Jackpot Jetonu - Süperkütleli Sonsuzluk
+bank_5m_dc_14_20jp_payment_text;Bu paket şunları içerir: - 3 100 Altın - 20 Jackpot Jetonu - Jurasik Dehşet
+bank_5m_fe_14_10jp_payment_text;Bu paket şunları içerir: - 1 100 Altın - 10 Jackpot Jetonu - Serafik Çekirdek
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Altın - TCB-8566 Trafikroid
+pack_conversion_nov_2026_1;Altın Kazan
+pack_conversion_nov_2026_1_payment_text;Bu benzersiz fırsat şunu içerir:\n - 5000 Altın
+pack_conversion_nov_2026_2;Büyük Altın Kazan
+pack_conversion_nov_2026_2_payment_text;Bu benzersiz fırsat şunu içerir:\n - 15 000 Altın
+Specimen_BD_15;Nekrotik Leşleri
+caption_specimen_bd_15;Milyonlarca yıl boyunca vahşi hayvanlar doğdu, yaşadı ve öldü. Milyonlarca yıl boyunca kemikler yığıldı ve her birinin duyguları ve hisleri bu vadide birikti. Tüm insanlık, sanki lanetli bir yermiş gibi burayı doğal olarak kaçındı. Ancak merak, sağduyuyu alt etti ve burası sonunda keşfedildi. 30 kişilik keşif ekibinden sadece iki kişi hayatta kaldı. Onlar da kısa süre sonra yaralanmaları ve orada kaptıkları hastalıklar nedeniyle öldüler. Son sözleri şuydu: “Oraya bir daha asla gitmeyin.”
+Specimen_BD_15_attack_1;Kemik Kafes
+Specimen_BD_15_attack_1p;Kemik Kafes
+Specimen_BD_15_attack_2;Kemik Kırıcı
+Specimen_BD_15_attack_2p;Kafatası Kırıcı
+Specimen_FB_04_Silver;Gümüş Şeytani Cadı
+Specimen_FB_06_sc;Büyücü Kadın
+Specimen_AC_05_Silver_sc;Gümüş Siber Punk
+bundle_orbs_adaptive_regenerate_15;Uyarlama Paketi
+pack_daily_50_jt_61;Jeton Fırsatı
+pack_daily_50_jt_62;Jeton Fırsatı
+pack_daily_50_jt_63;Jeton Fırsatı
+pack_daily_50_jt_64;Jeton Fırsatı
+pack_daily_50_jt_65;Jeton Fırsatı
+pack_daily_50_jt_66;Jeton Fırsatı
+pack_daily_50_jt_67;Jeton Fırsatı
+pack_daily_50_jt_68;Jeton Fırsatı
+pack_daily_50_jt_69;Jeton Fırsatı
+pack_daily_50_jt_70;Jeton Fırsatı
+bundle_orbs_experimental_barrier_11;Bariyer Küresi Paketi

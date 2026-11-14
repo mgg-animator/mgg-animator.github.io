@@ -21276,8 +21276,8 @@ bank_halloween26_mutants_t4;Pacote de Halloween
 bank_halloween26_mutants_t5;Oferta de Banco de Halloween Rookie
 bank_halloween26_mutants_t1_payment_text;Este pacote inclui: - 14.000 de ouro - A Loucura Rastejante
 bank_halloween26_mutants_t2_payment_text;Este pacote inclui: - 6.500 de ouro - Triquinando a Abóbora
-bank_halloween26_mutants_t3_payment_text;Este pacote inclui: - 3.200 de ouro - Amagalmas
-bank_halloween26_mutants_t4_payment_text;Este pacote inclui: - 1.150 de ouro - Médico com lanterna
+bank_halloween26_mutants_t3_payment_text;Este pacote inclui: - 3.200 de ouro - Médico com lanterna
+bank_halloween26_mutants_t4_payment_text;Este pacote inclui: - 1.150 de ouro - Aqueronte
 bank_halloween26_mutants_t5_payment_text;Este pacote inclui: - 500 de ouro - Jack O'Lantern
 bundle_orbs_slash_5_30;Pacote Ferida
 halloween_conversion_pack_2026_t1;Cauldron de ouro
@@ -21402,3 +21402,50 @@ Specimen_EC_14_attack_1;Golpe do Luz da Lua
 Specimen_EC_14_attack_1p;Golpe do Luz da Lua
 Specimen_EC_14_attack_2;Flecha do Luz da Lua
 Specimen_EC_14_attack_2p;Chuva do Luz da Lua
+Mystery_Science_2026;Caixa Misteriosa do Dia da Ciência
+mystery_science_2026_tooltip;Esta caixa contém um mutante aleatório para celebrar o Dia da Ciência. Uma oportunidade de obter o Project X27 com um visual exclusivo da Ciência! (Apresentado na grelha do bingo da skin 2026. Uma ficha Mistério como bónus com todos os outros resultados)
+black_friday_2500_2026;Oferta de Ouro do Dia de Ação de Graças
+black_friday_2500_2026_payment_text;Esta oferta única contém:\n- 2500 de ouro
+black_friday_5000_2026;Oferta de Ouro do Dia de Ação de Graças
+black_friday_5000_2026_payment_text;Esta oferta única contém:\n- 5000 de ouro
+black_friday_10000_2026;Oferta de Ouro do Dia de Ação de Graças
+black_friday_10000_2026_payment_text;Esta oferta única contém:\n- 10.000 de ouro
+Mystery_Thanksgiving_2026;Caixa Mistério do Thanksgiving
+Mystery_Thanksgiving_2026_tooltip;Esta caixa contém um mutante aleatório para celebrar o Thanksgiving. Uma oportunidade de obter o Behemoth com uma skin exclusiva do Thanksgiving! (Apresentado nas grelhas de bingo de 2025 skins e eventos. Uma ficha Mistério como bónus com todos os outros resultados)
+Pack_Turquoise;Pacote Turquesa
+Pack_Turquoise_description;Este pacote inclui: \n - Amônia Atlântica Ouro \n - Thrann Ouro \n - Spin Fury Prata
+bank_5m_fb_14_100jp;Pacote de Prestígio Zagam, Grande Rei da Cobiça
+bank_5m_de_14_45jp;Pacote Veterano Infinito Supermassivo
+bank_5m_dc_14_20jp;Pacote de Terror Jurássico
+bank_5m_fe_14_10jp;Pacote de Núcleo Seráfico
+bank_5m_aa_13_t5;Pacote de TCB-8566 Traficóide
+bank_5m_fb_14_100jp_payment_text;Este pacote inclui: - 14.000 de ouro - 100 Tokens Jackpot - Zagam, Grande Rei da Cobiça
+bank_5m_de_14_45jp_payment_text;Este pacote inclui: - 6.500 de ouro - 45 Tokens Jackpot - Infinito Supermassivo
+bank_5m_dc_14_20jp_payment_text;Este pacote inclui: - 3.100 de ouro - 20 Tokens Jackpot - Terror Jurássico
+bank_5m_fe_14_10jp_payment_text;Este pacote inclui: - 1.100 de ouro - 10 Tokens Jackpot - Núcleo Seráfico
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 de ouro - TCB-8566 Traficóide
+pack_conversion_nov_2026_1;Caldeirão dourado
+pack_conversion_nov_2026_1_payment_text;Esta oferta única contém:\n- 5000 de ouro
+pack_conversion_nov_2026_2;Grande Caldeirão dourado
+pack_conversion_nov_2026_2_payment_text;Esta oferta única contém:\n- 15.000 de ouro
+Specimen_BD_15;Carcaça Necrótica
+caption_specimen_bd_15;Ao longo de milhões de anos, animais selvagens nasceram, viveram e morreram. Ao longo de milhões de anos, os ossos acumularam-se e as emoções e sentimentos de cada um deles acumularam-se neste vale. Toda a humanidade evitava-o naturalmente, como se fosse um lugar amaldiçoado. Mas a curiosidade levou a melhor sobre o bom senso e o local acabou por ser explorado. Dois sobreviventes de uma expedição de 30 pessoas. Morreram pouco tempo depois devido aos ferimentos e às doenças contraídas no local. As suas últimas palavras foram: «Nunca mais voltem lá.»
+Specimen_BD_15_attack_1;Gaiola de ossos
+Specimen_BD_15_attack_1p;Gaiola de ossos
+Specimen_BD_15_attack_2;Quebra-ossos
+Specimen_BD_15_attack_2p;Quebra-crânios
+Specimen_FB_04_Silver;Wicked Witch Prata
+Specimen_FB_06_sc;Feiticeira
+Specimen_AC_05_Silver_sc;Ciber Punk Prata
+bundle_orbs_adaptive_regenerate_15;Pacote Adaptável
+pack_daily_50_jt_61;Oferta de fichas
+pack_daily_50_jt_62;Oferta de fichas
+pack_daily_50_jt_63;Oferta de fichas
+pack_daily_50_jt_64;Oferta de fichas
+pack_daily_50_jt_65;Oferta de fichas
+pack_daily_50_jt_66;Oferta de fichas
+pack_daily_50_jt_67;Oferta de fichas
+pack_daily_50_jt_68;Oferta de fichas
+pack_daily_50_jt_69;Oferta de fichas
+pack_daily_50_jt_70;Oferta de fichas
+bundle_orbs_experimental_barrier_11;Pacote Orbe de Barreira

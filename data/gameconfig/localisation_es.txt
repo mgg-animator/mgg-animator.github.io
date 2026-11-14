@@ -21318,8 +21318,8 @@ bank_halloween26_mutants_t4;Paquete Halloween Prestigio
 bank_halloween26_mutants_t5;Oferta Banco de Halloween Novato
 bank_halloween26_mutants_t1_payment_text;Este paquete contiene: - 14000 Oro - La locura reptante
 bank_halloween26_mutants_t2_payment_text;Este paquete contiene: - 6500 Oro - Traiciobaza
-bank_halloween26_mutants_t3_payment_text;Este paquete contiene: - 3200 Oro - Amalgalmas
-bank_halloween26_mutants_t4_payment_text;Este paquete contiene: - 1150 Oro - Doctor del Farol
+bank_halloween26_mutants_t3_payment_text;Este paquete contiene: - 3200 Oro - Doctor del Farol
+bank_halloween26_mutants_t4_payment_text;Este paquete contiene: - 1150 Oro - Aqueronte
 bank_halloween26_mutants_t5_payment_text;Este paquete contiene: - 500 Oro - Jack O'Lantern
 bundle_orbs_slash_5_30;Paquete Herida
 halloween_conversion_pack_2026_t1;Caldero de Oro
@@ -21444,3 +21444,50 @@ Specimen_EC_14_attack_1;Tajo de luz lunar
 Specimen_EC_14_attack_1p;Tajo de luz lunar
 Specimen_EC_14_attack_2;Flecha de luz lunar
 Specimen_EC_14_attack_2p;Lluvia de luz lunar
+Mystery_Science_2026;Caja misteriosa del Día de la Ciencia
+mystery_science_2026_tooltip;Esta caja contiene un mutante aleatorio para celebrar el Día de la Ciencia. Una oportunidad de conseguir a Project X27 con un aspecto exclusivo de Ciencia. (Aparece en la parrilla del bingo de 2026 aspectos. Una ficha Misteriosa como bonificación con todos los demás resultados)
+black_friday_2500_2026;Oferta de oro de Acción de Gracias
+black_friday_2500_2026_payment_text;Esta oferta única incluye:\n- 2500 Oro
+black_friday_5000_2026;Oferta de oro de Acción de Gracias
+black_friday_5000_2026_payment_text;Esta oferta única incluye:\n- 5000 Oro
+black_friday_10000_2026;Oferta de oro de Acción de Gracias
+black_friday_10000_2026_payment_text;Esta oferta única incluye:\n- 10 000 Oro
+Mystery_Thanksgiving_2026;Caja Misteriosa Acción de Gracias
+Mystery_Thanksgiving_2026_tooltip;Esta caja contiene un mutante aleatorio para celebrar Thanksgiving. ¡Una oportunidad de conseguir a Behemoth con un aspecto exclusivo de Thanksgiving! (Aparece en las parrillas de bingo de skins y eventos de 2025. Una ficha de Misterio como bonificación con el resto de resultados)
+Pack_Turquoise;Paquete Turquesa
+Pack_Turquoise_description;Este paquete contiene: \n - Ammonia Atlantica Oro \n - Thrann Oro \n - Spin Fury Plata
+bank_5m_fb_14_100jp;Paquete Zagam, Gran Rey de la Avaricia Prestigio
+bank_5m_de_14_45jp;Paquete Infinito Supermasivo Prestigio
+bank_5m_dc_14_20jp;Paquete Terror Jurásico Prestigio
+bank_5m_fe_14_10jp;Paquete Núcleo seráfico Prestigio
+bank_5m_aa_13_t5;Paquete TCB-8566 Trafficroid Prestigio
+bank_5m_fb_14_100jp_payment_text;Este paquete contiene: - 14000 Oro - 100 Fichas Jackpot - Zagam, Gran Rey de la Avaricia
+bank_5m_de_14_45jp_payment_text;Este paquete contiene: - 6 500 Or - 45 Fichas Jackpot - Infinito Supermasivo
+bank_5m_dc_14_20jp_payment_text;Este paquete contiene: - 3100 Oro - 20 Fichas Jackpot - Terror Jurásico
+bank_5m_fe_14_10jp_payment_text;Este paquete contiene: - 1100 Oro - 10 Fichas Jackpot - Núcleo seráfico
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Oro - TCB-8566 Trafficroid
+pack_conversion_nov_2026_1;Caldero de Oro
+pack_conversion_nov_2026_1_payment_text;Esta oferta única incluye:\n- 5000 Oro
+pack_conversion_nov_2026_2;Caldero de Oro Grande
+pack_conversion_nov_2026_2_payment_text;Esta oferta única incluye:\n- 15 000 Oro
+Specimen_BD_15;Carcasa necrótica
+caption_specimen_bd_15;A lo largo de millones de años, los animales salvajes nacieron, vivieron y murieron. A lo largo de millones de años, los huesos se amontonaron, y las emociones y los sentimientos de cada uno de ellos se acumularon en este valle. Toda la humanidad lo evitaba de forma natural, como si fuera un lugar maldito. Pero la curiosidad se impuso al sentido común y, finalmente, el lugar fue explorado. Dos supervivientes de una expedición de 30 personas. Murieron poco después a causa de sus heridas y de las enfermedades contraídas allí. Sus últimas palabras fueron: «No volváis nunca allí».
+Specimen_BD_15_attack_1;Jaula de huesos
+Specimen_BD_15_attack_1p;Jaula de huesos
+Specimen_BD_15_attack_2;Rompehuesos
+Specimen_BD_15_attack_2p;Rompe cráneos
+Specimen_FB_04_Silver;Bruja Malvada Plata
+Specimen_FB_06_sc;Hechicera
+Specimen_AC_05_Silver_sc;Ciberpunk Plata
+bundle_orbs_adaptive_regenerate_15;Paquete Adaptativo
+pack_daily_50_jt_61;Oferta Fichas
+pack_daily_50_jt_62;Oferta Fichas
+pack_daily_50_jt_63;Oferta Fichas
+pack_daily_50_jt_64;Oferta Fichas
+pack_daily_50_jt_65;Oferta Fichas
+pack_daily_50_jt_66;Oferta Fichas
+pack_daily_50_jt_67;Oferta Fichas
+pack_daily_50_jt_68;Oferta Fichas
+pack_daily_50_jt_69;Oferta Fichas
+pack_daily_50_jt_70;Oferta Fichas
+bundle_orbs_experimental_barrier_11;Paquete Orbe Barrera

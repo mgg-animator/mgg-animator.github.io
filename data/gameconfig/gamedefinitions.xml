@@ -565,7 +565,7 @@
       </State>
       <State x="718" y="1044" id="READY_04" caption="$Ready" spriteId="building_event_ready">
         <InteractiveAction x="438" y="743" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_FA_10" />
+          <Reward id="Specimen_BE_10" />
         </InteractiveAction>
       </State>
       <State x="9" y="1147" id="READY_05" caption="$Ready" spriteId="building_event_ready">
@@ -586,7 +586,7 @@
       </State>
       <State x="-529" y="452" id="READY_07" caption="$Ready" spriteId="building_event_ready">
         <InteractiveAction x="-184" y="448" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_EB_08" />
+          <Reward id="Specimen_CC_07" />
         </InteractiveAction>
       </State>
       <State x="-251" y="220" id="WORKING_08" spriteId="building_event_running">
@@ -602,7 +602,7 @@
       </State>
       <State x="361" y="-7" id="READY_09" caption="$Ready" spriteId="building_event_ready">
         <InteractiveAction x="261" y="218" target="InitialState" id="RECOLT" caption="collectsqd">
-          <Reward id="Specimen_DC_14" />
+          <Reward id="Specimen_FD_13" />
         </InteractiveAction>
       </State>
       <State x="573" y="1156" id="WORKING_03" spriteId="building_event_running">
@@ -1296,6 +1296,30 @@
           <Cost amount="10" type="entity" id="Material_Mystery26_Token" />
           <Filter>Building_Mystery_2025_01</Filter>
         </InteractiveAction>
+        <InteractiveAction x="323" y="317" target="WORKING_07" id="CONTRACT_07">
+          <Cost amount="10" type="entity" id="Material_Mystery25_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
+        <InteractiveAction x="707" y="313" target="WORKING_08" id="CONTRACT_08">
+          <Cost amount="10" type="entity" id="Material_Mystery25_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
+        <InteractiveAction x="1088" y="311" target="WORKING_09" id="CONTRACT_09">
+          <Cost amount="10" type="entity" id="Material_Mystery25_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
+        <InteractiveAction x="323" y="317" target="WORKING_10" id="CONTRACT_10">
+          <Cost amount="10" type="entity" id="Material_Mystery26_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
+        <InteractiveAction x="707" y="313" target="WORKING_11" id="CONTRACT_11">
+          <Cost amount="10" type="entity" id="Material_Mystery25_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
+        <InteractiveAction x="1088" y="311" target="WORKING_12" id="CONTRACT_12">
+          <Cost amount="10" type="entity" id="Material_Mystery26_Token" />
+          <Filter>Building_Mystery_2026_02</Filter>
+        </InteractiveAction>
       </State>
       <State x="317" y="169" id="WORKING_01" spriteId="building_mystery_running">
         <TimeAction x="412" y="40" target="READY_01" seconds="86400" />
@@ -1360,6 +1384,72 @@
           <Reward id="Specimen_AB_11">
             <Tag key="stars" value="3" />
             <Tag key="skin" value="honeybee" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="317" y="169" id="WORKING_07" spriteId="building_mystery_running">
+        <TimeAction x="412" y="40" target="READY_01" seconds="86400" />
+      </State>
+      <State x="504" y="174" id="READY_07" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="511" y="315" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_ED_11">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="carnival" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="704" y="177" id="WORKING_08" spriteId="building_mystery_running">
+        <TimeAction x="809" y="54" target="READY_02" seconds="86400" />
+      </State>
+      <State x="889" y="172" id="READY_08" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="896" y="309" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_BF_12">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="patrick" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="1091" y="175" id="WORKING_09" spriteId="building_mystery_running">
+        <TimeAction x="1193" y="57" target="READY_03" seconds="86400" />
+      </State>
+      <State x="1279" y="175" id="READY_09" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="1277" y="311" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_CD_08">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="oktoberfest" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="1091" y="175" id="WORKING_10" spriteId="building_mystery_running">
+        <TimeAction x="1193" y="57" target="READY_04" seconds="86400" />
+      </State>
+      <State x="1279" y="175" id="READY_10" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="1277" y="311" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_EC_10">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="revolution" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="1091" y="175" id="WORKING_11" spriteId="building_mystery_running">
+        <TimeAction x="1193" y="57" target="READY_05" seconds="86400" />
+      </State>
+      <State x="1279" y="175" id="READY_11" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="1277" y="311" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_CA_05">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="worker" />
+          </Reward>
+        </InteractiveAction>
+      </State>
+      <State x="1091" y="175" id="WORKING_12" spriteId="building_mystery_running">
+        <TimeAction x="1193" y="57" target="READY_06" seconds="86400" />
+      </State>
+      <State x="1279" y="175" id="READY_12" caption="$Ready" spriteId="building_mystery_ready">
+        <InteractiveAction x="1277" y="311" target="InitialState" id="RECOLT" caption="collectsqd">
+          <Reward id="Specimen_DA_03">
+            <Tag key="stars" value="3" />
+            <Tag key="skin" value="spring" />
           </Reward>
         </InteractiveAction>
       </State>
@@ -23758,30 +23848,28 @@
     </EntityDescriptor>
     <EntityDescriptor id="Specimen_BD_15" movable="true" storable="true" category="specimen" sizeX="0.01" sizeY="0.01">
       <State x="3" y="1" id="default" spriteId="specimen_BD_15_stand" sellPrice="20000" />
-      <Tag key="spX100" value="200" />
+      <Tag key="spX100" value="240" />
       <Tag key="odds" value="20" />
       <Tag key="dna" value="BD" />
-      <Tag key="lifePoint" value="1130" />
+      <Tag key="lifePoint" value="1894" />
       <Tag key="incubMin" value="60" />
       <Tag key="specimen" value="true" />
-      <Tag key="atk1" value="312" />
-      <Tag key="atk1p" value="468" />
-      <Tag key="atk2" value="312" />
-      <Tag key="atk2p" value="468" />
+      <Tag key="atk1" value="1644" />
+      <Tag key="atk1p" value="2521" />
+      <Tag key="atk2" value="1644" />
+      <Tag key="atk2p" value="2521" />
       <Tag key="bank" value="42" />
       <Tag key="unlockAttack" value="1:1:b;2:5:d;2p:15:d;1p:10:b" />
       <Tag key="changePrice00" value="540" />
       <Tag key="changePrice01" value="910" />
       <Tag key="changePrice02" value="1580" />
       <Tag key="changePrice03" value="2620" />
-      <Tag key="type" value="LEGEND" />
+      <Tag key="type" value="HEROIC" />
       <Tag key="recipes" value="BD_15x[A-F][A-F]_*+BD_15x[A-F]_*" />
-      <Tag key="abilities" value="1:ability_regen;2:ability_regen_plus" />
-      <Tag key="abilityPct1" value="25" />
-      <Tag key="abilityPct2" value="35" />
-      <Tag key="orbSlots" value="n;n;s" />
-      <Tag key="PNJ" value="true" />
-      <Tag key="noBaseSkin" value="true" />
+      <Tag key="abilities" value="1:ability_weaken;2:ability_weaken_plus" />
+      <Tag key="abilityPct1" value="-18" />
+      <Tag key="abilityPct2" value="-25" />
+      <Tag key="orbSlots" value="n;n;n;s" />
       <CustomScript name="onPlaceOver">
         <Script cmd="PlaceSpecimen">
           <Param>Specimen_B_D</Param>

@@ -21326,8 +21326,8 @@ bank_halloween26_mutants_t4;Halloween Pack
 bank_halloween26_mutants_t5;Rookie Halloween Pack
 bank_halloween26_mutants_t1_payment_text;This pack contains: - 14 000 Gold - The Crawling Madness
 bank_halloween26_mutants_t2_payment_text;This pack contains: - 6 500 Gold - Trikin the Pumpkin
-bank_halloween26_mutants_t3_payment_text;This pack contains: - 3 200 Gold - Soul Coalescence
-bank_halloween26_mutants_t4_payment_text;This pack contains: - 1 150 Gold - The Lantern Doctor
+bank_halloween26_mutants_t3_payment_text;This pack contains: - 3 200 Gold - The Lantern Doctor
+bank_halloween26_mutants_t4_payment_text;This pack contains: - 1 150 Gold - Acheron
 bank_halloween26_mutants_t5_payment_text;This pack contains: - 500 Gold - Jack O'Lantern
 bundle_orbs_slash_5_30;Wound Pack
 halloween_conversion_pack_2026_t1;Halloween Gold Cauldron
@@ -21452,3 +21452,50 @@ Specimen_EC_14_attack_1;Moonlight Slash
 Specimen_EC_14_attack_1p;Moonlight Slash
 Specimen_EC_14_attack_2;Moonlight Arrow
 Specimen_EC_14_attack_2p;Moonlight Rain
+Mystery_Science_2026;Science Day Mystery Box
+mystery_science_2026_tooltip;This box contains a random mutant to celebrate Science Day. A chance to get Project X27 with an exclusive Science skin! (Featured in the 2026 skin bingo grid. A Mystery token as a bonus with all other results)
+black_friday_2500_2026;Thanksgiving Gold Offer
+black_friday_2500_2026_payment_text;This unique offer contains :\n- 2500 Gold
+black_friday_5000_2026;Thanksgiving Gold Offer
+black_friday_5000_2026_payment_text;This unique offer contains :\n- 5000 Gold
+black_friday_10000_2026;Thanksgiving Gold Offer
+black_friday_10000_2026_payment_text;This unique offer contains :\n- 10 000 Gold
+Mystery_Thanksgiving_2026;Thanksgiving Mystery Box
+Mystery_Thanksgiving_2026_tooltip;This box contains a random mutant to celebrate Thanksgiving. A chance to get Behemoth with an exclusive Thanksgiving skin! (Featured in the 2025 skins and events bingo grids. A Mystery token as a bonus with all other results)
+Pack_Turquoise;Turquoise Pack
+Pack_Turquoise_description;This pack contains: \n - Gold Ammonia Atlantica \n - Gold Thrann \n - Silver Spin Fury
+bank_5m_fb_14_100jp;Zagam, Great King of Greed Prestige Pack
+bank_5m_de_14_45jp;Supermassive Infinity Veteran Pack
+bank_5m_dc_14_20jp;Jurassic Terror Pack
+bank_5m_fe_14_10jp;Seraphic Core Pack
+bank_5m_aa_13_t5;TCB-8566 Trafficroid Pack
+bank_5m_fb_14_100jp_payment_text;This pack contains: - 14 000 Gold - 100 Jackpot Tokens - Zagam, Great King of Greed
+bank_5m_de_14_45jp_payment_text;This pack contains: - 6 500 Gold - 45 Jackpot Tokens - Supermassive Infinity
+bank_5m_dc_14_20jp_payment_text;This pack contains: - 3 100 Gold - 20 Jackpot Tokens - Jurassic Terror
+bank_5m_fe_14_10jp_payment_text;This pack contains: - 1 100 Gold - 10 Jackpot Tokens - Seraphic Core
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Gold - TCB-8566 Trafficroid
+pack_conversion_nov_2026_1;Gold Cauldron
+pack_conversion_nov_2026_1_payment_text;This unique offer contains :\n- 5000 Gold
+pack_conversion_nov_2026_2;Big Gold Cauldron
+pack_conversion_nov_2026_2_payment_text;This unique offer contains :\n- 15 000 Gold
+Specimen_BD_15;Necrotic Carcass
+caption_specimen_bd_15;Over millions of years, wild animals were born, lived, and died. Over millions of years, bones piled up, and the emotions and feelings of each of them accumulated in this valley. All of humanity naturally avoided it, as if it were a cursed place. But curiosity got the better of common sense, and the place was eventually explored. Two survivors out of a 30-person expedition. They died shortly afterward from their injuries and from diseases contracted there. Their last words were, “Never go back there.”
+Specimen_BD_15_attack_1;Bone Cage
+Specimen_BD_15_attack_1p;Bone Cage
+Specimen_BD_15_attack_2;Bone Breaker
+Specimen_BD_15_attack_2p;Skull Breaker
+Specimen_FB_04_Silver;Silver Wicked Witch
+Specimen_FB_06_sc;Sorceress
+Specimen_AC_05_Silver_sc;Silver Cyber Punk
+bundle_orbs_adaptive_regenerate_15;Adaptive Pack
+pack_daily_50_jt_61;Tokens Offer
+pack_daily_50_jt_62;Tokens Offer
+pack_daily_50_jt_63;Tokens Offer
+pack_daily_50_jt_64;Tokens Offer
+pack_daily_50_jt_65;Tokens Offer
+pack_daily_50_jt_66;Tokens Offer
+pack_daily_50_jt_67;Tokens Offer
+pack_daily_50_jt_68;Tokens Offer
+pack_daily_50_jt_69;Tokens Offer
+pack_daily_50_jt_70;Tokens Offer
+bundle_orbs_experimental_barrier_11;Barrier Orb Bundle

@@ -21321,8 +21321,8 @@ bank_halloween26_mutants_t4;Halloween -Paket
 bank_halloween26_mutants_t5;Rookie-Halloween Bank-Angebot
 bank_halloween26_mutants_t1_payment_text;Dieses Paket enthält: - 14.000 Gold - Der kriechende Wahnsinn
 bank_halloween26_mutants_t2_payment_text;Dieses Paket enthält: - 6.500 Gold - Heimtückürbis
-bank_halloween26_mutants_t3_payment_text;Dieses Paket enthält: - 3.200 Gold - Seelenverschmelzung
-bank_halloween26_mutants_t4_payment_text;Dieses Paket enthält: - 1.150 Gold - Der Laternendoktor
+bank_halloween26_mutants_t3_payment_text;Dieses Paket enthält: - 3.200 Gold - Der Laternendoktor
+bank_halloween26_mutants_t4_payment_text;Dieses Paket enthält: - 1.150 Gold - Acheron
 bank_halloween26_mutants_t5_payment_text;Dieses Paket enthält: - 500 Gold - Jack O'Lantern
 bundle_orbs_slash_5_30;Paket Blessur
 halloween_conversion_pack_2026_t1;Goldkessel
@@ -21447,3 +21447,50 @@ Specimen_EC_14_attack_1;Mondlicht-Hieb
 Specimen_EC_14_attack_1p;Mondlicht-Hieb
 Specimen_EC_14_attack_2;Mondlicht-Pfeil
 Specimen_EC_14_attack_2p;Mondlicht-Regen
+Mystery_Science_2026;Wissenschaftstag-Mystery-Box
+mystery_science_2026_tooltip;Diese Box enthält einen zufälligen Mutanten zur Feier des Wissenschaftstages. Eine Chance, Project X27 mit einem exklusiven Wissenschafts-Skin zu bekommen! (Wird im 2026 Skin-Bingo-Raster angezeigt. Ein Mystery Token als Bonus zu allen anderen Ergebnissen)
+black_friday_2500_2026;Thanksgiving-Gold-Angebot
+black_friday_2500_2026_payment_text;Dieses einmalige Angebot enthält:\n- 2500 Gold
+black_friday_5000_2026;Thanksgiving-Gold-Angebot
+black_friday_5000_2026_payment_text;Dieses einmalige Angebot enthält:\n- 5000 Gold
+black_friday_10000_2026;Thanksgiving-Gold-Angebot
+black_friday_10000_2026_payment_text;Dieses einmalige Angebot enthält:\n- 10.000 Gold
+Mystery_Thanksgiving_2026;Erntedank Mystery-Box
+Mystery_Thanksgiving_2026_tooltip;Diese Box enthält einen zufälligen Mutanten, um Thanksgiving zu feiern. Eine Chance, Behemoth mit einem exklusiven Thanksgiving-Skin zu bekommen! (In den Bingorastern für 2025 Skins und Events enthalten. Ein Mystery-Token als Bonus bei allen anderen Ergebnissen)
+Pack_Turquoise;Türkis-Paket
+Pack_Turquoise_description;Dieses Paket enthält: \n - Ammonia Atlantica, Gold \n - Thrann, Gold \n - Wirbelnde Furie, Silber
+bank_5m_fb_14_100jp;Zagam, Großer König der Gier Prestige-Paket
+bank_5m_de_14_45jp;Supermassenhafte Unendlichkeit Veteran-Paket
+bank_5m_dc_14_20jp;Jurassischer Terror-Paket
+bank_5m_fe_14_10jp;Seraphischer Kern-Paket
+bank_5m_aa_13_t5;TCB-8566 Trafficroid-Paket
+bank_5m_fb_14_100jp_payment_text;Dieses Paket enthält: - 14.000 Gold - 100 Jackpot Chips - Zagam, Großer König der Gier
+bank_5m_de_14_45jp_payment_text;Dieses Paket enthält: - 6.500 Gold - 45 Jackpot Chips - Supermassenhafte Unendlichkeit
+bank_5m_dc_14_20jp_payment_text;Dieses Paket enthält: - 3.100 Gold - 20 Jackpot Chips - Jurassischer Terror
+bank_5m_fe_14_10jp_payment_text;Dieses Paket enthält: - 1.100 Gold - 10 Jackpot Chips - Seraphischer Kern
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Gold - TCB-8566 Trafficroid
+pack_conversion_nov_2026_1;Goldkessel
+pack_conversion_nov_2026_1_payment_text;Dieses einmalige Angebot enthält:\n- 5000 Gold
+pack_conversion_nov_2026_2;Großer Goldkessel
+pack_conversion_nov_2026_2_payment_text;Dieses einmalige Angebot enthält:\n- 15.000 Gold
+Specimen_BD_15;Nekrotischer Kadaver
+caption_specimen_bd_15;Über Millionen von Jahren hinweg wurden wilde Tiere geboren, lebten und starben. Über Millionen von Jahren hinweg türmten sich Knochen an, und die Emotionen und Gefühle jedes einzelnen von ihnen sammelten sich in diesem Tal an. Die gesamte Menschheit mied diesen Ort ganz selbstverständlich, als wäre er verflucht. Doch die Neugierde gewann die Oberhand über den gesunden Menschenverstand, und schließlich wurde der Ort erkundet. Zwei Überlebende einer 30-köpfigen Expedition. Sie starben kurz darauf an ihren Verletzungen und an Krankheiten, die sie sich dort zugezogen hatten. Ihre letzten Worte lauteten: „Geht niemals dorthin zurück.“
+Specimen_BD_15_attack_1;Knochenkäfig
+Specimen_BD_15_attack_1p;Knochenkäfig
+Specimen_BD_15_attack_2;Knochenbrecher
+Specimen_BD_15_attack_2p;Schädelbrecher
+Specimen_FB_04_Silver;Horrorhexe, Silber
+Specimen_FB_06_sc;Hexe
+Specimen_AC_05_Silver_sc;Cyber Punk, Silber
+bundle_orbs_adaptive_regenerate_15;Anpassungsfähiges Paket
+pack_daily_50_jt_61;Chip-Angebot
+pack_daily_50_jt_62;Chip-Angebot
+pack_daily_50_jt_63;Chip-Angebot
+pack_daily_50_jt_64;Chip-Angebot
+pack_daily_50_jt_65;Chip-Angebot
+pack_daily_50_jt_66;Chip-Angebot
+pack_daily_50_jt_67;Chip-Angebot
+pack_daily_50_jt_68;Chip-Angebot
+pack_daily_50_jt_69;Chip-Angebot
+pack_daily_50_jt_70;Chip-Angebot
+bundle_orbs_experimental_barrier_11;Barriere-Sphärenbündel

@@ -21339,8 +21339,8 @@ bank_halloween26_mutants_t4;Pack Halloween
 bank_halloween26_mutants_t5;Pack Débutant Halloween
 bank_halloween26_mutants_t1_payment_text;Ce pack contient : - 14 000 Or - La Folie Rampante
 bank_halloween26_mutants_t2_payment_text;Ce pack contient : - 6 500 Or - Perfitrouille
-bank_halloween26_mutants_t3_payment_text;Ce pack contient : - 3 200 Or - Amalg'âmes
-bank_halloween26_mutants_t4_payment_text;Ce pack contient : - 1 150 Or - Docteur à la lanterne
+bank_halloween26_mutants_t3_payment_text;Ce pack contient : - 3 200 Or - Docteur à la lanterne
+bank_halloween26_mutants_t4_payment_text;Ce pack contient : - 1 150 Or - Achéron
 bank_halloween26_mutants_t5_payment_text;Ce pack contient : - 500 Or - Jack O'Lantern
 bundle_orbs_slash_5_30;Pack Blessure
 halloween_conversion_pack_2026_t1;Chaudron d'or d’Halloween
@@ -21465,3 +21465,50 @@ Specimen_EC_14_attack_1;Tranchant Lunaire
 Specimen_EC_14_attack_1p;Tranchant Lunaire
 Specimen_EC_14_attack_2;Flèche Lunaire
 Specimen_EC_14_attack_2p;Pluie Lunaire
+Mystery_Science_2026;Boïte Mystère Journée de la Science
+mystery_science_2026_tooltip;Cette boîte contient un mutant aléatoire pour fêter la Journée de la Science. Une chance d'obtenir Project X27 avec un skin exclusif Science! (Présent dans la grille bingo des skins 2026. Un jeton Mystère en bonus avec tous les autres résultats)
+black_friday_2500_2026;Offre d'or de Thanksgiving
+black_friday_2500_2026_payment_text;Cette offre unique contient :\n- 2500 Or
+black_friday_5000_2026;Offre d'or de Thanksgiving
+black_friday_5000_2026_payment_text;Cette offre unique contient :\n- 5000 Or
+black_friday_10000_2026;Offre d'or de Thanksgiving
+black_friday_10000_2026_payment_text;Cette offre unique contient :\n- 10 000 Or
+Mystery_Thanksgiving_2026;Boîte Mystère Thanksgiving
+Mystery_Thanksgiving_2026_tooltip;Cette boîte contient un mutant aléatoire pour célébrer Thanksgiving. Une chance d'obtenir Behemoth avec un skin exclusif Thanksgiving! (Présent dans les grilles bingo des skins et des événements 2025. Un jeton Mystère en bonus avec tous les autres résultats)
+Pack_Turquoise;Pack Turquoise
+Pack_Turquoise_description;Ce pack contient : \n - Ammonia Atlantica Or \n - Thrann Or \n - Spin Fury Argent
+bank_5m_fb_14_100jp;Pack Prestige Zagam, Haut-Roi de l'Avarice
+bank_5m_de_14_45jp;Pack Vétéran Infinité Supermassive
+bank_5m_dc_14_20jp;Pack Terreur Jurassique
+bank_5m_fe_14_10jp;Pack Coeur Séraphique
+bank_5m_aa_13_t5;Pack Trafiroïde TCB-8566
+bank_5m_fb_14_100jp_payment_text;Ce pack contient : - 14 000 Or - 100 Jetons Jackpot - Zagam, Haut-Roi de l'Avarice
+bank_5m_de_14_45jp_payment_text;Ce pack contient : - 6 500 Or - 45 Jetons Jackpot - Infinité Supermassive
+bank_5m_dc_14_20jp_payment_text;Ce pack contient : - 3 100 Or - 20 Jetons Jackpot - Terreur Jurassique
+bank_5m_fe_14_10jp_payment_text;Ce pack contient : - 1 100 Or - 10 Jetons Jackpot - Coeur Séraphique
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Or - Trafiroïde TCB-8566
+pack_conversion_nov_2026_1;Chaudron d'or
+pack_conversion_nov_2026_1_payment_text;Cette offre unique contient :\n- 5000 Or
+pack_conversion_nov_2026_2;Grand Chaudron d'or
+pack_conversion_nov_2026_2_payment_text;Cette offre unique contient :\n- 15 000 Or
+Specimen_BD_15;Carcasse Nécrotique
+caption_specimen_bd_15;Au cours de millions d’années, les animaux sauvages naquirent, vécurent et moururent. Au cours de millions d’années, les os s’accumulèrent, les émotions et les ressentis de chacun d’entre eux s’accumulèrent dans cette vallée. L’humanité entière l’évitait naturellement, comme un endroit maudit. Mais la curiosité l’emporta sur le bon sens, et l’endroit finit par être exploré. Deux survivants sur une expédition de 30 personnes. Ils moururent peu après de leurs blessures et des maladies contractées sur place. Leurs derniers mots furent "Ne retournez jamais là-bas". 
+Specimen_BD_15_attack_1;Cage Osseuse
+Specimen_BD_15_attack_1p;Cage Osseuse
+Specimen_BD_15_attack_2;Eclate-Os
+Specimen_BD_15_attack_2p;Eclate-Crâne
+Specimen_FB_04_Silver;Wicked Witch Argent
+Specimen_FB_06_sc;Sorceleuse
+Specimen_AC_05_Silver_sc;Cyber Punk Argent
+bundle_orbs_adaptive_regenerate_15;Pack Adaptatif
+pack_daily_50_jt_61;Offre Jetons
+pack_daily_50_jt_62;Offre Jetons
+pack_daily_50_jt_63;Offre Jetons
+pack_daily_50_jt_64;Offre Jetons
+pack_daily_50_jt_65;Offre Jetons
+pack_daily_50_jt_66;Offre Jetons
+pack_daily_50_jt_67;Offre Jetons
+pack_daily_50_jt_68;Offre Jetons
+pack_daily_50_jt_69;Offre Jetons
+pack_daily_50_jt_70;Offre Jetons
+bundle_orbs_experimental_barrier_11;Pack Orbes Barrière

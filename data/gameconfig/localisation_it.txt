@@ -21321,8 +21321,8 @@ bank_halloween26_mutants_t4;Pacchetto Halloween
 bank_halloween26_mutants_t5;Offerta Banca di Halloween Rookie
 bank_halloween26_mutants_t1_payment_text;Questo pacchetto contiene: - 14.000 Oro - La follia strisciante
 bank_halloween26_mutants_t2_payment_text;Questo pacchetto contiene: - 6.500 Oro - Insidiozucca
-bank_halloween26_mutants_t3_payment_text;Questo pacchetto contiene: - 3.200 Oro - Coalescenza di anime
-bank_halloween26_mutants_t4_payment_text;Questo pacchetto contiene: - 1.150 Oro - Dottor Lanterna
+bank_halloween26_mutants_t3_payment_text;Questo pacchetto contiene: - 3.200 Oro - Dottor Lanterna
+bank_halloween26_mutants_t4_payment_text;Questo pacchetto contiene: - 1.150 Oro - Acheronte
 bank_halloween26_mutants_t5_payment_text;Questo pacchetto contiene: - 500 Oro - Jack O'Lantern
 bundle_orbs_slash_5_30;Pacchetto Ferita
 halloween_conversion_pack_2026_t1;Calderone d'oro
@@ -21447,3 +21447,50 @@ Specimen_EC_14_attack_1;Fendente al chiaro di luna
 Specimen_EC_14_attack_1p;Fendente al chiaro di luna
 Specimen_EC_14_attack_2;Freccia al chiaro di luna
 Specimen_EC_14_attack_2p;Pioggia al chiaro di luna
+Mystery_Science_2026;Scatola misteriosa della Giornata della Scienza
+mystery_science_2026_tooltip;Questa scatola contiene un mutante casuale per celebrare la Giornata della Scienza. Un'occasione per ottenere Project X27 con un'esclusiva skin Scienza! (In evidenza nella griglia della tombola 2026 skin. Un gettone Mistero come bonus per tutti gli altri risultati)
+black_friday_2500_2026;Offerta d'oro del Giorno del Ringraziamento
+black_friday_2500_2026_payment_text;Questa offerta esclusiva contiene:\n- 2.500 Oro
+black_friday_5000_2026;Offerta d'oro del Giorno del Ringraziamento
+black_friday_5000_2026_payment_text;Questa offerta esclusiva contiene:\n- 5.000 Oro
+black_friday_10000_2026;Offerta d'oro del Giorno del Ringraziamento
+black_friday_10000_2026_payment_text;Questa offerta esclusiva contiene:\n- 10.000 Oro
+Mystery_Thanksgiving_2026;Scatola Misteriosa Giorno del Ringraziamento
+Mystery_Thanksgiving_2026_tooltip;Questa scatola contiene un mutante casuale per festeggiare Thanksgiving. Un'occasione per ottenere Behemoth con una skin esclusiva per Thanksgiving! (In evidenza nelle griglie della tombola 2025 skin ed eventi. Un gettone Mistero come bonus con tutti gli altri risultati)
+Pack_Turquoise;Pacchetto Turchese
+Pack_Turquoise_description;Questo pacchetto contiene: \n - Ammonia Atlantica Oro \n - Thrann Oro \n - Furia Rotante Argento
+bank_5m_fb_14_100jp;Pacchetto Prestigio Zagam, il Grande Re dell'Avidità
+bank_5m_de_14_45jp;Pacchetto Veterano Infinito supermassiccio
+bank_5m_dc_14_20jp;Pacchetto Terrore giurassico
+bank_5m_fe_14_10jp;Pacchetto Nucleo serafico
+bank_5m_aa_13_t5;Pacchetto TCB-8566 Trafficicroid
+bank_5m_fb_14_100jp_payment_text;Questo pacchetto contiene: - 14.000 Oro - 100 Gettoni Jackpot - Zagam, il Grande Re dell'Avidità
+bank_5m_de_14_45jp_payment_text;Questo pacchetto contiene: - 6.500 Oro - 45 Gettoni Jackpot - Infinito supermassiccio
+bank_5m_dc_14_20jp_payment_text;Questo pacchetto contiene: - 3.100 Oro - 20 Gettoni Jackpot - Terrore giurassico
+bank_5m_fe_14_10jp_payment_text;Questo pacchetto contiene: - 1.100 Oro - 10 Gettoni Jackpot - Nucleo serafico
+bank_5m_aa_13_t5_payment_text;Ce pack contient : - 480 Oro - TCB-8566 Trafficicroid
+pack_conversion_nov_2026_1;Calderone d'oro
+pack_conversion_nov_2026_1_payment_text;Questa offerta esclusiva contiene:\n- 5.000 Oro
+pack_conversion_nov_2026_2;Calderone d'oro grande
+pack_conversion_nov_2026_2_payment_text;Questa offerta esclusiva contiene:\n- 15.000 Oro
+Specimen_BD_15;Carcassa necrotica
+caption_specimen_bd_15;Nel corso di milioni di anni, gli animali selvatici sono nati, hanno vissuto e sono morti. Nel corso di milioni di anni, le ossa si sono accumulate e le emozioni e i sentimenti di ciascuno di loro si sono concentrati in questa valle. Tutta l’umanità l’ha naturalmente evitata, come se fosse un luogo maledetto. Ma la curiosità ha avuto la meglio sul buon senso e alla fine il luogo è stato esplorato. Due sopravvissuti su una spedizione di 30 persone. Morirono poco dopo a causa delle ferite riportate e delle malattie contratte sul posto. Le loro ultime parole furono: «Non tornateci mai più».
+Specimen_BD_15_attack_1;Gabbia d’ossa
+Specimen_BD_15_attack_1p;Gabbia d’ossa
+Specimen_BD_15_attack_2;Spezzatore d’ossa
+Specimen_BD_15_attack_2p;Spezzatore di teschi
+Specimen_FB_04_Silver;Strega perfida Argento
+Specimen_FB_06_sc;Fattucchiera
+Specimen_AC_05_Silver_sc;Cyber Punk Argento
+bundle_orbs_adaptive_regenerate_15;Pacchetto Adattativo
+pack_daily_50_jt_61;Offerta Gettoni
+pack_daily_50_jt_62;Offerta Gettoni
+pack_daily_50_jt_63;Offerta Gettoni
+pack_daily_50_jt_64;Offerta Gettoni
+pack_daily_50_jt_65;Offerta Gettoni
+pack_daily_50_jt_66;Offerta Gettoni
+pack_daily_50_jt_67;Offerta Gettoni
+pack_daily_50_jt_68;Offerta Gettoni
+pack_daily_50_jt_69;Offerta Gettoni
+pack_daily_50_jt_70;Offerta Gettoni
+bundle_orbs_experimental_barrier_11;Pacchetto di globi barriera

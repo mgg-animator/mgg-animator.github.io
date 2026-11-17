@@ -14,7 +14,6 @@
   ],
 
   "membersOnly": [
-    { "id": "Specimen_CA_04_science", "name": "projext x27" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }

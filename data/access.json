@@ -9,18 +9,17 @@
   ],
 
   "blockedForEveryone": [
-    { "id": "Specimen_BD_15", "name": "Elefante" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
   "membersOnly": [
+    { "id": "Specimen_BD_15", "name": "Elefante" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }
   ],
 
   "blockedBackgroundsForEveryone": [
-    { "id": "boneyard", "name": "boneyard" }
   ],
 
   "membersOnlyBackgrounds": [
@@ -33,7 +32,8 @@
     { "id": "hexcity_2", "name": "Hexcity 2" },
     { "id": "xmas23_2", "name": "Navidad 2023-2" },
     { "id": "xmas24_2", "name": "Navidad 2024-2" },
-    { "id": "xmas25_2", "name": "Navidad 2025-2" }
+    { "id": "xmas25_2", "name": "Navidad 2025-2" },
+    { "id": "boneyard", "name": "boneyard" }
   ],
 
   "newMutants": [

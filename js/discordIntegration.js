@@ -180,21 +180,8 @@ async function checkGuildMembership(force = false) {
 
 async function handleDebugClick() {
   const btnDebug = document.getElementById('btnDebug');
-  const btnMenu = document.getElementById('btnMenu');
-  if (!btnDebug || !btnMenu) return;
-  const isActive = btnDebug.classList.contains("active");
-  document.querySelectorAll(".btn.menu").forEach(b => {
-    b.classList.remove("active");
-    b.setAttribute("aria-pressed", "false");
-  });
-  document.querySelectorAll(".menuContent").forEach(sec => sec.classList.remove("active"));
-  if (!isActive) {
-    btnDebug.classList.add("active");
-    btnDebug.setAttribute("aria-pressed", "true");
-    const id = btnDebug.dataset.target;
-    const target = document.getElementById(id);
-    if (target) target.classList.add("active");
-  }
+  if (!btnDebug) return;
+  activateMenuButton(btnDebug);
 }
 
 function signInWithDiscord() {

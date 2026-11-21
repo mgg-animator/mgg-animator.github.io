@@ -42,8 +42,7 @@
   ],
 
   "newSkins": [
-    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" },
-    { "id": "Specimen_CA_04_science", "name": "projext x27" }
+    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
   
   "newBackgrounds": [

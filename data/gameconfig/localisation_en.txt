@@ -21499,3 +21499,68 @@ pack_daily_50_jt_68;Tokens Offer
 pack_daily_50_jt_69;Tokens Offer
 pack_daily_50_jt_70;Tokens Offer
 bundle_orbs_experimental_barrier_11;Barrier Orb Bundle
+Specimen_EE_02_Silver_sc;Silver Supernovus
+Mystery_Cyberweek_2026;Cyberweek Mystery Box
+Mystery_Cyberweek_2026_tooltip;This box contains a random mutant to celebrate Cyberweek. A chance to get Nightmare Aberration with an exclusive Cyberweek skin! (Featured in the 2025 skin bingo grid. A bonus Mystery token with all other results)
+Specimen_CB_15;Kurobioni
+caption_specimen_cb_15;This demon, marked by the seal of the black sun, is constantly seeking battle to grow stronger and demonstrate its power. Each of its victims feeds its strength, and it will not hesitate to use the souls it has collected as projectiles to claim even more victims.
+Specimen_CB_15_attack_1;Hinoyari
+Specimen_CB_15_attack_1p;Honōnoyari
+Specimen_CB_15_attack_2;Hitodama
+Specimen_CB_15_attack_2p;Hitodama
+Pack_Cyberweek;Cyberweek Pack
+Pack_Cyberweek_description;This pack contains: \n - Gold Tri-Klops \n - Bronze Cabloid \n - Platinum Epoch Golem
+bank_blackfriday26_t1;Black Friday Prestige offer
+bank_blackfriday26_t2;Black Friday Veteran offer
+bank_blackfriday26_t3;Black Friday Veteran offer
+bank_blackfriday26_t4;Black Friday Rookie offer
+bank_blackfriday26_t5;Black Friday Rookie offer
+bank_blackfriday26_t1_payment_text;This pack contains: - 21 000 Gold - Celsius Thermoid - Kolossus
+bank_blackfriday26_t2_payment_text;This pack contains: - 10 500 Gold - Diablo - Archangel
+bank_blackfriday26_t3_payment_text;This pack contains: - 5 000 Gold - The Phosphorescent - Genimal
+bank_blackfriday26_t4_payment_text;This pack contains: - 1 600 Gold - Solar Lampyrion - Ctopy
+bank_blackfriday26_t5_payment_text;This pack contains: - 750 Gold - Space Pilgrim - Candlelight
+bank_cyberweek26_t1;Cyberweek Prestige offer
+bank_cyberweek26_t2;Cyberweek Veteran offer
+bank_cyberweek26_t3;Cyberweek Veteran offer
+bank_cyberweek26_t4;Cyberweek Rookie offer
+bank_cyberweek26_t5;Cyberweek Rookie offer
+bank_cyberweek26_t1_payment_text;This pack contains: - 15 000 Gold - 120 Jackpot Tokens - A00-C0R3-C0NTR0L
+bank_cyberweek26_t2_payment_text;This pack contains: - 6 500 Gold - 55 Jackpot Tokens - Arbitrator
+bank_cyberweek26_t3_payment_text;This pack contains: - 2 800 Gold - 25 Jackpot Tokens - Automaton
+bank_cyberweek26_t4_payment_text;This pack contains: - 1 050 Gold - 10 Jackpot Tokens - TriAD
+bank_cyberweek26_t5_payment_text;This pack contains: - 480 Gold - 5 Jackpot Tokens - Goliath
+ootd_advent26_description;This Advent Calendar surprise offer contains various items. A new offer every day!
+Advent26_Box_01;Advent Calendar Offer
+Advent26_Box_02;Advent Calendar Offer
+Advent26_Box_03;Advent Calendar Offer
+Advent26_Box_04;Advent Calendar Offer
+Advent26_Box_05;Advent Calendar Offer
+Advent26_Box_06;Advent Calendar Offer
+Advent26_Box_07;Advent Calendar Offer
+Advent26_Box_08;Advent Calendar Offer
+Advent26_Box_09;Advent Calendar Offer
+Advent26_Box_10;Advent Calendar Offer
+Advent26_Box_11;Advent Calendar Offer
+Advent26_Box_12;Advent Calendar Offer
+Advent26_Box_13;Advent Calendar Offer
+Advent26_Box_14;Advent Calendar Offer
+Advent26_Box_15;Advent Calendar Offer
+Advent26_Box_16;Advent Calendar Offer
+Advent26_Box_17;Advent Calendar Offer
+Advent26_Box_18;Advent Calendar Offer
+Advent26_Box_19;Advent Calendar Offer
+Advent26_Box_20;Advent Calendar Offer
+Advent26_Box_21;Advent Calendar Offer
+Advent26_Box_22;Advent Calendar Offer
+Advent26_Box_23;Advent Calendar Offer
+Advent26_Box_24;Advent Calendar Offer
+Advent26_Box_25;Advent Calendar Offer
+Specimen_CB_15_rc;Kurobioni
+Specimen_CB_15_Gold;Gold Kurobioni
+Specimen_CB_15_rc_payment_text;Kurobioni
+pack_daily_3_platinum_32;Stars Offer
+pack_daily_3_platinum_32_payment_text;This one-time offer contains :\n- 3 Platinum Stars
+bundle_orbs_experimental_debuffer_11;Neutralize Orb Bundle
+Specimen_AB_04_Bronze_sc;Bronze Commander Ender
+Bundle_orbs_shield_5_26;Shield Pack

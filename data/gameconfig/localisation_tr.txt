@@ -21478,3 +21478,68 @@ pack_daily_50_jt_68;Jeton Fırsatı
 pack_daily_50_jt_69;Jeton Fırsatı
 pack_daily_50_jt_70;Jeton Fırsatı
 bundle_orbs_experimental_barrier_11;Bariyer Küresi Paketi
+Specimen_EE_02_Silver_sc;Gümüş Süperalem
+Mystery_Cyberweek_2026;Siber Hafta Gizem Kutusu
+Mystery_Cyberweek_2026_tooltip;Bu kutu, Siber Hafta'yı kutlamak için rastgele bir mutant içerir. Canlı Kâbus'ı özel Siber Hafta kostümüyle alma şansı! (2025 kostüm bingo tablosunda yer almaktadır. Diğer tüm sonuçlarla birlikte bonus Gizem jetonu)
+Specimen_CB_15;Kurobioni
+caption_specimen_cb_15;Kara Güneş’in mührüyle damgalanmış bu iblis, daha da güçlenmek ve gücünü göstermek için sürekli savaş peşindedir. Kurbanlarının her biri onun gücünü besler ve topladığı ruhları, daha fazla kurban elde etmek için mermi olarak kullanmaktan çekinmez.
+Specimen_CB_15_attack_1;Hinoyari
+Specimen_CB_15_attack_1p;Honōnoyari
+Specimen_CB_15_attack_2;Hitodama
+Specimen_CB_15_attack_2p;Hitodama
+Pack_Cyberweek;Siber Hafta Paketi
+Pack_Cyberweek_description;Bu paket şunları içerir: \n - Altın Tri-Klops \n - Bronz Kabloid \n - Platin Epoch Golem
+bank_blackfriday26_t1;Black Friday Prestiş teklifi
+bank_blackfriday26_t2;Black Friday Deneyimli teklifi
+bank_blackfriday26_t3;Black Friday Deneyimli teklifi
+bank_blackfriday26_t4;Black Friday Yeni Başlayan teklifi
+bank_blackfriday26_t5;Black Friday Yeni Başlayan teklifi
+bank_blackfriday26_t1_payment_text;Bu paket şunları içerir: - 21 000 Altın - Celsius Thermodroid - Kolossus
+bank_blackfriday26_t2_payment_text;Bu paket şunları içerir: - 10 500 Altın - Diablo - Baş Melek
+bank_blackfriday26_t3_payment_text;Bu paket şunları içerir: - 5 000 Altın - Fosforlu - Genimal
+bank_blackfriday26_t4_payment_text;Bu paket şunları içerir: - 1 600 Altın - Solar Ateş Böceği - Ahtopya
+bank_blackfriday26_t5_payment_text;Bu paket şunları içerir: - 750 Altın - Uzay Yolcusu - Kral Mum Işığı
+bank_cyberweek26_t1;Cyberweek Prestiş teklifi
+bank_cyberweek26_t2;Cyberweek Deneyimli teklifi
+bank_cyberweek26_t3;Cyberweek Deneyimli teklifi
+bank_cyberweek26_t4;Cyberweek Yeni Başlayan teklifi
+bank_cyberweek26_t5;Cyberweek Yeni Başlayan teklifi
+bank_cyberweek26_t1_payment_text;Bu paket şunları içerir: - 15 000 Altın - 120 Jackpot Jetonu - A00-C0R3-C0NTR0L
+bank_cyberweek26_t2_payment_text;Bu paket şunları içerir: - 6 500 Altın - 55 Jackpot Jetonu - Hakemator
+bank_cyberweek26_t3_payment_text;Bu paket şunları içerir: - 2 800 Altın - 25 Jackpot Jetonu - Otomat
+bank_cyberweek26_t4_payment_text;Bu paket şunları içerir: - 1 050 Altın - 10 Jackpot Jetonu - TriAD
+bank_cyberweek26_t5_payment_text;Bu paket şunları içerir: - 480 Altın - 5 Jackpot Jetonu - Goliath
+ootd_advent26_description;Bu sürpriz Advent Takvimi fırsatı çeşitli ürünler içeriyor. Her gün yeni bir fırsat!
+Advent26_Box_01;Advent Takvimi Fırsatı
+Advent26_Box_02;Advent Takvimi Fırsatı
+Advent26_Box_03;Advent Takvimi Fırsatı
+Advent26_Box_04;Advent Takvimi Fırsatı
+Advent26_Box_05;Advent Takvimi Fırsatı
+Advent26_Box_06;Advent Takvimi Fırsatı
+Advent26_Box_07;Advent Takvimi Fırsatı
+Advent26_Box_08;Advent Takvimi Fırsatı
+Advent26_Box_09;Advent Takvimi Fırsatı
+Advent26_Box_10;Advent Takvimi Fırsatı
+Advent26_Box_11;Advent Takvimi Fırsatı
+Advent26_Box_12;Advent Takvimi Fırsatı
+Advent26_Box_13;Advent Takvimi Fırsatı
+Advent26_Box_14;Advent Takvimi Fırsatı
+Advent26_Box_15;Advent Takvimi Fırsatı
+Advent26_Box_16;Advent Takvimi Fırsatı
+Advent26_Box_17;Advent Takvimi Fırsatı
+Advent26_Box_18;Advent Takvimi Fırsatı
+Advent26_Box_19;Advent Takvimi Fırsatı
+Advent26_Box_20;Advent Takvimi Fırsatı
+Advent26_Box_21;Advent Takvimi Fırsatı
+Advent26_Box_22;Advent Takvimi Fırsatı
+Advent26_Box_23;Advent Takvimi Fırsatı
+Advent26_Box_24;Advent Takvimi Fırsatı
+Advent26_Box_25;Advent Takvimi Fırsatı
+Specimen_CB_15_rc;Kurobioni
+Specimen_CB_15_Gold;Altın Kurobioni
+Specimen_CB_15_rc_payment_text;Kurobioni
+pack_daily_3_platinum_32;Yıldız Fırsatı
+pack_daily_3_platinum_32_payment_text;Bu benzersiz fırsat şunu içerir:\n - 3 Platin Yıldız
+bundle_orbs_experimental_debuffer_11;Nötralize Küresi Paketi
+Specimen_AB_04_Bronze_sc;Bronz Commander Ender
+Bundle_orbs_shield_5_26;Kalkan Paketi

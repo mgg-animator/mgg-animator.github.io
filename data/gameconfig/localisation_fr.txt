@@ -21512,3 +21512,68 @@ pack_daily_50_jt_68;Offre Jetons
 pack_daily_50_jt_69;Offre Jetons
 pack_daily_50_jt_70;Offre Jetons
 bundle_orbs_experimental_barrier_11;Pack Orbes Barrière
+Specimen_EE_02_Silver_sc;Supernovus Argent
+Mystery_Cyberweek_2026;Boîte Mystère Cyberweek
+Mystery_Cyberweek_2026_tooltip;Cette boîte contient un mutant aléatoire pour célébrer la Cyberweek. Une chance d'obtenir Cauchemar Vivant avec un skin exclusif Cyberweek! (Présent dans la grille bingo des skins 2025. Un jeton Mystère en bonus avec tous les autres résultats)
+Specimen_CB_15;Kurobioni
+caption_specimen_cb_15;Ce démon frappé du sceau du soleil noir cherche en permanence le combat pour se renforcer et démontrer sa puissance. Chacune de ses victimes nourrit sa force, et il n’hésitera pas à utiliser les âmes collectées comme projectiles pour faire encore plus de victimes. 
+Specimen_CB_15_attack_1;Hinoyari
+Specimen_CB_15_attack_1p;Honōnoyari
+Specimen_CB_15_attack_2;Hitodama
+Specimen_CB_15_attack_2p;Hitodama
+Pack_Cyberweek;Pack Cyberweek
+Pack_Cyberweek_description;Ce pack contient : \n - Polyglob Or \n - Câbloide Bronze \n - Golem des Âges Platine
+bank_blackfriday26_t1;Offre Prestige Black Friday
+bank_blackfriday26_t2;Offre Vétéran Black Friday
+bank_blackfriday26_t3;Offre Vétéran Black Friday
+bank_blackfriday26_t4;Offre Débutant Black Friday
+bank_blackfriday26_t5;Offre Débutant Black Friday
+bank_blackfriday26_t1_payment_text;Ce pack contient : - 21 000 Or - Thermoïde Celsius - Kolossus
+bank_blackfriday26_t2_payment_text;Ce pack contient : - 10 500 Or - Diablo - Archange
+bank_blackfriday26_t3_payment_text;Ce pack contient : - 5 000 Or - Le Phosphorescent - Génimal
+bank_blackfriday26_t4_payment_text;Ce pack contient : - 1 600 Or - Lampyrion Solaire - Ctopy
+bank_blackfriday26_t5_payment_text;Ce pack contient : - 750 Or - Pélerin Spatial - Sire Chandelle
+bank_cyberweek26_t1;Offre Prestige Cyberweek
+bank_cyberweek26_t2;Offre Vétéran Cyberweek
+bank_cyberweek26_t3;Offre Vétéran Cyberweek
+bank_cyberweek26_t4;Offre Débutant Cyberweek
+bank_cyberweek26_t5;Offre Débutant Cyberweek
+bank_cyberweek26_t1_payment_text;Ce pack contient : - 15 000 Or - 120 Jetons Jackpot - A00-C0R3-C0NTR0L
+bank_cyberweek26_t2_payment_text;Ce pack contient : - 6 500 Or - 55 Jetons Jackpot - Sanctionnator
+bank_cyberweek26_t3_payment_text;Ce pack contient : - 2 800 Or - 25 Jetons Jackpot - Automate
+bank_cyberweek26_t4_payment_text;Ce pack contient : - 1 050 Or - 10 Jetons Jackpot - STriX
+bank_cyberweek26_t5_payment_text;Ce pack contient : - 480 Or - 5 Jetons Jackpot - Goliath
+ootd_advent26_description;Cette offre surprise du Calendrier de l’avent contient des objets divers. Une nouvelle offre chaque jour ! 
+Advent26_Box_01;Offre Calendrier de l’avent
+Advent26_Box_02;Offre Calendrier de l’avent
+Advent26_Box_03;Offre Calendrier de l’avent
+Advent26_Box_04;Offre Calendrier de l’avent
+Advent26_Box_05;Offre Calendrier de l’avent
+Advent26_Box_06;Offre Calendrier de l’avent
+Advent26_Box_07;Offre Calendrier de l’avent
+Advent26_Box_08;Offre Calendrier de l’avent
+Advent26_Box_09;Offre Calendrier de l’avent
+Advent26_Box_10;Offre Calendrier de l’avent
+Advent26_Box_11;Offre Calendrier de l’avent
+Advent26_Box_12;Offre Calendrier de l’avent
+Advent26_Box_13;Offre Calendrier de l’avent
+Advent26_Box_14;Offre Calendrier de l’avent
+Advent26_Box_15;Offre Calendrier de l’avent
+Advent26_Box_16;Offre Calendrier de l’avent
+Advent26_Box_17;Offre Calendrier de l’avent
+Advent26_Box_18;Offre Calendrier de l’avent
+Advent26_Box_19;Offre Calendrier de l’avent
+Advent26_Box_20;Offre Calendrier de l’avent
+Advent26_Box_21;Offre Calendrier de l’avent
+Advent26_Box_22;Offre Calendrier de l’avent
+Advent26_Box_23;Offre Calendrier de l’avent
+Advent26_Box_24;Offre Calendrier de l’avent
+Advent26_Box_25;Offre Calendrier de l’avent
+Specimen_CB_15_rc;Kurobioni
+Specimen_CB_15_Gold;Kurobioni Or
+Specimen_CB_15_rc_payment_text;Kurobioni
+pack_daily_3_platinum_32;Offre Etoiles
+pack_daily_3_platinum_32_payment_text;Cette offre unique contient :\n- 3 Etoiles de platine
+bundle_orbs_experimental_debuffer_11;Pack Orbes Neutralisation
+Specimen_AB_04_Bronze_sc;Général Râle Bronze
+Bundle_orbs_shield_5_26;Pack Bouclier

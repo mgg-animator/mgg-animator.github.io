@@ -321,7 +321,31 @@
           <Key frame="6" x="1" y="1" scaleX="-0.2759563" scaleY="0.121980675" rAdd="1" gAdd="1" bAdd="1" />
           <Key frame="14" x="1" y="1" angle="30.32871" scaleX="-0.3428299" scaleY="0.638168335" rAdd="1" gAdd="1" bAdd="1" />
         </Composite>
-        <Frame rep="24" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="47" x="79" y="-192" scaleX="0.42665863" scaleY="0.490324974" alpha="0.1" rAdd="1" gAdd="1" bAdd="1" />
       <Key frame="49" x="79" y="-192" scaleX="0.449349821" scaleY="0.5164021" rAdd="1" gAdd="1" bAdd="1" />
@@ -331,18 +355,100 @@
     <Frame>
       <Tag key="sound" value="mutant_fb_11_attack" />
     </Frame>
-    <Frame rep="61" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="black" />
     </Frame>
-    <Frame rep="8" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="fx" />
     </Frame>
-    <Frame rep="17" />
-    <Frame>
-      <Tag key="label" value="impact" />
-    </Frame>
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame />
     <Frame>
       <Tag key="label" value="impact" />
@@ -351,14 +457,30 @@
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="6" />
+    <Frame />
+    <Frame>
+      <Tag key="label" value="impact" />
+    </Frame>
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="end" />
     </Frame>
-    <Frame rep="5" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>cyberweek</Skin>
   </Sprite>
   

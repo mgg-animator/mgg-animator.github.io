@@ -160,7 +160,15 @@
           <Key frame="0" x="-118" y="49" />
           <Key frame="8" x="-118" y="49" />
         </Composite>
-        <Frame rep="8" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="0" />
       <Key frame="5" scaleX="0.8135736" scaleY="0.6707755" alpha="0.1" visible="false" />
@@ -421,7 +429,51 @@
           <Key frame="30" x="129" y="3" angle="-80.5147858" scaleX="-0.6031328" scaleY="0.773374" />
           <Key frame="31" x="129" y="-23" angle="-47.86787" scaleX="-0.6031328" scaleY="0.773374" visible="false" />
         </Composite>
-        <Frame rep="44" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="16" x="19.6969681" y="-25.7575741" scaleX="0.279223233" scaleY="0.207343981" />
       <Key frame="20" x="19.6969681" y="-25.7575741" />
@@ -479,7 +531,22 @@
           <Key frame="9" x="58" y="-349" angle="-351.728333" scaleX="-1.60553432" scaleY="1.82705164" />
           <Key frame="11" x="55" y="-588" angle="-360.1014" scaleX="-2.16229081" scaleY="0.9064086" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="15" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="0" x="3" y="9" />
       <Key frame="15" x="3" y="9" visible="false" />
@@ -539,7 +606,22 @@
           <Key frame="9" x="58" y="-349" angle="-351.728333" scaleX="-1.60553432" scaleY="1.82705164" />
           <Key frame="11" x="55" y="-588" angle="-360.1014" scaleX="-2.16229081" scaleY="0.9064086" alpha="0.1" visible="false" />
         </Composite>
-        <Frame rep="15" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="16" x="3" y="9" />
       <Key frame="31" x="3" y="9" visible="false" />
@@ -607,7 +689,23 @@
           <Key frame="7" x="691" y="-261" angle="91.1357956" scaleX="2.83883667" scaleY="0.69382906" rAdd="1" gAdd="1" bAdd="1" />
           <Key frame="16" x="950" y="-92" angle="99.4312057" scaleX="0.445426643" scaleY="1.87314236" alpha="0.1" rAdd="1" gAdd="1" bAdd="1" visible="false" />
         </Composite>
-        <Frame rep="16" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="32" x="8" y="-48" />
       <Key frame="48" x="8" y="-48" visible="false" />
@@ -768,7 +866,18 @@
           <Key frame="0" x="-118" y="49" />
           <Key frame="11" x="-118" y="49" />
         </Composite>
-        <Frame rep="11" />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
       </Sprite>
       <Key frame="76" scaleX="0.8135736" scaleY="0.6707755" alpha="0.1" />
       <Key frame="87" visible="false" />
@@ -776,33 +885,110 @@
     <Frame>
       <Tag key="sound" value="mutant_fb_11_attack2" />
     </Frame>
-    <Frame rep="13" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="start" />
     </Frame>
     <Frame>
       <Tag key="label" value="arrived" />
     </Frame>
-    <Frame rep="21" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="1" />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="impact" />
     </Frame>
-    <Frame rep="22" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Frame>
       <Tag key="label" value="return" />
     </Frame>
     <Frame>
       <Tag key="label" value="back" />
     </Frame>
-    <Frame rep="19" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>cyberweek</Skin>
     <DataPoint name="DataPoint001" x="623" y="-174" />
   </Sprite>
   

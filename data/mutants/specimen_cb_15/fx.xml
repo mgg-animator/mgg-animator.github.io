@@ -1,0 +1,35 @@
+<AttackFX specimen="Specimen_CB_15" attack="1">
+	<FX type="move" name="shake" applyOn="background" moment="impact" amplitude="10" frequency="10" duration="0.3" />
+	<FX type="flash" name="efefef" duration="0.3" applyOn="target" moment="impact" />
+	<FX type="fade" name="2c0000" applyOn="allclip+background-target-self" moment="arrived" duration="3" />
+	<FX type="fade" name="normal" applyOn="allclip+background-target-self" moment="return" duration="0.5" />
+</AttackFX>
+
+<AttackFX specimen="Specimen_CB_15" attack="1p">
+	<FX type="move" name="shake" applyOn="background" moment="impact" amplitude="15" frequency="10" duration="0.5" />
+	<FX type="fade" name="190000" applyOn="allclip+background-target-self" moment="arrived" duration="4" />
+	<FX type="fade" name="normal" applyOn="allclip+background-target-self" moment="return" duration="0.5" />
+	<FX type="flash" name="efefef" duration="0.3" applyOn="target" moment="impact" />
+</AttackFX>
+
+<AttackFX specimen="Specimen_CB_15" attack="2">
+	<FX type="move" name="shake" applyOn="background" moment="impact" amplitude="10" frequency="10" duration="0.3" />
+	<FX type="flash" name="efefef" duration="0.4" applyOn="target" moment="impact" />
+	<FX type="fade" name="190000" applyOn="allclip+background-target-self" moment="arrived" duration="3" />
+	<FX type="fade" name="normal" applyOn="allclip+background-target-self" moment="return" duration="0,5" />
+	<FX type="sprite" name="fx_cb_15_attack_2" blendmode="hardlight" applyOn="self" position="bottom" moment="fx">
+		<tranform randomX="false" mirrorX="true" />
+		<spawn number="1" scatterX="0" scatterY="0" />
+	</FX>
+</AttackFX>
+
+<AttackFX specimen="Specimen_CB_15" attack="2p">
+	<FX type="move" name="shake" applyOn="background" moment="impact" amplitude="15" frequency="10" duration="0.3" />
+	<FX type="fade" name="190000" applyOn="allclip+background-target-self" moment="arrived" duration="4" />
+	<FX type="fade" name="normal" applyOn="allclip+background-target-self" moment="return" duration="0,5" />
+	<FX type="flash" name="efefef" duration="0.4" applyOn="target" moment="impact" />
+	<FX type="sprite" name="fx_cb_15_attack_2p" blendmode="hardlight" applyOn="self" position="bottom" moment="fx">
+		<tranform randomX="false" mirrorX="true" />
+		<spawn number="1" scatterX="0" scatterY="0" />
+	</FX>
+</AttackFX>

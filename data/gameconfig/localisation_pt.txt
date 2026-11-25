@@ -21449,3 +21449,68 @@ pack_daily_50_jt_68;Oferta de fichas
 pack_daily_50_jt_69;Oferta de fichas
 pack_daily_50_jt_70;Oferta de fichas
 bundle_orbs_experimental_barrier_11;Pacote Orbe de Barreira
+Specimen_EE_02_Silver_sc;Supernovus Prata
+Mystery_Cyberweek_2026;Caixa Mistério Cyberweek
+Mystery_Cyberweek_2026_tooltip;Esta caixa contém um mutante aleatório para celebrar a Cyberweek. Uma oportunidade de obter o Pesadelo Vivo com uma skin exclusiva da Cyberweek! (Apresentado na grelha do bingo da skin 2025. Uma ficha Mistério de bónus com todos os outros resultados)
+Specimen_CB_15;Kurobioni
+caption_specimen_cb_15;Este demónio, marcado pelo selo do sol negro, está constantemente à procura de combate para se tornar mais forte e demonstrar o seu poder. Cada uma das suas vítimas alimenta a sua força, e ele não hesitará em usar as almas que recolheu como projéteis para fazer ainda mais vítimas.
+Specimen_CB_15_attack_1;Hinoyari
+Specimen_CB_15_attack_1p;Honōnoyari
+Specimen_CB_15_attack_2;Hitodama
+Specimen_CB_15_attack_2p;Hitodama
+Pack_Cyberweek;Pacote da Cyberweek
+Pack_Cyberweek_description;Este pacote inclui: \n - Tri-Klops Ouro \n - Caboide Bronze \n - Golem da Época Platina
+bank_blackfriday26_t1;Oferta Prestige da Black Friday
+bank_blackfriday26_t2;Oferta Veterano da Black Friday
+bank_blackfriday26_t3;Oferta Veterano da Black Friday
+bank_blackfriday26_t4;Oferta Novato da Black Friday
+bank_blackfriday26_t5;Oferta Novato da Black Friday
+bank_blackfriday26_t1_payment_text;Este pacote inclui: - 21.000 de ouro - Termodróide Celsius - Kolossus
+bank_blackfriday26_t2_payment_text;Este pacote inclui: - 10.500 de ouro - Diablo - Arcanjo
+bank_blackfriday26_t3_payment_text;Este pacote inclui: - 5.000 de ouro - O Fosforescente - Genimal
+bank_blackfriday26_t4_payment_text;Este pacote inclui: - 1.600 de ouro - Lampyrion Solar - Octopia
+bank_blackfriday26_t5_payment_text;Este pacote inclui: - 750 de ouro - Peregrino do Espaço - Senhor Candelabro
+bank_cyberweek26_t1;Oferta Prestige da Cyberweek
+bank_cyberweek26_t2;Oferta Veterano da Cyberweek
+bank_cyberweek26_t3;Oferta Veterano da Cyberweek
+bank_cyberweek26_t4;Oferta Novato da Cyberweek
+bank_cyberweek26_t5;Oferta Novato da Cyberweek
+bank_cyberweek26_t1_payment_text;Este pacote inclui: - 15.000 de ouro - 120 Tokens Jackpot - A00-C0R3-C0NTR0L
+bank_cyberweek26_t2_payment_text;Este pacote inclui: - 6.500 de ouro - 55 Tokens Jackpot - Árbitro
+bank_cyberweek26_t3_payment_text;Este pacote inclui: - 2.800 de ouro - 25 Tokens Jackpot - Autómato
+bank_cyberweek26_t4_payment_text;Este pacote inclui: - 1.050 de ouro - 10 Tokens Jackpot - STriX
+bank_cyberweek26_t5_payment_text;Este pacote inclui: - 480 de ouro - 5 Tokens Jackpot - Golias
+ootd_advent26_description;Esta oferta surpresa do Calendário do Advento contém vários artigos. Uma nova oferta todos os dias!
+Advent26_Box_01;Oferta do Calendário do Advento
+Advent26_Box_02;Oferta do Calendário do Advento
+Advent26_Box_03;Oferta do Calendário do Advento
+Advent26_Box_04;Oferta do Calendário do Advento
+Advent26_Box_05;Oferta do Calendário do Advento
+Advent26_Box_06;Oferta do Calendário do Advento
+Advent26_Box_07;Oferta do Calendário do Advento
+Advent26_Box_08;Oferta do Calendário do Advento
+Advent26_Box_09;Oferta do Calendário do Advento
+Advent26_Box_10;Oferta do Calendário do Advento
+Advent26_Box_11;Oferta do Calendário do Advento
+Advent26_Box_12;Oferta do Calendário do Advento
+Advent26_Box_13;Oferta do Calendário do Advento
+Advent26_Box_14;Oferta do Calendário do Advento
+Advent26_Box_15;Oferta do Calendário do Advento
+Advent26_Box_16;Oferta do Calendário do Advento
+Advent26_Box_17;Oferta do Calendário do Advento
+Advent26_Box_18;Oferta do Calendário do Advento
+Advent26_Box_19;Oferta do Calendário do Advento
+Advent26_Box_20;Oferta do Calendário do Advento
+Advent26_Box_21;Oferta do Calendário do Advento
+Advent26_Box_22;Oferta do Calendário do Advento
+Advent26_Box_23;Oferta do Calendário do Advento
+Advent26_Box_24;Oferta do Calendário do Advento
+Advent26_Box_25;Oferta do Calendário do Advento
+Specimen_CB_15_rc;Kurobioni
+Specimen_CB_15_Gold;Kurobioni Ouro
+Specimen_CB_15_rc_payment_text;Kurobioni
+pack_daily_3_platinum_32;Oferta das Estrelas
+pack_daily_3_platinum_32_payment_text;Esta oferta única contém:\n- 3 estrelas de platina
+bundle_orbs_experimental_debuffer_11;Pacote Orbe de Neutralização
+Specimen_AB_04_Bronze_sc;Commander Ender Bronze
+Bundle_orbs_shield_5_26;Pacote Escudo

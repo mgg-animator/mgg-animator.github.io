@@ -9,6 +9,8 @@
   ],
 
   "blockedForEveryone": [
+    { "id": "Specimen_CB_15", "name": "Samurai" },
+    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
@@ -37,11 +39,13 @@
   ],
 
   "newMutants": [
+    { "id": "Specimen_CB_15", "name": "Samurai" },
     { "id": "Specimen_BD_15", "name": "Elefante" },
-    { "id": "Specimen_BA_15", "name": "formula muerte" }
+    { "id": "Specimen_BA_15", "name": "formula" }
   ],
 
   "newSkins": [
+    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
   

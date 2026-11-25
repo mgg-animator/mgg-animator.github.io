@@ -973,15 +973,15 @@
         </InteractiveAction>
         <InteractiveAction x="1453" y="309" target="WORKING_07" id="CONTRACT_07">
           <Cost amount="50" type="entity" id="Material_Jackpot_Token" />
-          <Filter>Building_Jackpot_2026_09</Filter>
+          <Filter>Building_Jackpot_2026_11</Filter>
         </InteractiveAction>
         <InteractiveAction x="3556" y="327" target="WORKING_08" id="CONTRACT_08">
           <Cost amount="150" type="entity" id="Material_Jackpot_Token" />
-          <Filter>Building_Jackpot_2026_09</Filter>
+          <Filter>Building_Jackpot_2026_11</Filter>
         </InteractiveAction>
         <InteractiveAction x="3236" y="325" target="WORKING_09" id="CONTRACT_09">
-          <Cost amount="200" type="entity" id="Material_Jackpot_Token" />
-          <Filter>Building_Jackpot_2026_09</Filter>
+          <Cost amount="250" type="entity" id="Material_Jackpot_Token" />
+          <Filter>Building_Jackpot_2026_11</Filter>
         </InteractiveAction>
         <InteractiveAction x="1829" y="313" target="WORKING_10" id="CONTRACT_10">
           <Cost amount="100" type="entity" id="Material_Halloween26_Token" />
@@ -1101,7 +1101,7 @@
       </State>
       <State x="1633" y="179" id="READY_07" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="1629" y="308" target="InitialState" id="RECOLT">
-          <Reward id="Specimen_CB_09"/>
+          <Reward id="Specimen_BB_09"/>
         </InteractiveAction>
       </State>
       <State x="3580" y="230" id="WORKING_08" spriteId="building_jackpot_sink_running">
@@ -1109,7 +1109,7 @@
       </State>
       <State x="3717" y="230" id="READY_08" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="3594" y="376" target="InitialState" id="RECOLT">
-          <Reward id="Specimen_DE_10"/>
+          <Reward id="Specimen_AF_10"/>
         </InteractiveAction>
       </State>
       <State x="3299" y="228" id="WORKING_09" spriteId="building_jackpot_sink_running">
@@ -1117,7 +1117,7 @@
       </State>
       <State x="3417" y="235" id="READY_09" caption="$Ready" spriteId="building_jackpot_sink_ready">
         <InteractiveAction x="3284" y="374" target="InitialState" id="RECOLT">
-          <Reward id="Specimen_FD_11"/>
+          <Reward id="Specimen_E_12"/>
         </InteractiveAction>
       </State>
       <State x="1837" y="190" id="WORKING_10" spriteId="building_jackpot_sink_running">
@@ -23969,16 +23969,16 @@
     </EntityDescriptor>
     <EntityDescriptor id="Specimen_CB_15" movable="true" storable="true" category="specimen" sizeX="0.01" sizeY="0.01">
       <State id="default" spriteId="specimen_CB_15_stand" sellPrice="20000" />
-      <Tag key="spX100" value="200" />
+      <Tag key="spX100" value="250" />
       <Tag key="odds" value="20" />
       <Tag key="dna" value="CB" />
-      <Tag key="lifePoint" value="1130" />
+      <Tag key="lifePoint" value="2270" />
       <Tag key="incubMin" value="60" />
       <Tag key="specimen" value="true" />
-      <Tag key="atk1" value="312" />
-      <Tag key="atk1p" value="468" />
-      <Tag key="atk2" value="312" />
-      <Tag key="atk2p" value="468" />
+      <Tag key="atk1" value="984" />
+      <Tag key="atk1p" value="1421" />
+      <Tag key="atk2" value="984" />
+      <Tag key="atk2p" value="1421" />
       <Tag key="bank" value="42" />
       <Tag key="unlockAttack" value="1:1:c;2:5:b;2p:15:b;1p:10:c" />
       <Tag key="type" value="LEGEND" />
@@ -23986,11 +23986,10 @@
       <Tag key="changePrice01" value="910" />
       <Tag key="changePrice02" value="1580" />
       <Tag key="changePrice03" value="2620" />
-      <Tag key="abilities" value="1:ability_retaliate;2:ability_retaliate_plus" />
-      <Tag key="abilityPct1" value="-15" />
-      <Tag key="abilityPct2" value="-25" />
+      <Tag key="abilities" value="1:ability_strengthen;2:ability_strengthen_plus" />
+      <Tag key="abilityPct1" value="20" />
+      <Tag key="abilityPct2" value="45" />
       <Tag key="orbSlots" value="n;n;s" />
-      <Tag key="PNJ" value="true" />
       <Tag key="recipes" value="CB_15x[A-F][A-F]_*+CB_15x[A-F]_*" />
       <CustomScript name="onPlaceOver">
         <Script cmd="PlaceSpecimen">

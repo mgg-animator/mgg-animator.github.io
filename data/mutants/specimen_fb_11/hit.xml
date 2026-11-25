@@ -153,10 +153,26 @@
       <Key frame="0" x="-216" y="-121" angle="-63.5720024" rMul="0" gMul="0" bMul="0" />
       <Key frame="15" x="-118" y="49" />
     </Composite>
-    <Frame rep="15" />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
+    <Frame />
     <Skin>bronze</Skin>
     <Skin>silver</Skin>
     <Skin>gold</Skin>
     <Skin>platinum</Skin>
+    <Skin>cyberweek</Skin>
   </Sprite>
   

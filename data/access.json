@@ -9,13 +9,11 @@
   ],
 
   "blockedForEveryone": [
-    { "id": "Specimen_CB_15", "name": "Samurai" },
     { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" },
     { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
   ],
 
   "membersOnly": [
-    { "id": "Specimen_BD_15", "name": "Elefante" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }
@@ -39,14 +37,13 @@
   ],
 
   "newMutants": [
-    { "id": "Specimen_CB_15", "name": "Samurai" },
     { "id": "Specimen_BD_15", "name": "Elefante" },
-    { "id": "Specimen_BA_15", "name": "formula" }
+    { "id": "Specimen_CB_15", "name": "Samurai" }
   ],
 
   "newSkins": [
-    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" },
-    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
+    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" },
+    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" }
   ],
   
   "newBackgrounds": [

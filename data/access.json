@@ -9,11 +9,11 @@
   ],
 
   "blockedForEveryone": [
-    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" },
-    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" }
+    { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" }
   ],
 
   "membersOnly": [
+    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" },
     { "id": "Specimen_FE_13_seasons", "name": "vivaldi" },
     { "id": "Specimen_AF_10_purgatory", "name": "veneno" },
     { "id": "Specimen_DD_04_winter", "name": "cernunos" }
@@ -42,7 +42,7 @@
   ],
 
   "newSkins": [
-    { "id": "Specimen_EC_02_thanksgiving", "name": "behemoth" },
+    
     { "id": "Specimen_FB_11_cyberweek", "name": "Pesadilla" }
   ],
   
